@@ -1,0 +1,3982 @@
+{
+  "version": "0.1.1",
+  "count": 170,
+  "source": "User-supplied book photographs; v2 corrected reference derivatives from this conversation.",
+  "reference_max_side": 1600,
+  "tags": [
+    "typography",
+    "geometric",
+    "photographic",
+    "illustration",
+    "collage",
+    "editorial",
+    "minimal",
+    "pattern"
+  ],
+  "contact_sheets": [
+    "assets/contact-sheets/sheet-01.jpg",
+    "assets/contact-sheets/sheet-02.jpg",
+    "assets/contact-sheets/sheet-03.jpg",
+    "assets/contact-sheets/sheet-04.jpg",
+    "assets/contact-sheets/sheet-05.jpg",
+    "assets/contact-sheets/sheet-06.jpg"
+  ],
+  "references": [
+    {
+      "id": 1,
+      "label": "Vogue人物字形",
+      "image": "assets/posters/ref-001.jpg",
+      "tags": [
+        "photographic"
+      ],
+      "recommended_start": true,
+      "size": [
+        1248,
+        1600
+      ],
+      "source_file": "001_IMG_3763_校正.jpg",
+      "source_size": [
+        2379,
+        3051
+      ],
+      "source_sha256": "11c0a9d4b08febc126648c7ea5cc6d34624db42d0cec637a5312af3a0fdf5a3f",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 1,
+      "sheet_column": 1
+    },
+    {
+      "id": 2,
+      "label": "婴儿与剪影",
+      "image": "assets/posters/ref-002.jpg",
+      "tags": [
+        "photographic",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1172,
+        1600
+      ],
+      "source_file": "002_IMG_3764_校正.jpg",
+      "source_size": [
+        2573,
+        3514
+      ],
+      "source_sha256": "145352d1af08850cc7b11e03c79d6e1ad21cba3c386682595adc271e509dc9ea",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 1,
+      "sheet_column": 2
+    },
+    {
+      "id": 3,
+      "label": "Wozzeck插画",
+      "image": "assets/posters/ref-003.jpg",
+      "tags": [
+        "illustration"
+      ],
+      "recommended_start": false,
+      "size": [
+        1137,
+        1600
+      ],
+      "source_file": "003_IMG_3765_校正.jpg",
+      "source_size": [
+        2611,
+        3675
+      ],
+      "source_sha256": "5df5dde515fbe63942276eb24cb0ff234dce6f6f28b33977eb470fc26a085bce",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 1,
+      "sheet_column": 3
+    },
+    {
+      "id": 4,
+      "label": "黑白旋转图形",
+      "image": "assets/posters/ref-004.jpg",
+      "tags": [
+        "geometric",
+        "minimal",
+        "pattern"
+      ],
+      "recommended_start": false,
+      "size": [
+        1529,
+        1600
+      ],
+      "source_file": "004_IMG_3766_校正.jpg",
+      "source_size": [
+        2389,
+        2500
+      ],
+      "source_sha256": "5676024ef5dba77b678c824ac17bc3ca6f9e9f9c7fb8538547856da338fba3ca",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 1,
+      "sheet_column": 4
+    },
+    {
+      "id": 5,
+      "label": "书籍参考 005",
+      "image": "assets/posters/ref-005.jpg",
+      "tags": [
+        "geometric",
+        "minimal",
+        "pattern"
+      ],
+      "recommended_start": false,
+      "size": [
+        1063,
+        1600
+      ],
+      "source_file": "005_IMG_3767_校正.jpg",
+      "source_size": [
+        2238,
+        3368
+      ],
+      "source_sha256": "2a53d7f14f002eb841c969991d775783683ab8a50a6899dcb82a9d39af1659e6",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 1,
+      "sheet_column": 5
+    },
+    {
+      "id": 6,
+      "label": "LIFE建筑封面",
+      "image": "assets/posters/ref-006.jpg",
+      "tags": [
+        "photographic",
+        "editorial"
+      ],
+      "recommended_start": true,
+      "size": [
+        1215,
+        1600
+      ],
+      "source_file": "006_IMG_3768_校正.jpg",
+      "source_size": [
+        2567,
+        3380
+      ],
+      "source_sha256": "4fe302bda41fa5455062aa87a956fc356c9dc4fc3134a969448896517b4d76a8",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 2,
+      "sheet_column": 1
+    },
+    {
+      "id": 7,
+      "label": "GranPremio动势",
+      "image": "assets/posters/ref-007.jpg",
+      "tags": [
+        "illustration"
+      ],
+      "recommended_start": false,
+      "size": [
+        1132,
+        1600
+      ],
+      "source_file": "007_IMG_3769_校正.jpg",
+      "source_size": [
+        2510,
+        3548
+      ],
+      "source_sha256": "64f608c8a01de17a81fedc25d701b3c579ac02113c2b32e169eb54f7621e4b4e",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 2,
+      "sheet_column": 2
+    },
+    {
+      "id": 8,
+      "label": "书籍参考 008",
+      "image": "assets/posters/ref-008.jpg",
+      "tags": [
+        "photographic",
+        "minimal"
+      ],
+      "recommended_start": false,
+      "size": [
+        1136,
+        1600
+      ],
+      "source_file": "008_IMG_3770_校正.jpg",
+      "source_size": [
+        2545,
+        3586
+      ],
+      "source_sha256": "5031f9d0ea278ac18bd43f446d5265890b58fdb222b326f8207460628955670a",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 2,
+      "sheet_column": 3
+    },
+    {
+      "id": 9,
+      "label": "书籍参考 009",
+      "image": "assets/posters/ref-009.jpg",
+      "tags": [
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1521,
+        1600
+      ],
+      "source_file": "009_IMG_3771_校正.jpg",
+      "source_size": [
+        2874,
+        3024
+      ],
+      "source_sha256": "46f7caeddf5a33f9d94dda79ae25e8386d5efdf519a6823cd25e3fcccf55bdd2",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 2,
+      "sheet_column": 4
+    },
+    {
+      "id": 10,
+      "label": "OTHELLO眼睛",
+      "image": "assets/posters/ref-010.jpg",
+      "tags": [
+        "geometric",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1129,
+        1600
+      ],
+      "source_file": "010_IMG_3772_校正.jpg",
+      "source_size": [
+        2323,
+        3291
+      ],
+      "source_sha256": "09a56386a75a8543f7266f6e1baab6cd6b05e6e6892ae8ee8716d43b5a4b350a",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 2,
+      "sheet_column": 5
+    },
+    {
+      "id": 11,
+      "label": "书籍参考 011",
+      "image": "assets/posters/ref-011.jpg",
+      "tags": [
+        "illustration",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1229,
+        1600
+      ],
+      "source_file": "011_IMG_3773_校正.jpg",
+      "source_size": [
+        2652,
+        3453
+      ],
+      "source_sha256": "7e511ebc5711f38aa1b13d5d777218844306920fa99db78be043e0c951cacf48",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 3,
+      "sheet_column": 1
+    },
+    {
+      "id": 12,
+      "label": "红底轮胎与小字",
+      "image": "assets/posters/ref-012.jpg",
+      "tags": [
+        "geometric",
+        "minimal",
+        "pattern"
+      ],
+      "recommended_start": true,
+      "size": [
+        1133,
+        1600
+      ],
+      "source_file": "012_IMG_3774_校正.jpg",
+      "source_size": [
+        2496,
+        3525
+      ],
+      "source_sha256": "3495c9e744658d82b1bd3db5d8289811f4506d275b1b20feeed398151f74a29a",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 3,
+      "sheet_column": 2
+    },
+    {
+      "id": 13,
+      "label": "书籍参考 013",
+      "image": "assets/posters/ref-013.jpg",
+      "tags": [
+        "geometric",
+        "pattern"
+      ],
+      "recommended_start": false,
+      "size": [
+        1235,
+        1600
+      ],
+      "source_file": "013_IMG_3775_校正.jpg",
+      "source_size": [
+        2939,
+        3808
+      ],
+      "source_sha256": "f4cc0f93e02a26cb796372d068f8d02ae04599df3bfcfdcd941bd19be0f5ddbb",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 3,
+      "sheet_column": 3
+    },
+    {
+      "id": 14,
+      "label": "书籍参考 014",
+      "image": "assets/posters/ref-014.jpg",
+      "tags": [
+        "geometric",
+        "collage"
+      ],
+      "recommended_start": false,
+      "size": [
+        1096,
+        1600
+      ],
+      "source_file": "014_IMG_3776_校正.jpg",
+      "source_size": [
+        2666,
+        3891
+      ],
+      "source_sha256": "0b667fa90df99076ee1aabdbe4dca5812bd440beac068fc2764707e7f7be39e3",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 3,
+      "sheet_column": 4
+    },
+    {
+      "id": 15,
+      "label": "书籍参考 015",
+      "image": "assets/posters/ref-015.jpg",
+      "tags": [
+        "geometric",
+        "minimal"
+      ],
+      "recommended_start": false,
+      "size": [
+        1058,
+        1600
+      ],
+      "source_file": "015_IMG_3777_校正.jpg",
+      "source_size": [
+        2480,
+        3750
+      ],
+      "source_sha256": "2f402bcd87c25088338c15e09d2aa4987f7c9f6db650c561cb952486614df0b6",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 3,
+      "sheet_column": 5
+    },
+    {
+      "id": 16,
+      "label": "McSweeney报刊文字",
+      "image": "assets/posters/ref-016.jpg",
+      "tags": [
+        "typography",
+        "editorial",
+        "pattern"
+      ],
+      "recommended_start": false,
+      "size": [
+        1245,
+        1600
+      ],
+      "source_file": "016_IMG_3778_校正.jpg",
+      "source_size": [
+        2938,
+        3777
+      ],
+      "source_sha256": "8278032aafcc082acf25f37c450e01a91665a65fd2f23ff0a1a2cee74a0cb7fb",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 4,
+      "sheet_column": 1
+    },
+    {
+      "id": 17,
+      "label": "View摄影封面",
+      "image": "assets/posters/ref-017.jpg",
+      "tags": [
+        "photographic",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1217,
+        1600
+      ],
+      "source_file": "017_IMG_3780_校正.jpg",
+      "source_size": [
+        2590,
+        3404
+      ],
+      "source_sha256": "6222176fa8e482951e4b8badbadd7a5edeb556687de4427b9b898c1aede674f3",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 4,
+      "sheet_column": 2
+    },
+    {
+      "id": 18,
+      "label": "书籍参考 018",
+      "image": "assets/posters/ref-018.jpg",
+      "tags": [
+        "illustration"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1104
+      ],
+      "source_file": "018_IMG_3781_校正.jpg",
+      "source_size": [
+        2989,
+        2063
+      ],
+      "source_sha256": "4ea0f92abf9577750daf6d69cafc84539a33c3b76458ef56b8bc113c67b01c7f",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 4,
+      "sheet_column": 3
+    },
+    {
+      "id": 19,
+      "label": "get out字图结合",
+      "image": "assets/posters/ref-019.jpg",
+      "tags": [
+        "photographic",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1600,
+        1087
+      ],
+      "source_file": "019_IMG_3782_校正.jpg",
+      "source_size": [
+        2894,
+        1966
+      ],
+      "source_sha256": "7dc1c632c28f5dd3bb31b52ebef65c126079baa746b28005ebad8b2265eb2547",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 4,
+      "sheet_column": 4
+    },
+    {
+      "id": 20,
+      "label": "书籍参考 020",
+      "image": "assets/posters/ref-020.jpg",
+      "tags": [
+        "photographic",
+        "minimal"
+      ],
+      "recommended_start": false,
+      "size": [
+        1192,
+        1600
+      ],
+      "source_file": "020_IMG_3783_校正.jpg",
+      "source_size": [
+        2501,
+        3357
+      ],
+      "source_sha256": "7715246522126cdf69c34ddb15b679d20aa709e93a8571b93a8bafc3382a57e7",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 4,
+      "sheet_column": 5
+    },
+    {
+      "id": 21,
+      "label": "手与黄色巨字",
+      "image": "assets/posters/ref-021.jpg",
+      "tags": [
+        "photographic",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1600,
+        1150
+      ],
+      "source_file": "021_IMG_3784_校正.jpg",
+      "source_size": [
+        2997,
+        2154
+      ],
+      "source_sha256": "20c7889e7201bb5b8a099908f9f09adfd9176043052f6a94377b35c21f5d20e5",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 5,
+      "sheet_column": 1
+    },
+    {
+      "id": 22,
+      "label": "Für das Alter人物",
+      "image": "assets/posters/ref-022.jpg",
+      "tags": [
+        "photographic",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1600,
+        1157
+      ],
+      "source_file": "022_IMG_3785_校正.jpg",
+      "source_size": [
+        3684,
+        2663
+      ],
+      "source_sha256": "40252a201ad5b461b46aa8f6b07d536e8eea748cbb5df6dcf6a154e238d49095",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 5,
+      "sheet_column": 2
+    },
+    {
+      "id": 23,
+      "label": "书籍参考 023",
+      "image": "assets/posters/ref-023.jpg",
+      "tags": [
+        "photographic",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1136,
+        1600
+      ],
+      "source_file": "023_IMG_3786_校正.jpg",
+      "source_size": [
+        2562,
+        3610
+      ],
+      "source_sha256": "588a2881e80e2c19fa7930e602b279f0ef6674fc7674c10869a8f71cf2f2317e",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 5,
+      "sheet_column": 3
+    },
+    {
+      "id": 24,
+      "label": "à table图形",
+      "image": "assets/posters/ref-024.jpg",
+      "tags": [
+        "geometric",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1210,
+        1600
+      ],
+      "source_file": "024_IMG_3787_校正.jpg",
+      "source_size": [
+        2821,
+        3729
+      ],
+      "source_sha256": "27bdcf684e0e082b82ee4f74b7ac002d0d90f649afd6800255cebc0bc75809bd",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 5,
+      "sheet_column": 4
+    },
+    {
+      "id": 25,
+      "label": "书籍参考 025",
+      "image": "assets/posters/ref-025.jpg",
+      "tags": [
+        "illustration"
+      ],
+      "recommended_start": false,
+      "size": [
+        1099,
+        1600
+      ],
+      "source_file": "025_IMG_3788_校正.jpg",
+      "source_size": [
+        2594,
+        3775
+      ],
+      "source_sha256": "68c0598958c224c44895dc43c129241f7a368a322243baca5e92df3db930b25d",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 5,
+      "sheet_column": 5
+    },
+    {
+      "id": 26,
+      "label": "DER SPIEGEL人物",
+      "image": "assets/posters/ref-026.jpg",
+      "tags": [
+        "photographic",
+        "editorial"
+      ],
+      "recommended_start": true,
+      "size": [
+        1224,
+        1600
+      ],
+      "source_file": "026_IMG_3789_校正.jpg",
+      "source_size": [
+        2638,
+        3449
+      ],
+      "source_sha256": "dd5447cbd8e03174fc3cacf322c867af24ee23be7b87c81bb36845b73edf30df",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 6,
+      "sheet_column": 1
+    },
+    {
+      "id": 27,
+      "label": "星条旗鱼",
+      "image": "assets/posters/ref-027.jpg",
+      "tags": [
+        "geometric",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1600,
+        1185
+      ],
+      "source_file": "027_IMG_3790_校正.jpg",
+      "source_size": [
+        2805,
+        2077
+      ],
+      "source_sha256": "a696d336cc8de205cafb305d2fb1c195fb380008c0b5a5c1c32c5e6fe3e8776d",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 6,
+      "sheet_column": 2
+    },
+    {
+      "id": 28,
+      "label": "RE人物封面",
+      "image": "assets/posters/ref-028.jpg",
+      "tags": [
+        "photographic",
+        "editorial"
+      ],
+      "recommended_start": true,
+      "size": [
+        1133,
+        1600
+      ],
+      "source_file": "028_IMG_3791_校正.jpg",
+      "source_size": [
+        2570,
+        3629
+      ],
+      "source_sha256": "7a6872da4af45122d3cbb95e5dc22529d2a764a59fa05cb2b35c7423e8676acd",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 6,
+      "sheet_column": 3
+    },
+    {
+      "id": 29,
+      "label": "Interview人物封面",
+      "image": "assets/posters/ref-029.jpg",
+      "tags": [
+        "photographic",
+        "editorial"
+      ],
+      "recommended_start": true,
+      "size": [
+        1127,
+        1600
+      ],
+      "source_file": "029_IMG_3792_校正.jpg",
+      "source_size": [
+        2443,
+        3468
+      ],
+      "source_sha256": "c703ce8458295ce1bfeed8489cc69bb231a68492596e9ee33394283c24194aa4",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 6,
+      "sheet_column": 4
+    },
+    {
+      "id": 30,
+      "label": "书籍参考 030",
+      "image": "assets/posters/ref-030.jpg",
+      "tags": [
+        "illustration"
+      ],
+      "recommended_start": false,
+      "size": [
+        1188,
+        1600
+      ],
+      "source_file": "030_IMG_3793_校正.jpg",
+      "source_size": [
+        2675,
+        3602
+      ],
+      "source_sha256": "fb6201f065b15c63b730240a46d4706ff7d897418cfb6c25082f37d96c88d648",
+      "contact_sheet": "assets/contact-sheets/sheet-01.jpg",
+      "sheet_row": 6,
+      "sheet_column": 5
+    },
+    {
+      "id": 31,
+      "label": "Observations书封",
+      "image": "assets/posters/ref-031.jpg",
+      "tags": [
+        "typography",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1227,
+        1600
+      ],
+      "source_file": "031_IMG_3794_校正.jpg",
+      "source_size": [
+        2691,
+        3509
+      ],
+      "source_sha256": "82476806f6487c3a69cc1fa7dd21ea3796ae966b90b71c4a62d8dd6eeab834a8",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 1,
+      "sheet_column": 1
+    },
+    {
+      "id": 32,
+      "label": "红色手掌与细字",
+      "image": "assets/posters/ref-032.jpg",
+      "tags": [
+        "typography",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        899,
+        1600
+      ],
+      "source_file": "032_IMG_3795_校正.jpg",
+      "source_size": [
+        2087,
+        3715
+      ],
+      "source_sha256": "b94e8751bce34bc7edb936e85775617201055fb7fa9155e94a721b0be3915f34",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 1,
+      "sheet_column": 2
+    },
+    {
+      "id": 33,
+      "label": "字母构成",
+      "image": "assets/posters/ref-033.jpg",
+      "tags": [
+        "typography",
+        "geometric",
+        "minimal"
+      ],
+      "recommended_start": false,
+      "size": [
+        1100,
+        1600
+      ],
+      "source_file": "033_IMG_3796_校正.jpg",
+      "source_size": [
+        2328,
+        3387
+      ],
+      "source_sha256": "483429bb3dbaca2a24ab826538721bc0d71096ad6abe3cf29cd5e396183fe0b5",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 1,
+      "sheet_column": 3
+    },
+    {
+      "id": 34,
+      "label": "书籍参考 034",
+      "image": "assets/posters/ref-034.jpg",
+      "tags": [
+        "illustration"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1207
+      ],
+      "source_file": "034_IMG_3797_校正.jpg",
+      "source_size": [
+        2922,
+        2205
+      ],
+      "source_sha256": "1cc81a0868b9ec53ec20c998a01f020f27e71a383144c496693e7867fce053d6",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 1,
+      "sheet_column": 4
+    },
+    {
+      "id": 35,
+      "label": "书籍参考 035",
+      "image": "assets/posters/ref-035.jpg",
+      "tags": [
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1125
+      ],
+      "source_file": "035_IMG_3798_校正.jpg",
+      "source_size": [
+        3607,
+        2537
+      ],
+      "source_sha256": "e70e186b315200ac618496b083e4f42d632d70d5bd77e20973717f7c291f0d80",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 1,
+      "sheet_column": 5
+    },
+    {
+      "id": 36,
+      "label": "书籍参考 036",
+      "image": "assets/posters/ref-036.jpg",
+      "tags": [
+        "typography",
+        "editorial",
+        "pattern"
+      ],
+      "recommended_start": false,
+      "size": [
+        1145,
+        1600
+      ],
+      "source_file": "036_IMG_3799_校正.jpg",
+      "source_size": [
+        2403,
+        3359
+      ],
+      "source_sha256": "7d38114d5f8bb20a726624d333b036602954662b7a1509c330697c08b7527675",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 2,
+      "sheet_column": 1
+    },
+    {
+      "id": 37,
+      "label": "书籍参考 037",
+      "image": "assets/posters/ref-037.jpg",
+      "tags": [
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        903,
+        1600
+      ],
+      "source_file": "037_IMG_3800_校正.jpg",
+      "source_size": [
+        2117,
+        3750
+      ],
+      "source_sha256": "83288955726dae8d9ea5c1c71ce11e30746b707533ec4f3275aab928c0090b50",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 2,
+      "sheet_column": 2
+    },
+    {
+      "id": 38,
+      "label": "Typographie巨字",
+      "image": "assets/posters/ref-038.jpg",
+      "tags": [
+        "typography",
+        "geometric",
+        "editorial",
+        "pattern"
+      ],
+      "recommended_start": true,
+      "size": [
+        1540,
+        1600
+      ],
+      "source_file": "038_IMG_3801_校正.jpg",
+      "source_size": [
+        2601,
+        2703
+      ],
+      "source_sha256": "ac9b6ff0efcc6a95247cd5d197c07af1826cbd6141ea8d652650e47bd1cd8740",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 2,
+      "sheet_column": 3
+    },
+    {
+      "id": 39,
+      "label": "书籍参考 039",
+      "image": "assets/posters/ref-039.jpg",
+      "tags": [
+        "illustration",
+        "editorial",
+        "pattern"
+      ],
+      "recommended_start": false,
+      "size": [
+        1104,
+        1600
+      ],
+      "source_file": "039_IMG_3802_校正.jpg",
+      "source_size": [
+        2497,
+        3619
+      ],
+      "source_sha256": "2a6acd0bc839dc374551c508ac4bab923ca1e5c3902f7db2ce876462549e3dd5",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 2,
+      "sheet_column": 4
+    },
+    {
+      "id": 40,
+      "label": "书籍参考 040",
+      "image": "assets/posters/ref-040.jpg",
+      "tags": [
+        "minimal"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        990
+      ],
+      "source_file": "040_IMG_3803_校正.jpg",
+      "source_size": [
+        1887,
+        1168
+      ],
+      "source_sha256": "7cbac39adbed49d39752910b2464c3f591239bea4d9ec874cb028168cf1d1811",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 2,
+      "sheet_column": 5
+    },
+    {
+      "id": 41,
+      "label": "书籍参考 041",
+      "image": "assets/posters/ref-041.jpg",
+      "tags": [
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1144,
+        1600
+      ],
+      "source_file": "041_IMG_3804_校正.jpg",
+      "source_size": [
+        2480,
+        3469
+      ],
+      "source_sha256": "bd82619c3fc982b2db2aff6caa64a3b98cd69a77eacf293a58c109a0d91b41ed",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 3,
+      "sheet_column": 1
+    },
+    {
+      "id": 42,
+      "label": "书籍参考 042",
+      "image": "assets/posters/ref-042.jpg",
+      "tags": [
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1173,
+        1600
+      ],
+      "source_file": "042_IMG_3805_校正.jpg",
+      "source_size": [
+        2601,
+        3549
+      ],
+      "source_sha256": "f92f497a007e2e916d9f7d9f4b0f135afe2bf65dad750fddbf183566c0dc1c15",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 3,
+      "sheet_column": 2
+    },
+    {
+      "id": 43,
+      "label": "Cardboard文字层级",
+      "image": "assets/posters/ref-043.jpg",
+      "tags": [
+        "typography",
+        "editorial"
+      ],
+      "recommended_start": true,
+      "size": [
+        1145,
+        1600
+      ],
+      "source_file": "043_IMG_3806_校正.jpg",
+      "source_size": [
+        2510,
+        3508
+      ],
+      "source_sha256": "98011f3b2ce192e77e09f751617d0ae7544f72388abd8822d6f9fe1a7eaabaab",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 3,
+      "sheet_column": 3
+    },
+    {
+      "id": 44,
+      "label": "THE FACE人物",
+      "image": "assets/posters/ref-044.jpg",
+      "tags": [
+        "photographic",
+        "editorial"
+      ],
+      "recommended_start": true,
+      "size": [
+        1221,
+        1600
+      ],
+      "source_file": "044_IMG_3807_校正.jpg",
+      "source_size": [
+        2554,
+        3347
+      ],
+      "source_sha256": "c56c0543f9c0303a76e443f4372047b5ba076657cb264c4e4df309f6c1bd3c08",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 3,
+      "sheet_column": 4
+    },
+    {
+      "id": 45,
+      "label": "BAZAAR人物",
+      "image": "assets/posters/ref-045.jpg",
+      "tags": [
+        "photographic",
+        "editorial"
+      ],
+      "recommended_start": true,
+      "size": [
+        1157,
+        1600
+      ],
+      "source_file": "045_IMG_3808_校正.jpg",
+      "source_size": [
+        2601,
+        3597
+      ],
+      "source_sha256": "602da15a3c1552faf4c841cef6ddc49871bec9a0a21e87f2257c8c4bba0944bd",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 3,
+      "sheet_column": 5
+    },
+    {
+      "id": 46,
+      "label": "书籍参考 046",
+      "image": "assets/posters/ref-046.jpg",
+      "tags": [
+        "typography",
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1290
+      ],
+      "source_file": "046_IMG_3809_校正.jpg",
+      "source_size": [
+        2752,
+        2218
+      ],
+      "source_sha256": "b826b20206d8285c30d0b1168a69b2ce62a46ea0827b4d55c1547f0dcedd117e",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 4,
+      "sheet_column": 1
+    },
+    {
+      "id": 47,
+      "label": "书籍参考 047",
+      "image": "assets/posters/ref-047.jpg",
+      "tags": [
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1261,
+        1600
+      ],
+      "source_file": "047_IMG_3810_校正.jpg",
+      "source_size": [
+        2788,
+        3538
+      ],
+      "source_sha256": "64cac09d65228bdaf87e938a0206a65872442252e6618de621db742ff98b9a13",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 4,
+      "sheet_column": 2
+    },
+    {
+      "id": 48,
+      "label": "书籍参考 048",
+      "image": "assets/posters/ref-048.jpg",
+      "tags": [
+        "illustration",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1200,
+        1600
+      ],
+      "source_file": "048_IMG_3811_校正.jpg",
+      "source_size": [
+        2540,
+        3387
+      ],
+      "source_sha256": "3b473d540e1aa899b9c8dd4a66861d0be754bd6c166bb97c8fe7e5a67080ae6f",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 4,
+      "sheet_column": 3
+    },
+    {
+      "id": 49,
+      "label": "书籍参考 049",
+      "image": "assets/posters/ref-049.jpg",
+      "tags": [
+        "geometric",
+        "collage"
+      ],
+      "recommended_start": false,
+      "size": [
+        1098,
+        1600
+      ],
+      "source_file": "049_IMG_3812_校正.jpg",
+      "source_size": [
+        2601,
+        3790
+      ],
+      "source_sha256": "45e56d36f57692becfd9dd929484fdca025fe909d92847e86484fea36dfe5252",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 4,
+      "sheet_column": 4
+    },
+    {
+      "id": 50,
+      "label": "Moderna Museet字形",
+      "image": "assets/posters/ref-050.jpg",
+      "tags": [
+        "typography",
+        "geometric",
+        "pattern"
+      ],
+      "recommended_start": true,
+      "size": [
+        1252,
+        1600
+      ],
+      "source_file": "050_IMG_3813_校正.jpg",
+      "source_size": [
+        2995,
+        3827
+      ],
+      "source_sha256": "54604c68236d6f73c3774a549e380306fc4f1522c7a241d3c576adb2286dbe78",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 4,
+      "sheet_column": 5
+    },
+    {
+      "id": 51,
+      "label": "自行车轮摄影",
+      "image": "assets/posters/ref-051.jpg",
+      "tags": [
+        "photographic"
+      ],
+      "recommended_start": true,
+      "size": [
+        1045,
+        1600
+      ],
+      "source_file": "051_IMG_3814_校正.jpg",
+      "source_size": [
+        2610,
+        3996
+      ],
+      "source_sha256": "9a4d5832a369b7e00eaad0fbc7acd54e7ecc08669c37fb7ae97e23b015b217ca",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 5,
+      "sheet_column": 1
+    },
+    {
+      "id": 52,
+      "label": "Nord Express斜向动势",
+      "image": "assets/posters/ref-052.jpg",
+      "tags": [
+        "photographic"
+      ],
+      "recommended_start": true,
+      "size": [
+        1155,
+        1600
+      ],
+      "source_file": "052_IMG_3815_校正.jpg",
+      "source_size": [
+        2841,
+        3935
+      ],
+      "source_sha256": "5f334179cb65efd9d4f9f89e9ea1706bffded4d945b5a5ac7fce75d9c9b7832d",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 5,
+      "sheet_column": 2
+    },
+    {
+      "id": 53,
+      "label": "KLM几何图形",
+      "image": "assets/posters/ref-053.jpg",
+      "tags": [
+        "geometric",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1119,
+        1600
+      ],
+      "source_file": "053_IMG_3816_校正.jpg",
+      "source_size": [
+        2570,
+        3674
+      ],
+      "source_sha256": "e4ca1a899b91b773eac6c28e03257b5b845854ada69b3e497a5d755b6a28e730",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 5,
+      "sheet_column": 3
+    },
+    {
+      "id": 54,
+      "label": "Tadanori Yokoo放射构图",
+      "image": "assets/posters/ref-054.jpg",
+      "tags": [
+        "illustration",
+        "pattern"
+      ],
+      "recommended_start": false,
+      "size": [
+        1155,
+        1600
+      ],
+      "source_file": "054_IMG_3817_校正.jpg",
+      "source_size": [
+        2683,
+        3717
+      ],
+      "source_sha256": "f411dd5ae565b241acfef2c54cf909c25892ffb0608226046a511583cc097a82",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 5,
+      "sheet_column": 4
+    },
+    {
+      "id": 55,
+      "label": "Advertising Arts轨道",
+      "image": "assets/posters/ref-055.jpg",
+      "tags": [
+        "illustration",
+        "pattern"
+      ],
+      "recommended_start": true,
+      "size": [
+        1168,
+        1600
+      ],
+      "source_file": "055_IMG_3818_校正.jpg",
+      "source_size": [
+        2772,
+        3797
+      ],
+      "source_sha256": "6562f54c922a1a5d383df67b38ab4b1202abcbe6ba0300bad90a5cc1af97e636",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 5,
+      "sheet_column": 5
+    },
+    {
+      "id": 56,
+      "label": "书籍参考 056",
+      "image": "assets/posters/ref-056.jpg",
+      "tags": [
+        "illustration"
+      ],
+      "recommended_start": false,
+      "size": [
+        1271,
+        1600
+      ],
+      "source_file": "056_IMG_3819_校正.jpg",
+      "source_size": [
+        3035,
+        3822
+      ],
+      "source_sha256": "25c0607f9cd1e87269ae7fa6d6fab8c68cee1746393f94db6f98b4d546c80e80",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 6,
+      "sheet_column": 1
+    },
+    {
+      "id": 57,
+      "label": "书籍参考 057",
+      "image": "assets/posters/ref-057.jpg",
+      "tags": [
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1146,
+        1600
+      ],
+      "source_file": "057_IMG_3820_校正.jpg",
+      "source_size": [
+        2570,
+        3589
+      ],
+      "source_sha256": "c8205b610e0e1ea040b2b0093caa2034d39c7ed11c6afad4ba26947bfab6634d",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 6,
+      "sheet_column": 2
+    },
+    {
+      "id": 58,
+      "label": "书籍参考 058",
+      "image": "assets/posters/ref-058.jpg",
+      "tags": [
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1118
+      ],
+      "source_file": "058_IMG_3821_校正.jpg",
+      "source_size": [
+        2857,
+        1996
+      ],
+      "source_sha256": "97b6a16901396abbf476f6670a25bdea6f36ffde4ebb46f0036def0f0a4c8819",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 6,
+      "sheet_column": 3
+    },
+    {
+      "id": 59,
+      "label": "书籍参考 059",
+      "image": "assets/posters/ref-059.jpg",
+      "tags": [
+        "collage",
+        "pattern"
+      ],
+      "recommended_start": false,
+      "size": [
+        1449,
+        1600
+      ],
+      "source_file": "059_IMG_3822_校正.jpg",
+      "source_size": [
+        2812,
+        3105
+      ],
+      "source_sha256": "0706fc35fedfa3fd0d763b6159e9d0819bca6a7cb6076924afef778b773b01c7",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 6,
+      "sheet_column": 4
+    },
+    {
+      "id": 60,
+      "label": "书籍参考 060",
+      "image": "assets/posters/ref-060.jpg",
+      "tags": [
+        "photographic",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1326,
+        1600
+      ],
+      "source_file": "060_IMG_3823_校正.jpg",
+      "source_size": [
+        2510,
+        3028
+      ],
+      "source_sha256": "6f99b4ed91fa4c13e7f4c3012dda1d2f172b73963137beca4de80838987f308e",
+      "contact_sheet": "assets/contact-sheets/sheet-02.jpg",
+      "sheet_row": 6,
+      "sheet_column": 5
+    },
+    {
+      "id": 61,
+      "label": "短文与红色标签",
+      "image": "assets/posters/ref-061.jpg",
+      "tags": [
+        "typography",
+        "editorial",
+        "minimal"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1423
+      ],
+      "source_file": "061_IMG_3824_校正.jpg",
+      "source_size": [
+        2822,
+        2510
+      ],
+      "source_sha256": "57b74048e4f13cb624c98ebc6f1539c8016795a1257bde9f2ad3b97c8ae9f42a",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 1,
+      "sheet_column": 1
+    },
+    {
+      "id": 62,
+      "label": "书籍参考 062",
+      "image": "assets/posters/ref-062.jpg",
+      "tags": [
+        "illustration",
+        "pattern"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1129
+      ],
+      "source_file": "062_IMG_3825_校正.jpg",
+      "source_size": [
+        2727,
+        1925
+      ],
+      "source_sha256": "a49184d380aa12e7bed2a11353504d46fe001ba08a91f9bc4ff909daaa413819",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 1,
+      "sheet_column": 2
+    },
+    {
+      "id": 63,
+      "label": "书籍参考 063",
+      "image": "assets/posters/ref-063.jpg",
+      "tags": [
+        "illustration"
+      ],
+      "recommended_start": false,
+      "size": [
+        1245,
+        1600
+      ],
+      "source_file": "063_IMG_3826_校正.jpg",
+      "source_size": [
+        2719,
+        3494
+      ],
+      "source_sha256": "6cdb646758a07d559b0308c47543fe95cafd767075772dd6a8f32b756e83c939",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 1,
+      "sheet_column": 3
+    },
+    {
+      "id": 64,
+      "label": "书籍参考 064",
+      "image": "assets/posters/ref-064.jpg",
+      "tags": [
+        "illustration"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1364
+      ],
+      "source_file": "064_IMG_3827_校正.jpg",
+      "source_size": [
+        2933,
+        2501
+      ],
+      "source_sha256": "44641d7e5bb9f881b1304956b80156cd996665b22914affe0745b8dd1e848f9a",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 1,
+      "sheet_column": 4
+    },
+    {
+      "id": 65,
+      "label": "书籍参考 065",
+      "image": "assets/posters/ref-065.jpg",
+      "tags": [
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1133,
+        1600
+      ],
+      "source_file": "065_IMG_3828_校正.jpg",
+      "source_size": [
+        2540,
+        3588
+      ],
+      "source_sha256": "9881f963729554e7efdd14e356b5eedc03fda51463ba55b1b6d6d28222560d41",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 1,
+      "sheet_column": 5
+    },
+    {
+      "id": 66,
+      "label": "书籍参考 066",
+      "image": "assets/posters/ref-066.jpg",
+      "tags": [
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1162,
+        1600
+      ],
+      "source_file": "066_IMG_3829_校正.jpg",
+      "source_size": [
+        2752,
+        3790
+      ],
+      "source_sha256": "148a95b3a468ae56eb6adef239e90a901008d2e93f4bea0bd119c6a9b2381a52",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 2,
+      "sheet_column": 1
+    },
+    {
+      "id": 67,
+      "label": "书籍参考 067",
+      "image": "assets/posters/ref-067.jpg",
+      "tags": [
+        "minimal"
+      ],
+      "recommended_start": false,
+      "size": [
+        1088,
+        1600
+      ],
+      "source_file": "067_IMG_3830_校正.jpg",
+      "source_size": [
+        2359,
+        3468
+      ],
+      "source_sha256": "c8515ab57280563eb0ab48f50f96db3347fa88e330e3193235fead9d05581fe9",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 2,
+      "sheet_column": 2
+    },
+    {
+      "id": 68,
+      "label": "Nikon双色条纹",
+      "image": "assets/posters/ref-068.jpg",
+      "tags": [
+        "geometric",
+        "pattern"
+      ],
+      "recommended_start": true,
+      "size": [
+        1600,
+        1152
+      ],
+      "source_file": "068_IMG_3831_校正.jpg",
+      "source_size": [
+        3795,
+        2733
+      ],
+      "source_sha256": "8a934f19e71eb1ad115a2841d5c5a2044062297794969ae635362914b02adbc5",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 2,
+      "sheet_column": 3
+    },
+    {
+      "id": 69,
+      "label": "书籍参考 069",
+      "image": "assets/posters/ref-069.jpg",
+      "tags": [
+        "photographic",
+        "editorial",
+        "minimal"
+      ],
+      "recommended_start": false,
+      "size": [
+        1496,
+        1600
+      ],
+      "source_file": "069_IMG_3832_校正.jpg",
+      "source_size": [
+        2903,
+        3105
+      ],
+      "source_sha256": "4eaf1e36f19fe4886729344c686259e6d2e543bdf8d89f9e07f34ff7b5489dd5",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 2,
+      "sheet_column": 4
+    },
+    {
+      "id": 70,
+      "label": "书籍参考 070",
+      "image": "assets/posters/ref-070.jpg",
+      "tags": [
+        "illustration",
+        "collage",
+        "minimal"
+      ],
+      "recommended_start": false,
+      "size": [
+        475,
+        1600
+      ],
+      "source_file": "070_IMG_3833_校正.jpg",
+      "source_size": [
+        1089,
+        3669
+      ],
+      "source_sha256": "2e3e810f4eb5eff6518af4d164e976b6d56d85401b18a9c9a09f0fc6ff07f8f1",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 2,
+      "sheet_column": 5
+    },
+    {
+      "id": 71,
+      "label": "书籍参考 071",
+      "image": "assets/posters/ref-071.jpg",
+      "tags": [
+        "illustration"
+      ],
+      "recommended_start": false,
+      "size": [
+        1227,
+        1600
+      ],
+      "source_file": "071_IMG_3834_校正.jpg",
+      "source_size": [
+        2722,
+        3549
+      ],
+      "source_sha256": "18a2acc869fe2dce991e2abbc5806854bd8d04c60369ef1f6a84483341816708",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 3,
+      "sheet_column": 1
+    },
+    {
+      "id": 72,
+      "label": "书籍参考 072",
+      "image": "assets/posters/ref-072.jpg",
+      "tags": [
+        "photographic",
+        "minimal"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1100
+      ],
+      "source_file": "072_IMG_3835_校正.jpg",
+      "source_size": [
+        2734,
+        1880
+      ],
+      "source_sha256": "d406977f2e0424bceebe8640e9cdd9add301d2397b916d632e810ca40f530d76",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 3,
+      "sheet_column": 2
+    },
+    {
+      "id": 73,
+      "label": "黄色可乐插画",
+      "image": "assets/posters/ref-073.jpg",
+      "tags": [
+        "geometric",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1131,
+        1600
+      ],
+      "source_file": "073_IMG_3836_校正.jpg",
+      "source_size": [
+        2603,
+        3683
+      ],
+      "source_sha256": "18c8863cd1ecc6e3927259e0a8441cfa1131cf4fdce823a022c7522bc28e93f6",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 3,
+      "sheet_column": 3
+    },
+    {
+      "id": 74,
+      "label": "书籍参考 074",
+      "image": "assets/posters/ref-074.jpg",
+      "tags": [
+        "illustration"
+      ],
+      "recommended_start": false,
+      "size": [
+        1157,
+        1600
+      ],
+      "source_file": "074_IMG_3837_校正.jpg",
+      "source_size": [
+        2529,
+        3498
+      ],
+      "source_sha256": "83201932a206d2fca91cc8339ec8b675dc367f2974e082a3b68ae328f9a5b12b",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 3,
+      "sheet_column": 4
+    },
+    {
+      "id": 75,
+      "label": "汽车与指针",
+      "image": "assets/posters/ref-075.jpg",
+      "tags": [
+        "geometric",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1119,
+        1600
+      ],
+      "source_file": "075_IMG_3838_校正.jpg",
+      "source_size": [
+        2632,
+        3765
+      ],
+      "source_sha256": "75a5b304feb527a147694ed5825aebaaafac0d85d6f9c1d5240f852eedc18e65",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 3,
+      "sheet_column": 5
+    },
+    {
+      "id": 76,
+      "label": "书籍参考 076",
+      "image": "assets/posters/ref-076.jpg",
+      "tags": [
+        "typography",
+        "editorial",
+        "pattern"
+      ],
+      "recommended_start": false,
+      "size": [
+        1227,
+        1600
+      ],
+      "source_file": "076_IMG_3839_校正.jpg",
+      "source_size": [
+        2890,
+        3768
+      ],
+      "source_sha256": "4a0274e01a19bfd1ade255b6bd46e34959ccf4bac25bb99cf21c76b0e6fc2e1c",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 4,
+      "sheet_column": 1
+    },
+    {
+      "id": 77,
+      "label": "书籍参考 077",
+      "image": "assets/posters/ref-077.jpg",
+      "tags": [
+        "typography",
+        "editorial",
+        "minimal",
+        "pattern"
+      ],
+      "recommended_start": false,
+      "size": [
+        1256,
+        1600
+      ],
+      "source_file": "077_IMG_3840_校正.jpg",
+      "source_size": [
+        2722,
+        3468
+      ],
+      "source_sha256": "59b30445ef9379ae1c88f08805ecd68f9ad179fbe20a86a0668cf96b186c19dd",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 4,
+      "sheet_column": 2
+    },
+    {
+      "id": 78,
+      "label": "书籍参考 078",
+      "image": "assets/posters/ref-078.jpg",
+      "tags": [
+        "typography",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1273,
+        1600
+      ],
+      "source_file": "078_IMG_3841_校正.jpg",
+      "source_size": [
+        2715,
+        3413
+      ],
+      "source_sha256": "bc4ea65ba219206fe5f1849590c55de18a1c0243f902acfbd7f93dbeb08f6a73",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 4,
+      "sheet_column": 3
+    },
+    {
+      "id": 79,
+      "label": "书籍参考 079",
+      "image": "assets/posters/ref-079.jpg",
+      "tags": [
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1527
+      ],
+      "source_file": "079_IMG_3844_校正.jpg",
+      "source_size": [
+        2661,
+        2540
+      ],
+      "source_sha256": "5d3d0be920b703610523e4791378bd43bb8a6a6f845d9cfb03e01d6562cd5bb0",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 4,
+      "sheet_column": 4
+    },
+    {
+      "id": 80,
+      "label": "书籍参考 080",
+      "image": "assets/posters/ref-080.jpg",
+      "tags": [
+        "photographic",
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1076,
+        1600
+      ],
+      "source_file": "080_IMG_3845_校正.jpg",
+      "source_size": [
+        2360,
+        3508
+      ],
+      "source_sha256": "7bf9ed4355ef0586118d8755b4ecf07203d2964b31fff536d2b4cc70e97d4a50",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 4,
+      "sheet_column": 5
+    },
+    {
+      "id": 81,
+      "label": "书籍参考 081",
+      "image": "assets/posters/ref-081.jpg",
+      "tags": [
+        "typography",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1127,
+        1600
+      ],
+      "source_file": "081_IMG_3846_校正.jpg",
+      "source_size": [
+        2635,
+        3741
+      ],
+      "source_sha256": "2a4bbf9b10dc121b0dccb72c861e369f2a47dec9d3ce01bb33821f08f75f39de",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 5,
+      "sheet_column": 1
+    },
+    {
+      "id": 82,
+      "label": "书籍参考 082",
+      "image": "assets/posters/ref-082.jpg",
+      "tags": [
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1473
+      ],
+      "source_file": "082_IMG_3847_校正.jpg",
+      "source_size": [
+        2934,
+        2701
+      ],
+      "source_sha256": "290b177a827f7add6d6ad919d8cb860dbc41c80078471549e728e096e78bd8ec",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 5,
+      "sheet_column": 2
+    },
+    {
+      "id": 83,
+      "label": "手与色块",
+      "image": "assets/posters/ref-083.jpg",
+      "tags": [
+        "geometric",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1357,
+        1600
+      ],
+      "source_file": "083_IMG_3848_校正.jpg",
+      "source_size": [
+        2359,
+        2782
+      ],
+      "source_sha256": "39dd4d311830962185161ac355065eb29158cd57f6745b7d922187b8e3d887aa",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 5,
+      "sheet_column": 3
+    },
+    {
+      "id": 84,
+      "label": "书籍参考 084",
+      "image": "assets/posters/ref-084.jpg",
+      "tags": [
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        796,
+        1600
+      ],
+      "source_file": "084_IMG_3849_校正.jpg",
+      "source_size": [
+        1846,
+        3709
+      ],
+      "source_sha256": "e66631e0cc7c6f5ccf72e95b9f358add4e5afc0f5308ded98948a8c3a198239f",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 5,
+      "sheet_column": 4
+    },
+    {
+      "id": 85,
+      "label": "书籍参考 085",
+      "image": "assets/posters/ref-085.jpg",
+      "tags": [
+        "illustration",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1235,
+        1600
+      ],
+      "source_file": "085_IMG_3850_校正.jpg",
+      "source_size": [
+        2659,
+        3444
+      ],
+      "source_sha256": "58fe9ef6b5038e5ff48e3d9e30242b83a2d0ab3adc82cc032367bfce8a538729",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 5,
+      "sheet_column": 5
+    },
+    {
+      "id": 86,
+      "label": "书籍参考 086",
+      "image": "assets/posters/ref-086.jpg",
+      "tags": [
+        "typography",
+        "editorial",
+        "pattern"
+      ],
+      "recommended_start": false,
+      "size": [
+        1102,
+        1600
+      ],
+      "source_file": "086_IMG_3851_校正.jpg",
+      "source_size": [
+        2435,
+        3535
+      ],
+      "source_sha256": "3216743e2715d9ea5a77e2e6527b34a127d753a0895339370c64b2534291a6ad",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 6,
+      "sheet_column": 1
+    },
+    {
+      "id": 87,
+      "label": "DANESE图形字标",
+      "image": "assets/posters/ref-087.jpg",
+      "tags": [
+        "typography",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1509,
+        1600
+      ],
+      "source_file": "087_IMG_3852_校正.jpg",
+      "source_size": [
+        2661,
+        2822
+      ],
+      "source_sha256": "77c15e4392eeef7d127892ecaaea7e2eae62e844190c322354b7b732176e317e",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 6,
+      "sheet_column": 2
+    },
+    {
+      "id": 88,
+      "label": "书籍参考 088",
+      "image": "assets/posters/ref-088.jpg",
+      "tags": [
+        "illustration"
+      ],
+      "recommended_start": false,
+      "size": [
+        676,
+        1600
+      ],
+      "source_file": "088_IMG_3853_校正.jpg",
+      "source_size": [
+        1512,
+        3579
+      ],
+      "source_sha256": "b265a422412e4078e0029eb21b4b9dbfba044cf77637714c92161a1747207799",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 6,
+      "sheet_column": 3
+    },
+    {
+      "id": 89,
+      "label": "书籍参考 089",
+      "image": "assets/posters/ref-089.jpg",
+      "tags": [
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1061,
+        1600
+      ],
+      "source_file": "089_IMG_3854_校正.jpg",
+      "source_size": [
+        2299,
+        3468
+      ],
+      "source_sha256": "233077d58df6950141ba190dc43e0e9a5752beabe1c52466414846c83669639c",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 6,
+      "sheet_column": 4
+    },
+    {
+      "id": 90,
+      "label": "书籍参考 090",
+      "image": "assets/posters/ref-090.jpg",
+      "tags": [
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1458
+      ],
+      "source_file": "090_IMG_3855_校正.jpg",
+      "source_size": [
+        2964,
+        2701
+      ],
+      "source_sha256": "b7f64d2839a43e2a5390494eb2f5f84b0692e404846b3d87e04cf255a39436d2",
+      "contact_sheet": "assets/contact-sheets/sheet-03.jpg",
+      "sheet_row": 6,
+      "sheet_column": 5
+    },
+    {
+      "id": 91,
+      "label": "书籍参考 091",
+      "image": "assets/posters/ref-091.jpg",
+      "tags": [
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1523
+      ],
+      "source_file": "091_IMG_3856_校正.jpg",
+      "source_size": [
+        2964,
+        2822
+      ],
+      "source_sha256": "bbeb8d49e2384ef12814ca3626f080acfcaa20520b568d3dc1953249c2f599d0",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 1,
+      "sheet_column": 1
+    },
+    {
+      "id": 92,
+      "label": "书籍参考 092",
+      "image": "assets/posters/ref-092.jpg",
+      "tags": [
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1088
+      ],
+      "source_file": "092_IMG_3857_校正.jpg",
+      "source_size": [
+        2964,
+        2016
+      ],
+      "source_sha256": "2e3b5a6f1e61405c90dd61eb44d1ac9fc33888914f4dcd8b02c7ad8e9a04b70f",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 1,
+      "sheet_column": 2
+    },
+    {
+      "id": 93,
+      "label": "书籍参考 093",
+      "image": "assets/posters/ref-093.jpg",
+      "tags": [
+        "illustration"
+      ],
+      "recommended_start": false,
+      "size": [
+        1072,
+        1600
+      ],
+      "source_file": "093_IMG_3858_校正.jpg",
+      "source_size": [
+        2529,
+        3773
+      ],
+      "source_sha256": "90f5e380fc5d0f41e991e353bd418077da5b20d106193ae14d28ed5cb7e15c10",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 1,
+      "sheet_column": 3
+    },
+    {
+      "id": 94,
+      "label": "书籍参考 094",
+      "image": "assets/posters/ref-094.jpg",
+      "tags": [
+        "minimal"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        853
+      ],
+      "source_file": "094_IMG_3859_校正.jpg",
+      "source_size": [
+        2873,
+        1532
+      ],
+      "source_sha256": "ef3c2208a1799dcb80d0c8d3d17b3dac011e5a1dee7b13cef3aced4b63188b78",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 1,
+      "sheet_column": 4
+    },
+    {
+      "id": 95,
+      "label": "书籍参考 095",
+      "image": "assets/posters/ref-095.jpg",
+      "tags": [
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1051,
+        1600
+      ],
+      "source_file": "095_IMG_3860_校正.jpg",
+      "source_size": [
+        2330,
+        3548
+      ],
+      "source_sha256": "c27a542c770e1e4d3f15d8ae902e9b6b029c8708999c163d12b538926ab1c547",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 1,
+      "sheet_column": 5
+    },
+    {
+      "id": 96,
+      "label": "书籍参考 096",
+      "image": "assets/posters/ref-096.jpg",
+      "tags": [
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1268,
+        1600
+      ],
+      "source_file": "096_IMG_3861_校正.jpg",
+      "source_size": [
+        2843,
+        3588
+      ],
+      "source_sha256": "5ac7b441da8a71c590db9804604fd76d67a1bccebd00c3c8861dfc6454d5c4c5",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 2,
+      "sheet_column": 1
+    },
+    {
+      "id": 97,
+      "label": "书籍参考 097",
+      "image": "assets/posters/ref-097.jpg",
+      "tags": [
+        "typography",
+        "geometric",
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1166
+      ],
+      "source_file": "097_IMG_3862_校正.jpg",
+      "source_size": [
+        2933,
+        2137
+      ],
+      "source_sha256": "b2702582dc660067977dc10fe77c8844697b8ea378e30786848c1978d80c47c4",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 2,
+      "sheet_column": 2
+    },
+    {
+      "id": 98,
+      "label": "NIPPON人物拼合",
+      "image": "assets/posters/ref-098.jpg",
+      "tags": [
+        "photographic",
+        "editorial"
+      ],
+      "recommended_start": true,
+      "size": [
+        1138,
+        1600
+      ],
+      "source_file": "098_IMG_3863_校正.jpg",
+      "source_size": [
+        2440,
+        3432
+      ],
+      "source_sha256": "780e7ae2ea760911719f9e2066aa597723f8e3f82d2b188856d04626cbc29a81",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 2,
+      "sheet_column": 3
+    },
+    {
+      "id": 99,
+      "label": "Priester双色火柴",
+      "image": "assets/posters/ref-099.jpg",
+      "tags": [
+        "illustration",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1261,
+        1600
+      ],
+      "source_file": "099_IMG_3864_校正.jpg",
+      "source_size": [
+        2683,
+        3404
+      ],
+      "source_sha256": "ea574b57cb5921553c8f8eb1e775fe6bad16e1be0d4d5a5222e505e9fa17a023",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 2,
+      "sheet_column": 4
+    },
+    {
+      "id": 100,
+      "label": "SHOW数字与拼贴",
+      "image": "assets/posters/ref-100.jpg",
+      "tags": [
+        "illustration",
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": true,
+      "size": [
+        1234,
+        1600
+      ],
+      "source_file": "100_IMG_3865_校正.jpg",
+      "source_size": [
+        2594,
+        3364
+      ],
+      "source_sha256": "f108ad9fd2544bd17be119bf4b591d094afcee8c45c065a42fee1e48afdcc4a0",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 2,
+      "sheet_column": 5
+    },
+    {
+      "id": 101,
+      "label": "书籍参考 101",
+      "image": "assets/posters/ref-101.jpg",
+      "tags": [
+        "typography",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1104,
+        1600
+      ],
+      "source_file": "101_IMG_3866_校正.jpg",
+      "source_size": [
+        2449,
+        3548
+      ],
+      "source_sha256": "d6124c2a9f7687a2e7ec34aba3848f2afcf2e99d407fc486b5b7dc79c7b0e605",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 3,
+      "sheet_column": 1
+    },
+    {
+      "id": 102,
+      "label": "书籍参考 102",
+      "image": "assets/posters/ref-102.jpg",
+      "tags": [
+        "typography",
+        "editorial",
+        "minimal",
+        "pattern"
+      ],
+      "recommended_start": false,
+      "size": [
+        1530,
+        1600
+      ],
+      "source_file": "102_IMG_3867_校正.jpg",
+      "source_size": [
+        2661,
+        2782
+      ],
+      "source_sha256": "fe84adca97bab2c9fee8c3cb8f149d057b39a5143870df0e4510dbc3f063abd9",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 3,
+      "sheet_column": 2
+    },
+    {
+      "id": 103,
+      "label": "书籍参考 103",
+      "image": "assets/posters/ref-103.jpg",
+      "tags": [
+        "illustration"
+      ],
+      "recommended_start": false,
+      "size": [
+        1146,
+        1600
+      ],
+      "source_file": "103_IMG_3868_校正.jpg",
+      "source_size": [
+        2335,
+        3259
+      ],
+      "source_sha256": "015c30444f6512fe045560b83c9041e7154496ae0ac1e771961a4bc54ba56680",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 3,
+      "sheet_column": 3
+    },
+    {
+      "id": 104,
+      "label": "书籍参考 104",
+      "image": "assets/posters/ref-104.jpg",
+      "tags": [
+        "geometric",
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1145,
+        1600
+      ],
+      "source_file": "104_IMG_3869_校正.jpg",
+      "source_size": [
+        2540,
+        3548
+      ],
+      "source_sha256": "20e12597cdb524b6b023525a045a785ff2819045730e1a24d850678c6b07c1ec",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 3,
+      "sheet_column": 4
+    },
+    {
+      "id": 105,
+      "label": "字体层级",
+      "image": "assets/posters/ref-105.jpg",
+      "tags": [
+        "typography",
+        "editorial",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1076,
+        1600
+      ],
+      "source_file": "105_IMG_3870_校正.jpg",
+      "source_size": [
+        2302,
+        3424
+      ],
+      "source_sha256": "a5e85e9ae78480b133a0265abd67064eb7ec0660e5069a36a6b67b60480ed713",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 3,
+      "sheet_column": 5
+    },
+    {
+      "id": 106,
+      "label": "书籍参考 106",
+      "image": "assets/posters/ref-106.jpg",
+      "tags": [
+        "illustration",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1242,
+        1600
+      ],
+      "source_file": "106_IMG_3871_校正.jpg",
+      "source_size": [
+        2468,
+        3179
+      ],
+      "source_sha256": "0ca2e4a9210b9ff866e38d76afbaa0a8ef5ae0504d03da1d81aeb1d7402e994b",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 4,
+      "sheet_column": 1
+    },
+    {
+      "id": 107,
+      "label": "VENEZIA竖向构成",
+      "image": "assets/posters/ref-107.jpg",
+      "tags": [
+        "geometric",
+        "editorial",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1151,
+        1600
+      ],
+      "source_file": "107_IMG_3872_校正.jpg",
+      "source_size": [
+        2427,
+        3373
+      ],
+      "source_sha256": "756955221490824b7730bebc5fdf520926959aba33cd711d5c3ed0fd4faf6111",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 4,
+      "sheet_column": 2
+    },
+    {
+      "id": 108,
+      "label": "Gaba极简图形",
+      "image": "assets/posters/ref-108.jpg",
+      "tags": [
+        "geometric",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1154,
+        1600
+      ],
+      "source_file": "108_IMG_3873_校正.jpg",
+      "source_size": [
+        2549,
+        3534
+      ],
+      "source_sha256": "879e1d2c09b69ae96a2339a8279f3401c245c916c6ed39aa28ed438cf424d7b4",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 4,
+      "sheet_column": 3
+    },
+    {
+      "id": 109,
+      "label": "书籍参考 109",
+      "image": "assets/posters/ref-109.jpg",
+      "tags": [
+        "photographic",
+        "minimal"
+      ],
+      "recommended_start": false,
+      "size": [
+        1134,
+        1600
+      ],
+      "source_file": "109_IMG_3874_校正.jpg",
+      "source_size": [
+        2572,
+        3629
+      ],
+      "source_sha256": "e148da4389835875c57fbdbcdc5ffea217654771295e207edf6fabc6af3a97bd",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 4,
+      "sheet_column": 4
+    },
+    {
+      "id": 110,
+      "label": "Chap Book插画",
+      "image": "assets/posters/ref-110.jpg",
+      "tags": [
+        "illustration",
+        "editorial"
+      ],
+      "recommended_start": true,
+      "size": [
+        1086,
+        1600
+      ],
+      "source_file": "110_IMG_3875_校正.jpg",
+      "source_size": [
+        2261,
+        3331
+      ],
+      "source_sha256": "70247bd963cd23a0b5845d507a1967568c9e7d31d03b077353568fdcd537644d",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 4,
+      "sheet_column": 5
+    },
+    {
+      "id": 111,
+      "label": "黑白摄影与竖排字",
+      "image": "assets/posters/ref-111.jpg",
+      "tags": [
+        "photographic",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1128,
+        1600
+      ],
+      "source_file": "111_IMG_3876_校正.jpg",
+      "source_size": [
+        2569,
+        3644
+      ],
+      "source_sha256": "9a6eaaa1882d3a7e60b97ac550dd26131aa4c23ea772ef6d03f23ba4d71799e9",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 5,
+      "sheet_column": 1
+    },
+    {
+      "id": 112,
+      "label": "书籍参考 112",
+      "image": "assets/posters/ref-112.jpg",
+      "tags": [
+        "photographic",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1087,
+        1600
+      ],
+      "source_file": "112_IMG_3877_校正.jpg",
+      "source_size": [
+        2601,
+        3830
+      ],
+      "source_sha256": "19484e03a2e062b7da291b3d30dd3f28faf6f23482100189d7791a0f3bbac76d",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 5,
+      "sheet_column": 2
+    },
+    {
+      "id": 113,
+      "label": "书籍参考 113",
+      "image": "assets/posters/ref-113.jpg",
+      "tags": [
+        "geometric",
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1110,
+        1600
+      ],
+      "source_file": "113_IMG_3878_校正.jpg",
+      "source_size": [
+        2601,
+        3750
+      ],
+      "source_sha256": "8cce1e96045ccc04d7297ecb06ddbaafbdc42fdb352487eb40cc1dfd27bce053",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 5,
+      "sheet_column": 3
+    },
+    {
+      "id": 114,
+      "label": "NY线框字形",
+      "image": "assets/posters/ref-114.jpg",
+      "tags": [
+        "typography",
+        "geometric",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1600,
+        1123
+      ],
+      "source_file": "114_IMG_3879_校正.jpg",
+      "source_size": [
+        2557,
+        1795
+      ],
+      "source_sha256": "a462393862305ff84b7028783c9b24da182f721f234a8e98a3a82eb947a0d121",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 5,
+      "sheet_column": 4
+    },
+    {
+      "id": 115,
+      "label": "Depero斜向字形",
+      "image": "assets/posters/ref-115.jpg",
+      "tags": [
+        "illustration",
+        "editorial"
+      ],
+      "recommended_start": true,
+      "size": [
+        1600,
+        1271
+      ],
+      "source_file": "115_IMG_3880_校正.jpg",
+      "source_size": [
+        2729,
+        2168
+      ],
+      "source_sha256": "5833be2ade0eecb3d5cf0348d83b55a5a049aa2859637a9bdcf9f80b02f0b74c",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 5,
+      "sheet_column": 5
+    },
+    {
+      "id": 116,
+      "label": "书籍参考 116",
+      "image": "assets/posters/ref-116.jpg",
+      "tags": [
+        "illustration"
+      ],
+      "recommended_start": false,
+      "size": [
+        1082,
+        1600
+      ],
+      "source_file": "116_IMG_3881_校正.jpg",
+      "source_size": [
+        2520,
+        3728
+      ],
+      "source_sha256": "bb431561520eb7fe2867eb5b271b394444c92a3a293a323226867aac788d8dee",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 6,
+      "sheet_column": 1
+    },
+    {
+      "id": 117,
+      "label": "书籍参考 117",
+      "image": "assets/posters/ref-117.jpg",
+      "tags": [
+        "photographic",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        968,
+        1600
+      ],
+      "source_file": "117_IMG_3882_校正.jpg",
+      "source_size": [
+        2266,
+        3744
+      ],
+      "source_sha256": "35ac33d9699e016c031f2a688c985d82160c355bb1432eb28762e1473694acec",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 6,
+      "sheet_column": 2
+    },
+    {
+      "id": 118,
+      "label": "电影海报动势",
+      "image": "assets/posters/ref-118.jpg",
+      "tags": [
+        "illustration"
+      ],
+      "recommended_start": true,
+      "size": [
+        998,
+        1600
+      ],
+      "source_file": "118_IMG_3883_校正.jpg",
+      "source_size": [
+        2452,
+        3931
+      ],
+      "source_sha256": "131c162f05ecf5bbda853c4d2d3fc7263786bfa19c76c1d5bcb9667b84b4a6b1",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 6,
+      "sheet_column": 3
+    },
+    {
+      "id": 119,
+      "label": "书籍参考 119",
+      "image": "assets/posters/ref-119.jpg",
+      "tags": [
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1239
+      ],
+      "source_file": "119_IMG_3884_校正.jpg",
+      "source_size": [
+        2812,
+        2177
+      ],
+      "source_sha256": "af0e064bb22fd13bffced597aa751630ef9ea421c722f106dbe538cd3c6a2f8a",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 6,
+      "sheet_column": 4
+    },
+    {
+      "id": 120,
+      "label": "书籍参考 120",
+      "image": "assets/posters/ref-120.jpg",
+      "tags": [
+        "typography",
+        "editorial",
+        "pattern"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1155
+      ],
+      "source_file": "120_IMG_3885_校正.jpg",
+      "source_size": [
+        2841,
+        2051
+      ],
+      "source_sha256": "c86088f8cb6a9455a850fb9b47b758409505d249a7c2f270c9e43ca550eddd30",
+      "contact_sheet": "assets/contact-sheets/sheet-04.jpg",
+      "sheet_row": 6,
+      "sheet_column": 5
+    },
+    {
+      "id": 121,
+      "label": "书籍参考 121",
+      "image": "assets/posters/ref-121.jpg",
+      "tags": [
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1399
+      ],
+      "source_file": "121_IMG_3886_校正.jpg",
+      "source_size": [
+        2813,
+        2460
+      ],
+      "source_sha256": "1e6050658edd0ee6db38fc1b646d37be5b56a674055c9a16555f89a6d4d369a0",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 1,
+      "sheet_column": 1
+    },
+    {
+      "id": 122,
+      "label": "书籍参考 122",
+      "image": "assets/posters/ref-122.jpg",
+      "tags": [
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        846,
+        1600
+      ],
+      "source_file": "122_IMG_3887_校正.jpg",
+      "source_size": [
+        1875,
+        3548
+      ],
+      "source_sha256": "87c2ec9e53187a03283f40a1a5556a365a177b35b5b25a68cdf47a2aa9f4aef3",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 1,
+      "sheet_column": 2
+    },
+    {
+      "id": 123,
+      "label": "书籍参考 123",
+      "image": "assets/posters/ref-123.jpg",
+      "tags": [
+        "typography",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1280,
+        1600
+      ],
+      "source_file": "123_IMG_3888_校正.jpg",
+      "source_size": [
+        2904,
+        3629
+      ],
+      "source_sha256": "e9316476fb476860c312a19626e39fca61aff9e7e5428675d09346afb99716f2",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 1,
+      "sheet_column": 3
+    },
+    {
+      "id": 124,
+      "label": "圆形字标",
+      "image": "assets/posters/ref-124.jpg",
+      "tags": [
+        "typography",
+        "geometric",
+        "minimal",
+        "pattern"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1594
+      ],
+      "source_file": "124_IMG_3889_校正.jpg",
+      "source_size": [
+        2631,
+        2621
+      ],
+      "source_sha256": "6e56a239401fd12e18e78c4901947346401fdc2d53da70023dda850f8e399a2c",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 1,
+      "sheet_column": 4
+    },
+    {
+      "id": 125,
+      "label": "书籍参考 125",
+      "image": "assets/posters/ref-125.jpg",
+      "tags": [
+        "illustration",
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1269,
+        1600
+      ],
+      "source_file": "125_IMG_3890_校正.jpg",
+      "source_size": [
+        2782,
+        3508
+      ],
+      "source_sha256": "645f5859384d4ea321ace0c8214ab4935a221458b7504881e21e7d18e5db16da",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 1,
+      "sheet_column": 5
+    },
+    {
+      "id": 126,
+      "label": "书籍参考 126",
+      "image": "assets/posters/ref-126.jpg",
+      "tags": [
+        "geometric",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1146,
+        1600
+      ],
+      "source_file": "126_IMG_3891_校正.jpg",
+      "source_size": [
+        2513,
+        3508
+      ],
+      "source_sha256": "46373b992420fabe73e0fbcd451818c1b07798778072aeb575e2831c771d3e5b",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 2,
+      "sheet_column": 1
+    },
+    {
+      "id": 127,
+      "label": "抽象符号与小字",
+      "image": "assets/posters/ref-127.jpg",
+      "tags": [
+        "geometric",
+        "minimal",
+        "pattern"
+      ],
+      "recommended_start": true,
+      "size": [
+        1105,
+        1600
+      ],
+      "source_file": "127_IMG_3892_校正.jpg",
+      "source_size": [
+        2503,
+        3624
+      ],
+      "source_sha256": "72965f03ddd6e96df73b038f80ba467808d70fb10ef1380da10ba32f5a03c7a7",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 2,
+      "sheet_column": 2
+    },
+    {
+      "id": 128,
+      "label": "书籍参考 128",
+      "image": "assets/posters/ref-128.jpg",
+      "tags": [
+        "photographic",
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1257,
+        1600
+      ],
+      "source_file": "128_IMG_3893_校正.jpg",
+      "source_size": [
+        2692,
+        3427
+      ],
+      "source_sha256": "e3f1f424c78f873bd41485e817a1bac89d701f85ac1e62816507eae4650d0045",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 2,
+      "sheet_column": 3
+    },
+    {
+      "id": 129,
+      "label": "Seventeen镜像人物",
+      "image": "assets/posters/ref-129.jpg",
+      "tags": [
+        "photographic",
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": true,
+      "size": [
+        1293,
+        1600
+      ],
+      "source_file": "129_IMG_3894_校正.jpg",
+      "source_size": [
+        2964,
+        3669
+      ],
+      "source_sha256": "f0edeead24a38b7156e97477ad0f2f09e92ad7d0ff4d2acf217641c5a7a058ab",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 2,
+      "sheet_column": 4
+    },
+    {
+      "id": 130,
+      "label": "Octavo留白",
+      "image": "assets/posters/ref-130.jpg",
+      "tags": [
+        "typography",
+        "editorial",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1161,
+        1600
+      ],
+      "source_file": "130_IMG_3895_校正.jpg",
+      "source_size": [
+        2634,
+        3629
+      ],
+      "source_sha256": "dc2a199b015db79c6fed7877d7236457f4e9d9afa99a5815e1da15fe05340865",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 2,
+      "sheet_column": 5
+    },
+    {
+      "id": 131,
+      "label": "书籍参考 131",
+      "image": "assets/posters/ref-131.jpg",
+      "tags": [
+        "illustration",
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1213,
+        1600
+      ],
+      "source_file": "131_IMG_3896_校正.jpg",
+      "source_size": [
+        2782,
+        3669
+      ],
+      "source_sha256": "875986a1b973728e1d04dc78ad279c5f902c303855c82504d2f7569cce38afc8",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 3,
+      "sheet_column": 1
+    },
+    {
+      "id": 132,
+      "label": "büro巨字",
+      "image": "assets/posters/ref-132.jpg",
+      "tags": [
+        "typography",
+        "geometric",
+        "editorial",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1099,
+        1600
+      ],
+      "source_file": "132_IMG_3897_校正.jpg",
+      "source_size": [
+        2381,
+        3468
+      ],
+      "source_sha256": "9cf0b2397d725f1fa50192f3242f085c94664df580edbd61c060e6a024e5c008",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 3,
+      "sheet_column": 2
+    },
+    {
+      "id": 133,
+      "label": "书籍参考 133",
+      "image": "assets/posters/ref-133.jpg",
+      "tags": [
+        "typography",
+        "illustration",
+        "minimal"
+      ],
+      "recommended_start": false,
+      "size": [
+        508,
+        1600
+      ],
+      "source_file": "133_IMG_3898_校正.jpg",
+      "source_size": [
+        1155,
+        3639
+      ],
+      "source_sha256": "a6ea2b26f1d18b4f1f8b9b7e83cf63630089bf5a5fc010e1f1d23054a1b996f5",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 3,
+      "sheet_column": 3
+    },
+    {
+      "id": 134,
+      "label": "书籍参考 134",
+      "image": "assets/posters/ref-134.jpg",
+      "tags": [
+        "photographic"
+      ],
+      "recommended_start": false,
+      "size": [
+        1015,
+        1600
+      ],
+      "source_file": "134_IMG_3899_校正.jpg",
+      "source_size": [
+        2358,
+        3716
+      ],
+      "source_sha256": "b043a30837505af6a5535c0f79bb987d73ae5db85abcb2d1840d6150372dd2b5",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 3,
+      "sheet_column": 4
+    },
+    {
+      "id": 135,
+      "label": "Olivetti狗与打字机",
+      "image": "assets/posters/ref-135.jpg",
+      "tags": [
+        "photographic",
+        "editorial",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1087,
+        1600
+      ],
+      "source_file": "135_IMG_3900_校正.jpg",
+      "source_size": [
+        2601,
+        3830
+      ],
+      "source_sha256": "939401bae951f0277de4dd41fdc21d00310d52bf4a32475e4d189a3b10af7e12",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 3,
+      "sheet_column": 5
+    },
+    {
+      "id": 136,
+      "label": "书籍参考 136",
+      "image": "assets/posters/ref-136.jpg",
+      "tags": [
+        "geometric",
+        "collage",
+        "editorial",
+        "pattern"
+      ],
+      "recommended_start": false,
+      "size": [
+        1126,
+        1600
+      ],
+      "source_file": "136_IMG_3901_校正.jpg",
+      "source_size": [
+        2615,
+        3715
+      ],
+      "source_sha256": "6b1c076d37c01e5431eae9b168acd9aed57ced85efe0e09c4d4d2c643680dd52",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 4,
+      "sheet_column": 1
+    },
+    {
+      "id": 137,
+      "label": "书籍参考 137",
+      "image": "assets/posters/ref-137.jpg",
+      "tags": [
+        "typography",
+        "geometric"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1118
+      ],
+      "source_file": "137_IMG_3902_校正.jpg",
+      "source_size": [
+        2906,
+        2030
+      ],
+      "source_sha256": "5c11e1c85f7f56dac760caa494252b6c9484da10fff6f28737c16f6e9ba021b4",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 4,
+      "sheet_column": 2
+    },
+    {
+      "id": 138,
+      "label": "书籍参考 138",
+      "image": "assets/posters/ref-138.jpg",
+      "tags": [
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1276
+      ],
+      "source_file": "138_IMG_3903_校正.jpg",
+      "source_size": [
+        2934,
+        2339
+      ],
+      "source_sha256": "610b2b1f265b7995648acf596158969c47a8386a9c6959e844ea4c0e300fbb0d",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 4,
+      "sheet_column": 3
+    },
+    {
+      "id": 139,
+      "label": "数据字纹与圆形",
+      "image": "assets/posters/ref-139.jpg",
+      "tags": [
+        "typography",
+        "geometric",
+        "minimal",
+        "pattern"
+      ],
+      "recommended_start": true,
+      "size": [
+        1232,
+        1600
+      ],
+      "source_file": "139_IMG_3904_校正.jpg",
+      "source_size": [
+        2599,
+        3374
+      ],
+      "source_sha256": "bd5e431553f092a921de18f260413c9ae639cc8d5898b090259c1995a9db0195",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 4,
+      "sheet_column": 4
+    },
+    {
+      "id": 140,
+      "label": "书籍参考 140",
+      "image": "assets/posters/ref-140.jpg",
+      "tags": [
+        "illustration",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1109,
+        1600
+      ],
+      "source_file": "140_IMG_3905_校正.jpg",
+      "source_size": [
+        2298,
+        3315
+      ],
+      "source_sha256": "63ee109b635435e1577b99e378b7d47f9e6972d5b98744eba9d61cc2c8f1ebad",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 4,
+      "sheet_column": 5
+    },
+    {
+      "id": 141,
+      "label": "Beatles群像",
+      "image": "assets/posters/ref-141.jpg",
+      "tags": [
+        "photographic",
+        "editorial"
+      ],
+      "recommended_start": true,
+      "size": [
+        1566,
+        1600
+      ],
+      "source_file": "141_IMG_3906_校正.jpg",
+      "source_size": [
+        2892,
+        2954
+      ],
+      "source_sha256": "9e56704b1ec205873ba582de61dcf0f27980fa5cf5f0e5fe3abcaa7b04fc9869",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 5,
+      "sheet_column": 1
+    },
+    {
+      "id": 142,
+      "label": "St Raphaël双色人物",
+      "image": "assets/posters/ref-142.jpg",
+      "tags": [
+        "illustration"
+      ],
+      "recommended_start": true,
+      "size": [
+        1162,
+        1600
+      ],
+      "source_file": "142_IMG_3907_校正.jpg",
+      "source_size": [
+        2557,
+        3522
+      ],
+      "source_sha256": "08b4c2a81b436bfaf3c5fbd5a25a9fd776135f6d955065fc1b2132fa9ee9b8d9",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 5,
+      "sheet_column": 2
+    },
+    {
+      "id": 143,
+      "label": "书籍参考 143",
+      "image": "assets/posters/ref-143.jpg",
+      "tags": [
+        "collage",
+        "editorial",
+        "pattern"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1539
+      ],
+      "source_file": "143_IMG_3908_校正.jpg",
+      "source_size": [
+        2934,
+        2822
+      ],
+      "source_sha256": "609f3dfec190c377835d4f14a0bb274395437fcf1657718d65c04948a2ed6f8e",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 5,
+      "sheet_column": 3
+    },
+    {
+      "id": 144,
+      "label": "书籍参考 144",
+      "image": "assets/posters/ref-144.jpg",
+      "tags": [
+        "collage",
+        "editorial",
+        "pattern"
+      ],
+      "recommended_start": false,
+      "size": [
+        1093,
+        1600
+      ],
+      "source_file": "144_IMG_3909_校正.jpg",
+      "source_size": [
+        2480,
+        3629
+      ],
+      "source_sha256": "b69ecd9a9dff9c6ad473429725537d2b6098956edd48d2f666b07c0de543a28e",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 5,
+      "sheet_column": 4
+    },
+    {
+      "id": 145,
+      "label": "Van Gogh人物书封",
+      "image": "assets/posters/ref-145.jpg",
+      "tags": [
+        "photographic",
+        "editorial"
+      ],
+      "recommended_start": true,
+      "size": [
+        1134,
+        1600
+      ],
+      "source_file": "145_IMG_3910_校正.jpg",
+      "source_size": [
+        2385,
+        3365
+      ],
+      "source_sha256": "3dece5f348f75bd25722c7745a6717c3eaf79888fbaf26a2f34f881f1c563ec7",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 5,
+      "sheet_column": 5
+    },
+    {
+      "id": 146,
+      "label": "Pontresina人物特写",
+      "image": "assets/posters/ref-146.jpg",
+      "tags": [
+        "photographic",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        979,
+        1600
+      ],
+      "source_file": "146_IMG_3911_校正.jpg",
+      "source_size": [
+        2152,
+        3518
+      ],
+      "source_sha256": "b6566fde855e5e9440c31e7fa8c1595e477b6f73fff025642a4828ffb50fae63",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 6,
+      "sheet_column": 1
+    },
+    {
+      "id": 147,
+      "label": "红黑放射排字",
+      "image": "assets/posters/ref-147.jpg",
+      "tags": [
+        "geometric",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1600,
+        1145
+      ],
+      "source_file": "147_IMG_3912_校正.jpg",
+      "source_size": [
+        2938,
+        2103
+      ],
+      "source_sha256": "7c86773c93e06a61fbcd85e501ff2d8fd317532e839a2f414cfe2c80c7ca2200",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 6,
+      "sheet_column": 2
+    },
+    {
+      "id": 148,
+      "label": "书籍参考 148",
+      "image": "assets/posters/ref-148.jpg",
+      "tags": [
+        "typography",
+        "editorial",
+        "minimal",
+        "pattern"
+      ],
+      "recommended_start": false,
+      "size": [
+        1053,
+        1600
+      ],
+      "source_file": "148_IMG_3913_校正.jpg",
+      "source_size": [
+        2389,
+        3629
+      ],
+      "source_sha256": "6fdb16603cb78639ce6c15d87b8771fb864e2a1d04abe4448936c6038bbe7dd0",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 6,
+      "sheet_column": 3
+    },
+    {
+      "id": 149,
+      "label": "书籍参考 149",
+      "image": "assets/posters/ref-149.jpg",
+      "tags": [
+        "illustration",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1233,
+        1600
+      ],
+      "source_file": "149_IMG_3914_校正.jpg",
+      "source_size": [
+        2618,
+        3397
+      ],
+      "source_sha256": "da823b24bbc712c9cf2e8b2ae97992d1f5dd48645575748dd46034c14793cb18",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 6,
+      "sheet_column": 4
+    },
+    {
+      "id": 150,
+      "label": "Esquire摄影拼贴",
+      "image": "assets/posters/ref-150.jpg",
+      "tags": [
+        "photographic",
+        "editorial"
+      ],
+      "recommended_start": true,
+      "size": [
+        1228,
+        1600
+      ],
+      "source_file": "150_IMG_3915_校正.jpg",
+      "source_size": [
+        2722,
+        3548
+      ],
+      "source_sha256": "3ec4672bac5bbf7d32a4a8ceaffc8ce15c7e98404078ae451f4ce01225a453b9",
+      "contact_sheet": "assets/contact-sheets/sheet-05.jpg",
+      "sheet_row": 6,
+      "sheet_column": 5
+    },
+    {
+      "id": 151,
+      "label": "红底new alphabet",
+      "image": "assets/posters/ref-151.jpg",
+      "tags": [
+        "typography",
+        "geometric",
+        "editorial",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1548,
+        1600
+      ],
+      "source_file": "151_IMG_3916_校正.jpg",
+      "source_size": [
+        2965,
+        3064
+      ],
+      "source_sha256": "78c653bd4e0a37654b4ad469db53cb2a7037549727aa003df960f04e2d0f5d70",
+      "contact_sheet": "assets/contact-sheets/sheet-06.jpg",
+      "sheet_row": 1,
+      "sheet_column": 1
+    },
+    {
+      "id": 152,
+      "label": "书籍参考 152",
+      "image": "assets/posters/ref-152.jpg",
+      "tags": [
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        826,
+        1600
+      ],
+      "source_file": "152_IMG_3917_校正.jpg",
+      "source_size": [
+        1937,
+        3750
+      ],
+      "source_sha256": "3aa7326350feb875475df14b1b46258b765f530f467905cc48901bc90f55abff",
+      "contact_sheet": "assets/contact-sheets/sheet-06.jpg",
+      "sheet_row": 1,
+      "sheet_column": 2
+    },
+    {
+      "id": 153,
+      "label": "书籍参考 153",
+      "image": "assets/posters/ref-153.jpg",
+      "tags": [
+        "photographic",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1118,
+        1600
+      ],
+      "source_file": "153_IMG_3918_校正.jpg",
+      "source_size": [
+        2237,
+        3201
+      ],
+      "source_sha256": "eed44bb87db31f772a45b6110d3c197480b46293a32fa4e69834b65799ec9382",
+      "contact_sheet": "assets/contact-sheets/sheet-06.jpg",
+      "sheet_row": 1,
+      "sheet_column": 3
+    },
+    {
+      "id": 154,
+      "label": "BALLET窄长巨字",
+      "image": "assets/posters/ref-154.jpg",
+      "tags": [
+        "typography",
+        "editorial",
+        "minimal",
+        "pattern"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1302
+      ],
+      "source_file": "154_IMG_3919_校正.jpg",
+      "source_size": [
+        2627,
+        2138
+      ],
+      "source_sha256": "cd4330b0a786f6dc9d36a1317ceba130466eda08e9db77f53874a874f2e8eed5",
+      "contact_sheet": "assets/contact-sheets/sheet-06.jpg",
+      "sheet_row": 1,
+      "sheet_column": 4
+    },
+    {
+      "id": 155,
+      "label": "书籍参考 155",
+      "image": "assets/posters/ref-155.jpg",
+      "tags": [
+        "typography",
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1186,
+        1600
+      ],
+      "source_file": "155_IMG_3920_校正.jpg",
+      "source_size": [
+        2601,
+        3508
+      ],
+      "source_sha256": "667e635ed07ac8411aa17fec1f84939edf2f69fd26e18c7b2d881dedf93d5638",
+      "contact_sheet": "assets/contact-sheets/sheet-06.jpg",
+      "sheet_row": 1,
+      "sheet_column": 5
+    },
+    {
+      "id": 156,
+      "label": "书籍参考 156",
+      "image": "assets/posters/ref-156.jpg",
+      "tags": [
+        "photographic",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1151
+      ],
+      "source_file": "156_IMG_3921_校正.jpg",
+      "source_size": [
+        2634,
+        1895
+      ],
+      "source_sha256": "c8a6dcecf0f1172ea4110502866d98e012592bb868d569c72a1cc1a55eda55dc",
+      "contact_sheet": "assets/contact-sheets/sheet-06.jpg",
+      "sheet_row": 2,
+      "sheet_column": 1
+    },
+    {
+      "id": 157,
+      "label": "GITANES剪影",
+      "image": "assets/posters/ref-157.jpg",
+      "tags": [
+        "geometric",
+        "editorial",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1600,
+        1330
+      ],
+      "source_file": "157_IMG_3922_校正.jpg",
+      "source_size": [
+        2569,
+        2135
+      ],
+      "source_sha256": "540234dbc57e3f2a9cd08adfa03d98bb403c011a354dba641fbc827fb553dedc",
+      "contact_sheet": "assets/contact-sheets/sheet-06.jpg",
+      "sheet_row": 2,
+      "sheet_column": 2
+    },
+    {
+      "id": 158,
+      "label": "LIGHT灯泡与双色",
+      "image": "assets/posters/ref-158.jpg",
+      "tags": [
+        "geometric",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1153,
+        1600
+      ],
+      "source_file": "158_IMG_3923_校正.jpg",
+      "source_size": [
+        2465,
+        3420
+      ],
+      "source_sha256": "fb8621bf0cae0a49f6e4ef743ea1dc522a6d3dc0fb80c2a67e8bdc32f0e5a78d",
+      "contact_sheet": "assets/contact-sheets/sheet-06.jpg",
+      "sheet_row": 2,
+      "sheet_column": 3
+    },
+    {
+      "id": 159,
+      "label": "电影片头六宫格",
+      "image": "assets/posters/ref-159.jpg",
+      "tags": [
+        "photographic",
+        "collage",
+        "pattern"
+      ],
+      "recommended_start": false,
+      "size": [
+        1600,
+        1509
+      ],
+      "source_file": "159_IMG_3924_校正.jpg",
+      "source_size": [
+        2895,
+        2731
+      ],
+      "source_sha256": "6883055ca717ab7f2274f62c4281f0662add5a8faacbcbf18194f2c730f03cbf",
+      "contact_sheet": "assets/contact-sheets/sheet-06.jpg",
+      "sheet_row": 2,
+      "sheet_column": 4
+    },
+    {
+      "id": 160,
+      "label": "音乐杂志竖构图",
+      "image": "assets/posters/ref-160.jpg",
+      "tags": [
+        "illustration",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        641,
+        1600
+      ],
+      "source_file": "160_IMG_3925_校正.jpg",
+      "source_size": [
+        1484,
+        3704
+      ],
+      "source_sha256": "9092f56ce06973c413cf0abbb569af0a1764e1a55138da1d581a1cd72f28154a",
+      "contact_sheet": "assets/contact-sheets/sheet-06.jpg",
+      "sheet_row": 2,
+      "sheet_column": 5
+    },
+    {
+      "id": 161,
+      "label": "红黑斜向Design",
+      "image": "assets/posters/ref-161.jpg",
+      "tags": [
+        "typography",
+        "geometric",
+        "minimal",
+        "pattern"
+      ],
+      "recommended_start": true,
+      "size": [
+        1215,
+        1600
+      ],
+      "source_file": "161_IMG_3926_校正.jpg",
+      "source_size": [
+        2480,
+        3266
+      ],
+      "source_sha256": "9d146f73a5cf0ca0ec4e24ce372c2fd76b247066786c3d49125ad5e5693c0f1b",
+      "contact_sheet": "assets/contact-sheets/sheet-06.jpg",
+      "sheet_row": 3,
+      "sheet_column": 1
+    },
+    {
+      "id": 162,
+      "label": "Kandinsky黄底标题",
+      "image": "assets/posters/ref-162.jpg",
+      "tags": [
+        "typography",
+        "photographic",
+        "editorial",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1600,
+        1173
+      ],
+      "source_file": "162_IMG_3927_校正.jpg",
+      "source_size": [
+        2841,
+        2083
+      ],
+      "source_sha256": "6ad6f79423550c050eb01186ae3a133a664a7f03e946b7d337bfc82e924cee25",
+      "contact_sheet": "assets/contact-sheets/sheet-06.jpg",
+      "sheet_row": 3,
+      "sheet_column": 2
+    },
+    {
+      "id": 163,
+      "label": "Z巨字与人物局部",
+      "image": "assets/posters/ref-163.jpg",
+      "tags": [
+        "typography",
+        "geometric",
+        "editorial",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1134,
+        1600
+      ],
+      "source_file": "163_IMG_3928_校正.jpg",
+      "source_size": [
+        2643,
+        3729
+      ],
+      "source_sha256": "fffcf49caa9d1ad231d4c82329dd5fa5e98c495c8c18daa1186dc5d5cb499eb6",
+      "contact_sheet": "assets/contact-sheets/sheet-06.jpg",
+      "sheet_row": 3,
+      "sheet_column": 3
+    },
+    {
+      "id": 164,
+      "label": "黑色箭头与手",
+      "image": "assets/posters/ref-164.jpg",
+      "tags": [
+        "geometric",
+        "illustration",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1187,
+        1600
+      ],
+      "source_file": "164_IMG_3929_校正.jpg",
+      "source_size": [
+        2632,
+        3549
+      ],
+      "source_sha256": "800d235db3f4782721d7e505063d91b5ed3058792c36d2ef877e67d44daf09e0",
+      "contact_sheet": "assets/contact-sheets/sheet-06.jpg",
+      "sheet_row": 3,
+      "sheet_column": 4
+    },
+    {
+      "id": 165,
+      "label": "黑红Kunstismen巨字",
+      "image": "assets/posters/ref-165.jpg",
+      "tags": [
+        "typography",
+        "geometric",
+        "editorial",
+        "pattern"
+      ],
+      "recommended_start": true,
+      "size": [
+        1362,
+        1600
+      ],
+      "source_file": "165_IMG_3930_校正.jpg",
+      "source_size": [
+        2844,
+        3341
+      ],
+      "source_sha256": "97955ec2f1c8f48b9a4bc75e2134dc4eca156c5feee79ffaff709acbeb9e42dd",
+      "contact_sheet": "assets/contact-sheets/sheet-06.jpg",
+      "sheet_row": 3,
+      "sheet_column": 5
+    },
+    {
+      "id": 166,
+      "label": "书籍参考 166",
+      "image": "assets/posters/ref-166.jpg",
+      "tags": [
+        "photographic",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1222,
+        1600
+      ],
+      "source_file": "166_IMG_3931_校正.jpg",
+      "source_size": [
+        2040,
+        2670
+      ],
+      "source_sha256": "248515951f89d45c3636730a9ea204c51d80c2f115a97d448f35a84fa5ce26f8",
+      "contact_sheet": "assets/contact-sheets/sheet-06.jpg",
+      "sheet_row": 4,
+      "sheet_column": 1
+    },
+    {
+      "id": 167,
+      "label": "书籍参考 167",
+      "image": "assets/posters/ref-167.jpg",
+      "tags": [
+        "photographic",
+        "collage",
+        "editorial"
+      ],
+      "recommended_start": false,
+      "size": [
+        1206,
+        1600
+      ],
+      "source_file": "167_IMG_3932_校正.jpg",
+      "source_size": [
+        2341,
+        3105
+      ],
+      "source_sha256": "22811013250de05ee368b1851fdc7e20c41d192f7e3310ba1a103f1c84e5fb4e",
+      "contact_sheet": "assets/contact-sheets/sheet-06.jpg",
+      "sheet_row": 4,
+      "sheet_column": 2
+    },
+    {
+      "id": 168,
+      "label": "汽车与字母表",
+      "image": "assets/posters/ref-168.jpg",
+      "tags": [
+        "typography",
+        "photographic",
+        "editorial",
+        "minimal",
+        "pattern"
+      ],
+      "recommended_start": true,
+      "size": [
+        1095,
+        1600
+      ],
+      "source_file": "168_IMG_3933_校正.jpg",
+      "source_size": [
+        2510,
+        3669
+      ],
+      "source_sha256": "a4e9d136c0a7a60dfd8f94eab28a005bef0bb0bc52fdbbc578e31adea82cbeb7",
+      "contact_sheet": "assets/contact-sheets/sheet-06.jpg",
+      "sheet_row": 4,
+      "sheet_column": 3
+    },
+    {
+      "id": 169,
+      "label": "Chrysler速度线",
+      "image": "assets/posters/ref-169.jpg",
+      "tags": [
+        "geometric",
+        "illustration",
+        "minimal"
+      ],
+      "recommended_start": true,
+      "size": [
+        1600,
+        979
+      ],
+      "source_file": "169_IMG_3934_校正.jpg",
+      "source_size": [
+        2817,
+        1724
+      ],
+      "source_sha256": "fb6fd5d4993f7002fd8ed1bab6caa97b507a0f091e60e17197db9146ad3978bb",
+      "contact_sheet": "assets/contact-sheets/sheet-06.jpg",
+      "sheet_row": 4,
+      "sheet_column": 4
+    },
+    {
+      "id": 170,
+      "label": "书籍参考 170",
+      "image": "assets/posters/ref-170.jpg",
+      "tags": [
+        "geometric",
+        "collage",
+        "editorial",
+        "pattern"
+      ],
+      "recommended_start": false,
+      "size": [
+        1186,
+        1600
+      ],
+      "source_file": "170_IMG_3935_校正.jpg",
+      "source_size": [
+        2631,
+        3548
+      ],
+      "source_sha256": "ff915cd2b5b827f59d1eccc15b333b02a41327e2560c45b4a9cc06ee6a13559f",
+      "contact_sheet": "assets/contact-sheets/sheet-06.jpg",
+      "sheet_row": 4,
+      "sheet_column": 5
+    }
+  ]
+}

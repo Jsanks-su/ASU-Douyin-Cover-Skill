@@ -1,0 +1,4 @@
+interface:
+  display_name: "海报参考封面"
+  short_description: "一张图片加文案，从指定海报库自动选参考并完成抖音封面，保留主体与原文"
+  default_prompt: "使用 $douyin-reference-cover，把我提供的一张图片和文案做成封面，自动从内置海报库选参考。"
