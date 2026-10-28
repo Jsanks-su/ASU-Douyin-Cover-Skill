@@ -1,7 +1,7 @@
 {
-  "version": "0.2.2",
+  "version": "0.3.0",
   "count": 170,
-  "source": "User-supplied book photographs; v2 corrected reference derivatives from this conversation.",
+  "source": "Bundled corrected derivatives of user-supplied book poster photographs; all runtime references use package-relative paths.",
   "reference_max_side": 1600,
   "tags": [
     "typography",
