@@ -22,7 +22,7 @@ def main():
     diagnostic=thumb.copy();d=ImageDraw.Draw(diagnostic,'RGBA')
     d.rectangle((0,round(427*.9),round(320*.65),426),fill=(220,30,30,55),outline=(220,30,30,180))
     diagnostic.save(args.out_dir/'profile-overlay-check.png')
-    report={'source_size':[w,h],'upload_matches_default_1080x1920':(w,h)==(1080,1920),'profile_crop_box':list(box),'profile_size':list(preview.size),'thumbnail_size':[320,427],'overlay_guard_in_profile':[0,.9,.65,1],'basis':'user account screenshot observation; current publisher preview takes precedence'}
+    report={'source_size':[w,h],'upload_matches_default_1080x1440':(w,h)==(1080,1440),'profile_crop_box':list(box),'profile_size':list(preview.size),'thumbnail_size':[320,427],'overlay_guard_in_profile':[0,.9,.65,1],'basis':'user account screenshot observation; current publisher preview takes precedence'}
     if args.title_box:
         x0,y0,x1,y1=args.title_box
         if not (0<=x0<x1<=1 and 0<=y0<y1<=1):parser.error('title-box must be ordered normalized coordinates')
