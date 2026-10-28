@@ -1,0 +1,6567 @@
+{
+  "schema_version": 1,
+  "skill_version": "0.5.1",
+  "count": 170,
+  "provenance": "Human-readable visual curation by Codex from all six bundled contact sheets. Observations are separate from inferred adaptation options. Scores are not learned image similarity.",
+  "title_bands": {
+    "brief": [
+      1,
+      3
+    ],
+    "short": [
+      4,
+      8
+    ],
+    "medium": [
+      9,
+      16
+    ],
+    "long": [
+      17,
+      30
+    ]
+  },
+  "entries": [
+    {
+      "id": 1,
+      "image": "assets/posters/ref-001.jpg",
+      "image_sha256": "875f3eae9d625e5140c5b0920994147e560002c04b8e3f600ac54fe975ff5602",
+      "kind": "single_design",
+      "family": "portrait",
+      "native_image": "photo",
+      "observed": {
+        "note": "黑底腾空人物与由身体姿态构成的字形标题",
+        "roles": [
+          "subtitle"
+        ],
+        "palette": [
+          "black",
+          "white"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "low",
+        "note": "需要可抠取的完整轮廓，界面照片难保原有姿态关系"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 1,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 2,
+      "image": "assets/posters/ref-002.jpg",
+      "image_sha256": "45a272db792b808f987b25ab4373ddcdde495db09ce915b953741cbda2ec5740",
+      "kind": "single_design",
+      "family": "portrait",
+      "native_image": "photo",
+      "observed": {
+        "note": "深底婴儿与分裂剪影交错，几乎无标题",
+        "roles": [],
+        "palette": [
+          "black",
+          "cream"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "需保留主体边缘并处理正负形，不适合密集界面文字"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 1,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 3,
+      "image": "assets/posters/ref-003.jpg",
+      "image_sha256": "48dbb2a87cbadbd93a7ac93a2d331ef6fe90423a83fda3723b97fb2d50e54c52",
+      "kind": "single_design",
+      "family": "illustration",
+      "native_image": "illustration",
+      "observed": {
+        "note": "红色线圈围合中央嘴部，底部手绘标题",
+        "roles": [
+          "caption"
+        ],
+        "palette": [
+          "red",
+          "black",
+          "cream"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "low",
+        "note": "可用主体局部替换中心，需重新组织线条而非完整矩形照片"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 1,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 4,
+      "image": "assets/posters/ref-004.jpg",
+      "image_sha256": "b55da4cfd00f7288b229abfde6928b22ca8063257c0909471f0ef68b62eaea04",
+      "kind": "single_design",
+      "family": "symbol",
+      "native_image": "graphic",
+      "observed": {
+        "note": "白底黑色连续弧带扭结符号，无说明层",
+        "roles": [],
+        "palette": [
+          "black",
+          "white"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "large",
+        "aspect": "square",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "仅适合可图形化的简单主体，需另留很少量标题位置"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 1,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 5,
+      "image": "assets/posters/ref-005.jpg",
+      "image_sha256": "5273e56693f93cc684504cb4f9f6b411da2437e944f18d5bdbfb660fa7f32fb9",
+      "kind": "specimen_page",
+      "family": "info",
+      "native_image": "diagram",
+      "observed": {
+        "note": "多组圆形集合关系与英文逻辑标签",
+        "roles": [
+          "grid",
+          "caption"
+        ],
+        "palette": [
+          "black",
+          "white"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 6
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "small",
+        "aspect": "square",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "high",
+        "note": "结构依赖对照关系，原图可局部嵌入但需有相关的说明内容"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 1,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 6,
+      "image": "assets/posters/ref-006.jpg",
+      "image_sha256": "aeca85e23616e56f92034e1f04ecfbe02fb4f71b4cdb7d78db1ae1a290b60b76",
+      "kind": "single_design",
+      "family": "editorial",
+      "native_image": "photo",
+      "observed": {
+        "note": "建筑摄影铺底，左上红白刊头与底部红带大数字",
+        "roles": [
+          "text_band",
+          "number",
+          "fine_print",
+          "caption"
+        ],
+        "palette": [
+          "red",
+          "black",
+          "cream"
+        ],
+        "energy": "solemn",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "full",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "flexible",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "整张摄影可替换建筑，需保留刊头和底部三级信息"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 2,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 7,
+      "image": "assets/posters/ref-007.jpg",
+      "image_sha256": "c86e377ab560fc08a777524616d993f542749e7fa9df9c1b238014c5c284f44f",
+      "kind": "single_design",
+      "family": "illustration",
+      "native_image": "graphic",
+      "observed": {
+        "note": "斜向彩色赛道和多层倾斜文字",
+        "roles": [
+          "subtitle",
+          "fine_print",
+          "graphic_lines"
+        ],
+        "palette": [
+          "red",
+          "green",
+          "blue",
+          "cream"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "large",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "medium",
+        "detail_density": "medium",
+        "note": "主体可沿斜向几何融入，横直界面需要较大适配"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 2,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 8,
+      "image": "assets/posters/ref-008.jpg",
+      "image_sha256": "a524809158299adadd4adb605549e9d61aa3e4e726c3b40263cf19fef12c830f",
+      "kind": "single_design",
+      "family": "editorial",
+      "native_image": "photo",
+      "observed": {
+        "note": "暗背景中三组白色锥状曲面，底部极小标记",
+        "roles": [
+          "badge"
+        ],
+        "palette": [
+          "black",
+          "white",
+          "gray"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 3
+      },
+      "adaptation": {
+        "insertion": "full",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "适合简洁高反差物体，需给短标题找到不破坏影调的位置"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 2,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 9,
+      "image": "assets/posters/ref-009.jpg",
+      "image_sha256": "16139bec28cd38d443e10520efa82d9eb690461dac9021885c5f4fde7edeec3c",
+      "kind": "collection_page",
+      "family": "collage",
+      "native_image": "mixed",
+      "observed": {
+        "note": "并列多种书封和排字页面",
+        "roles": [
+          "grid",
+          "fine_print",
+          "rules"
+        ],
+        "palette": [
+          "brown",
+          "black",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "small",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "medium",
+        "detail_density": "high",
+        "note": "必须在整页中先选一个书封或版面，再审视其构图"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 2,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 10,
+      "image": "assets/posters/ref-010.jpg",
+      "image_sha256": "24d08b277b4b99d9ff06f1c45f8b7aae502b7740c8853ac2ab251660e0af112d",
+      "kind": "single_design",
+      "family": "symbol",
+      "native_image": "graphic",
+      "observed": {
+        "note": "黑底两只白色眼形，右侧一根红竖线，底部短标题",
+        "roles": [
+          "fine_print",
+          "graphic_lines"
+        ],
+        "palette": [
+          "black",
+          "white",
+          "red"
+        ],
+        "energy": "solemn",
+        "visible_motifs": 2
+      },
+      "adaptation": {
+        "insertion": "negative",
+        "area": "medium",
+        "aspect": "landscape",
+        "crop": "flexible",
+        "title_capacity": "short",
+        "detail_density": "low",
+        "note": "可在眼形或暗部融入局部，字多界面不能缩进细小眼形"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 2,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 11,
+      "image": "assets/posters/ref-011.jpg",
+      "image_sha256": "c81154d50bb048ce70ab1e1417fc1dc769dabf1a84fb53cc1d6c44ceff591c7b",
+      "kind": "single_design",
+      "family": "illustration",
+      "native_image": "illustration",
+      "observed": {
+        "note": "弧形刊头下有橙色狗形插画和底部细字",
+        "roles": [
+          "subtitle",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "orange",
+          "cream"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "medium",
+        "detail_density": "medium",
+        "note": "需可替换成轮廓明确的主角，不保留无关狗形"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 3,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 12,
+      "image": "assets/posters/ref-012.jpg",
+      "image_sha256": "83f9c81e5b83439f454a283ab4108cecadd405f88a16f4f7fc29fda2167ddd47",
+      "kind": "single_design",
+      "family": "array",
+      "native_image": "photo",
+      "observed": {
+        "note": "红底四角轮胎，中左多行文字与日期，底部细字",
+        "roles": [
+          "subtitle",
+          "fine_print",
+          "number"
+        ],
+        "palette": [
+          "red",
+          "black",
+          "white"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "medium",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "适合一个物体的重复或局部阵列，界面拆成四块通常成本高"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 3,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 13,
+      "image": "assets/posters/ref-013.jpg",
+      "image_sha256": "7186ecf2b55b44290880c8dd64660f0e1b72cd81f3893a0b024ece2d3efdf749",
+      "kind": "specimen_page",
+      "family": "info",
+      "native_image": "diagram",
+      "observed": {
+        "note": "A325轨道技术图样、尺寸标注、构件及底部数字表格",
+        "roles": [
+          "fine_print",
+          "caption",
+          "graphic_lines"
+        ],
+        "palette": [
+          "black",
+          "gray",
+          "white"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "negative",
+        "area": "medium",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "short",
+        "detail_density": "high",
+        "note": "技术资料页需有真实对应信息；不得将尺寸与数字当装饰沿用"
+      },
+      "review": {
+        "basis": "full_image",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 3,
+        "column": 3,
+        "scope": "Independent audit inspected the full image for coarse layout/subject corrections; exact fine text and insertion geometry still require task-specific review."
+      }
+    },
+    {
+      "id": 14,
+      "image": "assets/posters/ref-014.jpg",
+      "image_sha256": "200ff2df1ee98c036f88d265b1d9644b0cc38e6e661a21098e46c2411674ed8a",
+      "kind": "single_design",
+      "family": "collage",
+      "native_image": "mixed",
+      "observed": {
+        "note": "手掌与地球叠合，左侧有编号点和细线说明",
+        "roles": [
+          "number",
+          "caption",
+          "graphic_lines"
+        ],
+        "palette": [
+          "blue",
+          "red",
+          "cream",
+          "black"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 3
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "high",
+        "note": "适合有轮廓的主体和有依据的说明点，普通截图替换成本高"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 3,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 15,
+      "image": "assets/posters/ref-015.jpg",
+      "image_sha256": "e584b65b79dccd71a86916a78c96ae382180beadc998200875a31c62b96948c6",
+      "kind": "single_design",
+      "family": "symbol",
+      "native_image": "photo",
+      "observed": {
+        "note": "大量白底，下方局部水龙头与竖向蓝字",
+        "roles": [],
+        "palette": [
+          "blue",
+          "black",
+          "white"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "medium",
+        "aspect": "landscape",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "low",
+        "note": "适合横向物体局部及短标题，文字密集照片需额外白区融入"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 3,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 16,
+      "image": "assets/posters/ref-016.jpg",
+      "image_sha256": "005a46381a85d7eefbb999081343fe591f310ddcefcc9a195efcb20e2c50c389",
+      "kind": "single_design",
+      "family": "info",
+      "native_image": "type",
+      "observed": {
+        "note": "整版报纸式黑白框线和密集大小文字",
+        "roles": [
+          "grid",
+          "rules",
+          "fine_print",
+          "number",
+          "badge"
+        ],
+        "palette": [
+          "black",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "只在有较多真实或可概括内容时适用，原图只能作小块插图"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 4,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 17,
+      "image": "assets/posters/ref-017.jpg",
+      "image_sha256": "57b4967e185f45bc7a5f77230f90b432a96545d7713ed1ec354a61497abc619d",
+      "kind": "single_design",
+      "family": "editorial",
+      "native_image": "photo",
+      "observed": {
+        "note": "暗蓝摄影铺底，轮廓衬线刊头和底角小价码",
+        "roles": [
+          "number",
+          "fine_print"
+        ],
+        "palette": [
+          "blue",
+          "black",
+          "cream"
+        ],
+        "energy": "solemn",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "full",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "flexible",
+        "title_capacity": "short",
+        "detail_density": "low",
+        "note": "整张图像的明暗和气氛要能承接，亮白界面须明显影调适配"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 4,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 18,
+      "image": "assets/posters/ref-018.jpg",
+      "image_sha256": "d73b4905f0471cb2e3ec9a82c1ffc2613258777f104fa39d5ab1f1127699c1d0",
+      "kind": "single_design",
+      "family": "illustration",
+      "native_image": "illustration",
+      "observed": {
+        "note": "横幅插画由人物、自行车和上下文字组成",
+        "roles": [
+          "subtitle",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "blue",
+          "cream",
+          "orange"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 2
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "large",
+        "aspect": "landscape",
+        "crop": "tight",
+        "title_capacity": "medium",
+        "detail_density": "medium",
+        "note": "需要具有可替换轮廓的主图，不复制参考人物或自行车"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 4,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 19,
+      "image": "assets/posters/ref-019.jpg",
+      "image_sha256": "8b03e1bf60637efe112acdd28a31e54574d40b6b11721936a825da3775f8ebfb",
+      "kind": "single_design",
+      "family": "overlap",
+      "native_image": "photo",
+      "observed": {
+        "note": "黑底巨型细线字与骑车人物穿插，下部小广告文案",
+        "roles": [
+          "subtitle",
+          "fine_print",
+          "caption"
+        ],
+        "palette": [
+          "black",
+          "white"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 2
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "medium",
+        "aspect": "landscape",
+        "crop": "tight",
+        "title_capacity": "medium",
+        "detail_density": "high",
+        "note": "图像与字有明确遮挡关系，界面需矩形融合而不能变成人物"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 4,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 20,
+      "image": "assets/posters/ref-020.jpg",
+      "image_sha256": "9aec8efdb91e3b3c7c6a33137df35d744621a6cc8b0e8ef4cafaed52d6557970",
+      "kind": "single_design",
+      "family": "editorial",
+      "native_image": "photo",
+      "observed": {
+        "note": "单只手和白色物体悬浮于暗灰背景，上下留白",
+        "roles": [
+          "badge"
+        ],
+        "palette": [
+          "black",
+          "white",
+          "gray"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "medium",
+        "aspect": "square",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "主体需有明确边缘，截图不适合强行抠成手持物"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 4,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 21,
+      "image": "assets/posters/ref-021.jpg",
+      "image_sha256": "f19cb4cb124b76b2b672e2273e1f97451bbff266871907d70643c0e45567075f",
+      "kind": "single_design",
+      "family": "overlap",
+      "native_image": "photo",
+      "observed": {
+        "note": "灰黑手部局部与细黄线相接，底部蓝紫和黄色横排字",
+        "roles": [
+          "subtitle",
+          "fine_print",
+          "graphic_lines"
+        ],
+        "palette": [
+          "black",
+          "yellow",
+          "blue"
+        ],
+        "energy": "solemn",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "large",
+        "aspect": "landscape",
+        "crop": "flexible",
+        "title_capacity": "medium",
+        "detail_density": "medium",
+        "note": "可用其他有折转的主体替代手部，线条必须接触主体"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 5,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 22,
+      "image": "assets/posters/ref-022.jpg",
+      "image_sha256": "9dcbbab5e2502662a024aee6f51c25498c193f2ac565e5c973aa3ed6997a62fe",
+      "kind": "single_design",
+      "family": "portrait",
+      "native_image": "photo",
+      "observed": {
+        "note": "左上老年面部局部，右侧粗白字，大面积黑场",
+        "roles": [
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "white"
+        ],
+        "energy": "solemn",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "low",
+        "note": "适合人物局部或小而清楚的摄影块，需短标题和克制留白"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 5,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 23,
+      "image": "assets/posters/ref-023.jpg",
+      "image_sha256": "88d691b40b4b0cd944fb7066e0a8f9e06f3fad94734f988d0eea6e5374867c07",
+      "kind": "single_design",
+      "family": "collage",
+      "native_image": "photo",
+      "observed": {
+        "note": "多枚带翼炸弹垂直排列，上下刊头与人群摄影",
+        "roles": [
+          "fine_print",
+          "subtitle"
+        ],
+        "palette": [
+          "red",
+          "black",
+          "cream"
+        ],
+        "energy": "solemn",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "替换多个主体会成本高，不得自动保留炸弹和人群意象"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 5,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 24,
+      "image": "assets/posters/ref-024.jpg",
+      "image_sha256": "4056f60cbd818906ab80e704df60fca3b84e52b1d2c051d5ec77b77a30f216c2",
+      "kind": "single_design",
+      "family": "symbol",
+      "native_image": "graphic",
+      "observed": {
+        "note": "上部大标题和三列细字，下部大面积彩色桌形图案",
+        "roles": [
+          "fine_print",
+          "caption"
+        ],
+        "palette": [
+          "gray",
+          "pink",
+          "yellow",
+          "orange"
+        ],
+        "energy": "playful",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "large",
+        "aspect": "square",
+        "crop": "flexible",
+        "title_capacity": "short",
+        "detail_density": "high",
+        "note": "可在几何面中嵌入原图，必须保留上部三列信息层级"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 5,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 25,
+      "image": "assets/posters/ref-025.jpg",
+      "image_sha256": "8215c06bef6334f4f7571287be1472a1903b7804172e1967f5e34e0ecafde866",
+      "kind": "single_design",
+      "family": "illustration",
+      "native_image": "illustration",
+      "observed": {
+        "note": "深蓝底女性侧影插画与下部橙色信息区",
+        "roles": [
+          "text_band",
+          "fine_print"
+        ],
+        "palette": [
+          "blue",
+          "orange",
+          "cream",
+          "black"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "medium",
+        "detail_density": "medium",
+        "note": "需轮廓明确的单主体，不能为套用参考新增人物"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 5,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 26,
+      "image": "assets/posters/ref-026.jpg",
+      "image_sha256": "2134119721f71847b8b12339aeca789d5b1930d7c8ed9a4d5393934cd0dd180a",
+      "kind": "single_design",
+      "family": "portrait",
+      "native_image": "photo",
+      "observed": {
+        "note": "橙色刊头和底栏，中间大矩形肖像及细说明",
+        "roles": [
+          "text_band",
+          "number",
+          "fine_print",
+          "rules"
+        ],
+        "palette": [
+          "orange",
+          "black",
+          "cream"
+        ],
+        "energy": "solemn",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "flexible",
+        "title_capacity": "short",
+        "detail_density": "high",
+        "note": "矩形摄影区可承接多类素材，但需处理原图与标题的比例"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 6,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 27,
+      "image": "assets/posters/ref-027.jpg",
+      "image_sha256": "18b97853c08b1afad97031709c27c4890f27541bda4a7ff1f7d404759389ac8b",
+      "kind": "single_design",
+      "family": "symbol",
+      "native_image": "graphic",
+      "observed": {
+        "note": "黑底旗形大鱼和小鱼队列，底部短字",
+        "roles": [
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "red",
+          "white",
+          "blue"
+        ],
+        "energy": "playful",
+        "visible_motifs": 6
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "medium",
+        "aspect": "landscape",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "low",
+        "note": "适合简单可图形化主体，不能将密集界面塞入多只小鱼"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 6,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 28,
+      "image": "assets/posters/ref-028.jpg",
+      "image_sha256": "e3bc0db4df87b3a66c57303cab849595b8d0070b9dc0161ba64bba5c3899ae09",
+      "kind": "single_design",
+      "family": "portrait",
+      "native_image": "photo",
+      "observed": {
+        "note": "浅底正面大人像，左上红刊头和右上条码状细节",
+        "roles": [
+          "fine_print",
+          "badge"
+        ],
+        "palette": [
+          "white",
+          "red",
+          "black"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "full",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "人像适配自然，宽界面需要改为大矩形主体并保留杂志层级"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 6,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 29,
+      "image": "assets/posters/ref-029.jpg",
+      "image_sha256": "7325c448cbfb7104445a2f977f5fe9d8a8206050284a18d08b6aceb9745cbf14",
+      "kind": "single_design",
+      "family": "portrait",
+      "native_image": "photo",
+      "observed": {
+        "note": "近距离女性面部铺底，上部连笔刊名及细字",
+        "roles": [
+          "subtitle",
+          "fine_print"
+        ],
+        "palette": [
+          "blue",
+          "cream",
+          "black"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "full",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "medium",
+        "detail_density": "medium",
+        "note": "依赖面部大裁切，界面或长条物体不易自然承接"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 6,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 30,
+      "image": "assets/posters/ref-030.jpg",
+      "image_sha256": "32254afd22a6a7f279e5d1f413045650dcbf7bfb41f4799da9896a255b0af5e9",
+      "kind": "single_design",
+      "family": "illustration",
+      "native_image": "illustration",
+      "observed": {
+        "note": "服装人物与细格纹、多块黑白图案和右下品牌框",
+        "roles": [
+          "text_band",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "white",
+          "gray",
+          "brown"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 3
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "多个具象人物结构适配成本高，不得凭空补人物"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-01.jpg",
+        "row": 6,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 31,
+      "image": "assets/posters/ref-031.jpg",
+      "image_sha256": "d5b371a2b2a46bdb08e41438dd9f58243142499611dc1826593f54a80390341a",
+      "kind": "single_design",
+      "family": "type",
+      "native_image": "type",
+      "observed": {
+        "note": "满版大幅衬线文字，少数姓名行用红色",
+        "roles": [
+          "subtitle"
+        ],
+        "palette": [
+          "black",
+          "red",
+          "cream"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "negative",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "medium",
+        "note": "适合长标题与多级文字，原图只能克制融入负空间"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 1,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 32,
+      "image": "assets/posters/ref-032.jpg",
+      "image_sha256": "05dde83f8d91edea9cb395491fba9add44a6ac25452e18d11979ecd26bc81a31",
+      "kind": "single_design",
+      "family": "symbol",
+      "native_image": "graphic",
+      "observed": {
+        "note": "红色竖长手形穿过多行黑字，上部红块与反白手指",
+        "roles": [
+          "subtitle",
+          "fine_print",
+          "text_band"
+        ],
+        "palette": [
+          "red",
+          "black",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "medium",
+        "detail_density": "high",
+        "note": "需沿既有轮廓融合主体，必须承接多处细字而非只留图形"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 1,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 33,
+      "image": "assets/posters/ref-033.jpg",
+      "image_sha256": "47c53d69edf94dd0a248f9884073a94c9e5f0dfe26eb354813a08fee733a4ebd",
+      "kind": "single_design",
+      "family": "type",
+      "native_image": "type",
+      "observed": {
+        "note": "单个大字形配制图细线和少量黄色印块",
+        "roles": [
+          "graphic_lines",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "yellow",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "negative",
+        "area": "small",
+        "aspect": "square",
+        "crop": "flexible",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "适合短标题，图片可融入大字形或局部留白"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 1,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 34,
+      "image": "assets/posters/ref-034.jpg",
+      "image_sha256": "b53a969f869f951f4ea08327f17dfb02fdd4f987a28fab19bed2d5450fc6ecfc",
+      "kind": "single_design",
+      "family": "illustration",
+      "native_image": "illustration",
+      "observed": {
+        "note": "横向汽车与驾驶者头像，下方大幅品牌字",
+        "roles": [
+          "subtitle"
+        ],
+        "palette": [
+          "black",
+          "orange",
+          "cream",
+          "gray"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 2
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "large",
+        "aspect": "landscape",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "low",
+        "note": "需有明确物体轮廓，不应复制车辆与人像"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 1,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 35,
+      "image": "assets/posters/ref-035.jpg",
+      "image_sha256": "2a4e3ec480ed0d709539b1f19c66e5cae3c46aaf0794a6d0fb092bc1cb725e5d",
+      "kind": "single_design",
+      "family": "collage",
+      "native_image": "mixed",
+      "observed": {
+        "note": "多色图像叠层，上方黄色刊头信息块和黑色斜条",
+        "roles": [
+          "text_band",
+          "fine_print",
+          "graphic_lines"
+        ],
+        "palette": [
+          "blue",
+          "purple",
+          "yellow",
+          "black"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "medium",
+        "aspect": "landscape",
+        "crop": "flexible",
+        "title_capacity": "medium",
+        "detail_density": "high",
+        "note": "可用同一图片不同局部组织，但要避免变成虚构多个案例"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 1,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 36,
+      "image": "assets/posters/ref-036.jpg",
+      "image_sha256": "93a83e46d6ea13d3cf4d9dcf613ce3cd8073d6b8fa9fdfe788d04f0b4d61d6a0",
+      "kind": "single_design",
+      "family": "type",
+      "native_image": "type",
+      "observed": {
+        "note": "顶端编号与小字，主区上下为巨型黑色字形",
+        "roles": [
+          "fine_print",
+          "number"
+        ],
+        "palette": [
+          "black",
+          "white"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "negative",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "flexible",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "适合短词和强字形主题，图片为局部辅助"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 2,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 37,
+      "image": "assets/posters/ref-037.jpg",
+      "image_sha256": "37882e1cdea43bae59631f1365b88fdf871b6e68c52363e20f8183a3a13234d0",
+      "kind": "collection_page",
+      "family": "info",
+      "native_image": "type",
+      "observed": {
+        "note": "并列多张带大数字和密排细字的票券版式",
+        "roles": [
+          "number",
+          "rules",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "cream",
+          "red",
+          "yellow"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 6
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "先选具体票券子图，不将全部版式同时套用"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 2,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 38,
+      "image": "assets/posters/ref-038.jpg",
+      "image_sha256": "2143626877988fd6a7498673c8b37ba2d98c7b5312eba30637992afef68955fe",
+      "kind": "single_design",
+      "family": "grid",
+      "native_image": "type",
+      "observed": {
+        "note": "细线分隔大小黑色字格，右边是一枚极大的白字T",
+        "roles": [
+          "grid",
+          "rules",
+          "caption"
+        ],
+        "palette": [
+          "black",
+          "white"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "图片可进字格或字形，但需保持巨字与小格的不等比例"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 2,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 39,
+      "image": "assets/posters/ref-039.jpg",
+      "image_sha256": "91a2ac3d34b3c39fb7908737cda9d7e09a1056267ee526d3b34a5659f78b005d",
+      "kind": "single_design",
+      "family": "pattern",
+      "native_image": "graphic",
+      "observed": {
+        "note": "曲线字形与红黑纹样密集旋转交叠",
+        "roles": [],
+        "palette": [
+          "black",
+          "red",
+          "cream"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "large",
+        "aspect": "free",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "内容可融入纹样，文字较多的原图难保清楚"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 2,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 40,
+      "image": "assets/posters/ref-040.jpg",
+      "image_sha256": "283f44af73af642201e283e8cac6456a2f8d555f6db96835e557c32bfdf3811e",
+      "kind": "single_design",
+      "family": "type",
+      "native_image": "type",
+      "observed": {
+        "note": "横幅粗糙大字OXO与小字，暗红黑纹理铺底",
+        "roles": [
+          "subtitle"
+        ],
+        "palette": [
+          "black",
+          "cream",
+          "red"
+        ],
+        "energy": "playful",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "negative",
+        "area": "small",
+        "aspect": "landscape",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "low",
+        "note": "适合很短的标题，图片只可局部融合"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 2,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 41,
+      "image": "assets/posters/ref-041.jpg",
+      "image_sha256": "9bf8daf8f8f0a713cfebb222195276e3bbe352bee88ad4a8fb4c90c48a0d9d95",
+      "kind": "collection_page",
+      "family": "array",
+      "native_image": "photo",
+      "observed": {
+        "note": "多张工业设备广告并排，各有图像与说明",
+        "roles": [
+          "fine_print",
+          "text_band"
+        ],
+        "palette": [
+          "black",
+          "red",
+          "green",
+          "white"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "medium",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "medium",
+        "detail_density": "high",
+        "note": "必须先选一个广告子图并核对其照片和说明比例"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 3,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 42,
+      "image": "assets/posters/ref-042.jpg",
+      "image_sha256": "80698a7748995070f7ad18f34f269f8bf54a4bad428905a922811b6c00c82bd4",
+      "kind": "collection_page",
+      "family": "collage",
+      "native_image": "mixed",
+      "observed": {
+        "note": "四种杂志封面并列，摄影、网格和图形各异",
+        "roles": [
+          "subtitle",
+          "text_band"
+        ],
+        "palette": [
+          "black",
+          "red",
+          "gray",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "medium",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "medium",
+        "detail_density": "medium",
+        "note": "需要先确定单个封面，不能合并不同封面风格"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 3,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 43,
+      "image": "assets/posters/ref-043.jpg",
+      "image_sha256": "4ba544cff8a9ab1f20fcc9bfc161940521bd513bbbfc60884eddba022babbbde",
+      "kind": "specimen_page",
+      "family": "info",
+      "native_image": "type",
+      "observed": {
+        "note": "Miller字体标本，多字重字号、斜体与小型大写按行比较，底部解释字体信息",
+        "roles": [
+          "subtitle",
+          "rules",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "white"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "negative",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "需要内容足够支撑多层排字，图片只能小面积融入"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 3,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 44,
+      "image": "assets/posters/ref-044.jpg",
+      "image_sha256": "f2aaab45a7d056703e50e24ef6f8f9c5ebccf7b0174456f65959a0d81b62c66d",
+      "kind": "single_design",
+      "family": "portrait",
+      "native_image": "photo",
+      "observed": {
+        "note": "THE FACE刊头下是带配饰的强裁切面部",
+        "roles": [
+          "subtitle",
+          "fine_print"
+        ],
+        "palette": [
+          "blue",
+          "red",
+          "black",
+          "white"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "full",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "适合人物正面大图，普通UI要做较大结构调整"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 3,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 45,
+      "image": "assets/posters/ref-045.jpg",
+      "image_sha256": "2014f009a4300a201d47603788de99ccf26b0bac6aa8c224b17a8595cc20481d",
+      "kind": "single_design",
+      "family": "portrait",
+      "native_image": "photo",
+      "observed": {
+        "note": "大帽檐和右侧半张人脸，上方衬线刊头与左侧细字",
+        "roles": [
+          "fine_print",
+          "subtitle"
+        ],
+        "palette": [
+          "cream",
+          "brown",
+          "black"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "full",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "需单主体和大幅空白，复杂界面不宜按脸部裁切"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 3,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 46,
+      "image": "assets/posters/ref-046.jpg",
+      "image_sha256": "021b344361341cf8e7884468edc5431afcc6480386e79f0ca172d318e6bc56ce",
+      "kind": "collection_page",
+      "family": "type",
+      "native_image": "mixed",
+      "observed": {
+        "note": "两张地图书封并列，一张插画密字一张简洁AZ",
+        "roles": [
+          "subtitle",
+          "text_band",
+          "fine_print"
+        ],
+        "palette": [
+          "yellow",
+          "red",
+          "blue",
+          "cream",
+          "black"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 2
+      },
+      "adaptation": {
+        "insertion": "negative",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "应明确选择其中一本封面，不能把两套层级拼起来"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 4,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 47,
+      "image": "assets/posters/ref-047.jpg",
+      "image_sha256": "85c680af714a155db6fded25d62fb107555c3a3714c7c6a107d889fa00254174",
+      "kind": "single_design",
+      "family": "pattern",
+      "native_image": "graphic",
+      "observed": {
+        "note": "密集几何线段冲向中心，顶角刊头与文字",
+        "roles": [
+          "subtitle",
+          "number",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "cream"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "negative",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "适合简单视觉主体或局部点缀，线网会影响界面文字可读性"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 4,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 48,
+      "image": "assets/posters/ref-048.jpg",
+      "image_sha256": "2f49e9086bce6fc415453df7689aea264ed1bab45159b86e23245a8159a00a81",
+      "kind": "single_design",
+      "family": "array",
+      "native_image": "mixed",
+      "observed": {
+        "note": "中央红黄折线穿插，左右重复小人脸",
+        "roles": [
+          "subtitle",
+          "graphic_lines"
+        ],
+        "palette": [
+          "yellow",
+          "red",
+          "black",
+          "cream"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 6
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "需要可重复的主体局部，不适合将一张界面切成多张虚假视图"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 4,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 49,
+      "image": "assets/posters/ref-049.jpg",
+      "image_sha256": "acaa7951cd7b0b3e13c31e05fd21f0fcd6f6b1df3f8387f3055a8ef32b37dce8",
+      "kind": "collection_page",
+      "family": "collage",
+      "native_image": "mixed",
+      "observed": {
+        "note": "四张现代封面含文字、眼睛摄影和物体",
+        "roles": [
+          "subtitle",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "red",
+          "green",
+          "white"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "medium",
+        "aspect": "portrait",
+        "crop": "flexible",
+        "title_capacity": "medium",
+        "detail_density": "medium",
+        "note": "先选一个具体子图，再决定主图承接方式"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 4,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 50,
+      "image": "assets/posters/ref-050.jpg",
+      "image_sha256": "a3572f51968f5120383afeafd01bee428b20408e351aad87e2893be8abe19145",
+      "kind": "single_design",
+      "family": "grid",
+      "native_image": "type",
+      "observed": {
+        "note": "三乘三细线字形网格，字母旋转裁切，底部两级文字",
+        "roles": [
+          "grid",
+          "rules",
+          "caption",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "medium",
+        "aspect": "square",
+        "crop": "flexible",
+        "title_capacity": "medium",
+        "detail_density": "medium",
+        "note": "可将照片置入中央空格，保持其他字格与主次排字"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 4,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 51,
+      "image": "assets/posters/ref-051.jpg",
+      "image_sha256": "c73bd1585f2e0cfc0a59b480f9d6350ffe4b698130541f6e7ef4e36f97e19510",
+      "kind": "single_design",
+      "family": "overlap",
+      "native_image": "photo",
+      "observed": {
+        "note": "巨大汽车轮胎与下方小人物形成尺度对比",
+        "roles": [
+          "fine_print",
+          "subtitle"
+        ],
+        "palette": [
+          "black",
+          "cream",
+          "yellow"
+        ],
+        "energy": "solemn",
+        "visible_motifs": 2
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "应保留大主体与小元素比例，不能复制无关轮胎或人物"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 5,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 52,
+      "image": "assets/posters/ref-052.jpg",
+      "image_sha256": "6ffeb5fe4a19c2e7acb796c9bd4b7b6d143180dd7fbb405f896eca0e4bccc5f5",
+      "kind": "single_design",
+      "family": "illustration",
+      "native_image": "illustration",
+      "observed": {
+        "note": "机车沿斜向透视冲出，上下文字和边缘说明",
+        "roles": [
+          "text_band",
+          "fine_print",
+          "graphic_lines"
+        ],
+        "palette": [
+          "blue",
+          "yellow",
+          "black",
+          "cream"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "high",
+        "note": "需要可形成透视动势的主体，截图保真与透视可能冲突"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 5,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 53,
+      "image": "assets/posters/ref-053.jpg",
+      "image_sha256": "393f2efb5ba821cbcfe15d91cd0ebf01b1fe5d6250c9dfd4c73bea991c82a943",
+      "kind": "single_design",
+      "family": "symbol",
+      "native_image": "graphic",
+      "observed": {
+        "note": "蓝色条纹机尾形占主区，中央白圆标识，下方流线",
+        "roles": [
+          "badge"
+        ],
+        "palette": [
+          "blue",
+          "black",
+          "white"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "照片可进既有几何面或白圆，原品牌不能作为用户品牌保留"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 5,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 54,
+      "image": "assets/posters/ref-054.jpg",
+      "image_sha256": "90ee58532c776f15c1ede9258ed84dcb4aba321b89527c0c034ddfbeba020016",
+      "kind": "single_design",
+      "family": "illustration",
+      "native_image": "mixed",
+      "observed": {
+        "note": "红蓝放射背景、顶端弧题和底角多个插图窗",
+        "roles": [
+          "text_band",
+          "fine_print",
+          "badge",
+          "graphic_lines"
+        ],
+        "palette": [
+          "red",
+          "blue",
+          "yellow",
+          "black"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "high",
+        "note": "需要多个有意义的局部与较丰富信息，避免新增无关人物"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 5,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 55,
+      "image": "assets/posters/ref-055.jpg",
+      "image_sha256": "e5741cbb63d6933779264528050f5e9ba38a14c631c719cba5981b5b26cf1c08",
+      "kind": "single_design",
+      "family": "symbol",
+      "native_image": "mixed",
+      "observed": {
+        "note": "同心圆与斜交线围绕中央靶点，背景重复人物剪影",
+        "roles": [
+          "subtitle",
+          "fine_print",
+          "graphic_lines"
+        ],
+        "palette": [
+          "black",
+          "red",
+          "blue",
+          "cream"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 6
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "medium",
+        "aspect": "square",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "原图可进入中心区域，人物剪影不可自动复制为内容"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 5,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 56,
+      "image": "assets/posters/ref-056.jpg",
+      "image_sha256": "59a155fb1b5ab87abc47f721938bc1e559f78b55e241fb82a08521c1fa72275b",
+      "kind": "single_design",
+      "family": "illustration",
+      "native_image": "graphic",
+      "observed": {
+        "note": "石墙背景上几何灯塔形与红蓝色块，角落细字编号",
+        "roles": [
+          "subtitle",
+          "fine_print",
+          "number"
+        ],
+        "palette": [
+          "gray",
+          "red",
+          "blue",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "适合图形化主体，实际照片应保持局部可辨认"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 6,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 57,
+      "image": "assets/posters/ref-057.jpg",
+      "image_sha256": "9661a5d9e92605e408df7da09d13ec8ba69671e33efdbbc34d3f2089ec6809a3",
+      "kind": "collection_page",
+      "family": "info",
+      "native_image": "type",
+      "observed": {
+        "note": "多种实验排字页面及图表并列",
+        "roles": [
+          "grid",
+          "rules",
+          "fine_print",
+          "number"
+        ],
+        "palette": [
+          "black",
+          "red",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "small",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "先选单个版面，再判断原图和文案能否容纳"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 6,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 58,
+      "image": "assets/posters/ref-058.jpg",
+      "image_sha256": "4ed7159cb6c11a8a9405827196feaeb3a9fc658c5eaf9922de81bac4542595af",
+      "kind": "collection_page",
+      "family": "info",
+      "native_image": "type",
+      "observed": {
+        "note": "书封与展开页面的排字、程序示例并列",
+        "roles": [
+          "grid",
+          "rules",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 2
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "small",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "需明确书封或内页子图，不能把资料页误当单张模板"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 6,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 59,
+      "image": "assets/posters/ref-059.jpg",
+      "image_sha256": "1aabee4325badb1ae9bbf6315736c1430cd753fe29d14906a7f00797111921c1",
+      "kind": "collection_page",
+      "family": "pattern",
+      "native_image": "illustration",
+      "observed": {
+        "note": "两种装饰字母与多色纹样版面并排",
+        "roles": [
+          "text_band",
+          "fine_print"
+        ],
+        "palette": [
+          "red",
+          "green",
+          "yellow",
+          "cream"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 2
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "medium",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "high",
+        "note": "先选具体装饰版面，复杂文字图像嵌入成本高"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 6,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 60,
+      "image": "assets/posters/ref-060.jpg",
+      "image_sha256": "80894d2634672d96b646212a46f42ddd3ccf960f9c970d210c17ee1b9cab91c9",
+      "kind": "single_design",
+      "family": "type",
+      "native_image": "type",
+      "observed": {
+        "note": "手绘彩色字母错落拼成书名，白底留空",
+        "roles": [],
+        "palette": [
+          "red",
+          "green",
+          "blue",
+          "yellow",
+          "black",
+          "cream"
+        ],
+        "energy": "playful",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "negative",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "flexible",
+        "title_capacity": "short",
+        "detail_density": "low",
+        "note": "可把图片局部融入空处，但应保留手工字形主导性"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-02.jpg",
+        "row": 6,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 61,
+      "image": "assets/posters/ref-061.jpg",
+      "image_sha256": "2acaff219908f44dd335aeb15eb54a3409167b0706fcb1f9fe2ecad6c6e2cb1a",
+      "kind": "single_design",
+      "family": "type",
+      "native_image": "type",
+      "observed": {
+        "note": "白底段落方阵与右侧红色竖签",
+        "roles": [
+          "fine_print",
+          "text_band"
+        ],
+        "palette": [
+          "red",
+          "black",
+          "cream"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "negative",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "适合信息充分的主题；照片只能嵌入局部留白"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 1,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 62,
+      "image": "assets/posters/ref-062.jpg",
+      "image_sha256": "9cf16cf86ee2f3032c5cef8fdc0ad33eba1cb62e32219a35236e885e718f57c3",
+      "kind": "single_design",
+      "family": "illustration",
+      "native_image": "illustration",
+      "observed": {
+        "note": "黑色边框内分节蛇形版画与短句",
+        "roles": [
+          "caption",
+          "rules"
+        ],
+        "palette": [
+          "black",
+          "cream"
+        ],
+        "energy": "solemn",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "large",
+        "aspect": "landscape",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "需可分解的横向主体；不能沿用原政治口号"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 1,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 63,
+      "image": "assets/posters/ref-063.jpg",
+      "image_sha256": "8b5f63553cee68cb66a6a05469e964f6949bb69943544696d4fd0a96d83b50be",
+      "kind": "single_design",
+      "family": "symbol",
+      "native_image": "graphic",
+      "observed": {
+        "note": "黑白举臂人物剪影与极少文字",
+        "roles": [
+          "caption"
+        ],
+        "palette": [
+          "black",
+          "cream"
+        ],
+        "energy": "solemn",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "仅借剪影和正负形；原人物和政治符号不迁入"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 1,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 64,
+      "image": "assets/posters/ref-064.jpg",
+      "image_sha256": "fcef1a7399e86716515c2730ebce4644bff7faa88b38e374174e707d8f064c37",
+      "kind": "single_design",
+      "family": "editorial",
+      "native_image": "mixed",
+      "observed": {
+        "note": "横幅标题上区与下部轮船图像",
+        "roles": [
+          "text_band",
+          "subtitle",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "red",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "large",
+        "aspect": "landscape",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "矩形照片可替换下区，标题和辅助说明需较多空间"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 1,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 65,
+      "image": "assets/posters/ref-065.jpg",
+      "image_sha256": "fc54f4876e7540e29a7e24b2a36dd8411e0acee80c8b02f3bbce9fb5d8beb00a",
+      "kind": "collection_page",
+      "family": "grid",
+      "native_image": "mixed",
+      "observed": {
+        "note": "多张红蓝黑瑞士版式样张",
+        "roles": [
+          "grid",
+          "rules",
+          "fine_print",
+          "number"
+        ],
+        "palette": [
+          "red",
+          "blue",
+          "black",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "medium",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "medium",
+        "detail_density": "high",
+        "note": "须先选一张子设计，不能将整页当成网格模板"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 1,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 66,
+      "image": "assets/posters/ref-066.jpg",
+      "image_sha256": "8d265917ac28a437c4e577eff9fbc48a9f07cbd2b7bf58c9a9b75522f22501c6",
+      "kind": "collection_page",
+      "family": "collage",
+      "native_image": "mixed",
+      "observed": {
+        "note": "多个人物剪影与几何构图样张",
+        "roles": [
+          "grid",
+          "graphic_lines",
+          "caption"
+        ],
+        "palette": [
+          "red",
+          "black",
+          "cream"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "medium",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "先选子图；通常需要可抠取主体"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 2,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 67,
+      "image": "assets/posters/ref-067.jpg",
+      "image_sha256": "30a3033cb6103e490387b52ea46ea343a14b42be71f1f9aa414817826cc8810b",
+      "kind": "collection_page",
+      "family": "type",
+      "native_image": "mixed",
+      "observed": {
+        "note": "白底巨大问号占上部；中间数列细字；下方为人物侧脸、斜向器物及手指的黑白局部",
+        "roles": [
+          "fine_print",
+          "caption"
+        ],
+        "palette": [
+          "black",
+          "white"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "negative",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "保留上部问号与下部横向剪影的上下层级；原图可替换下部局部"
+      },
+      "review": {
+        "basis": "full_image",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 2,
+        "column": 2,
+        "scope": "Independent audit inspected the full image for coarse layout/subject corrections; exact fine text and insertion geometry still require task-specific review."
+      }
+    },
+    {
+      "id": 68,
+      "image": "assets/posters/ref-068.jpg",
+      "image_sha256": "84dfc6400a6ac5bf023e22ec22e8d9aa5adadc6dc82f888b40ee7fd3366c37d2",
+      "kind": "single_design",
+      "family": "pattern",
+      "native_image": "graphic",
+      "observed": {
+        "note": "黑底四色针状肌理区与斜向白字",
+        "roles": [
+          "text_band",
+          "fine_print",
+          "graphic_lines"
+        ],
+        "palette": [
+          "black",
+          "cyan",
+          "coral",
+          "yellow",
+          "violet"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "band",
+        "area": "medium",
+        "aspect": "landscape",
+        "crop": "flexible",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "可用原图的关键长条替代其中一色区，保留四色面积和斜字关系"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 2,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 69,
+      "image": "assets/posters/ref-069.jpg",
+      "image_sha256": "e0e1ee21004f4a18de863c4014f94f7e56630981b9c21613db5fab9363332f25",
+      "kind": "single_design",
+      "family": "editorial",
+      "native_image": "photo",
+      "observed": {
+        "note": "白色环境中蓝灰布面厚书的斜向产品摄影，黑色大书名与黄色辅助字",
+        "roles": [
+          "caption"
+        ],
+        "palette": [
+          "white",
+          "gray",
+          "blue",
+          "black",
+          "yellow"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "full",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "flexible",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "适合单件物体或保留矩形的画面；不能默认原书名为新标题"
+      },
+      "review": {
+        "basis": "full_image",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 2,
+        "column": 4,
+        "scope": "Independent audit inspected the full image for coarse layout/subject corrections; exact fine text and insertion geometry still require task-specific review."
+      }
+    },
+    {
+      "id": 70,
+      "image": "assets/posters/ref-070.jpg",
+      "image_sha256": "e09e6a9091f44c47da7901dd807be25f17e55e2f636185e2848d16cbc09551b3",
+      "kind": "single_design",
+      "family": "array",
+      "native_image": "illustration",
+      "observed": {
+        "note": "三个阶段的饮酒人物纵向重复",
+        "roles": [
+          "caption"
+        ],
+        "palette": [
+          "black",
+          "blue",
+          "orange",
+          "cream"
+        ],
+        "energy": "playful",
+        "visible_motifs": 3
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "medium",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "low",
+        "note": "可重复同一主体形成阶段；不虚构三个案例"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 2,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 71,
+      "image": "assets/posters/ref-071.jpg",
+      "image_sha256": "40cf6a5583a7feeed9361ed2d38f4f84819dd5186bead16ca6023b57612a726c",
+      "kind": "single_design",
+      "family": "illustration",
+      "native_image": "graphic",
+      "observed": {
+        "note": "米白至灰黑底上中央黄色涂鸦脸，横穿白色立体箭头，伴红蓝细节",
+        "roles": [
+          "graphic_lines",
+          "caption"
+        ],
+        "palette": [
+          "yellow",
+          "black",
+          "cream",
+          "white",
+          "red",
+          "blue"
+        ],
+        "energy": "playful",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "large",
+        "aspect": "square",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "适合简单可图形化的内容，界面数据不宜压入图形"
+      },
+      "review": {
+        "basis": "full_image",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 3,
+        "column": 1,
+        "scope": "Independent audit inspected the full image for coarse layout/subject corrections; exact fine text and insertion geometry still require task-specific review."
+      }
+    },
+    {
+      "id": 72,
+      "image": "assets/posters/ref-072.jpg",
+      "image_sha256": "952c6a1ae6bffd59671eb5e99295b79ef3f16983bd00cc9db064142303c57392",
+      "kind": "single_design",
+      "family": "editorial",
+      "native_image": "photo",
+      "observed": {
+        "note": "家人与病床构成的横向纪实照片与角标",
+        "roles": [
+          "badge"
+        ],
+        "palette": [
+          "brown",
+          "cream",
+          "green",
+          "black"
+        ],
+        "energy": "solemn",
+        "visible_motifs": 3
+      },
+      "adaptation": {
+        "insertion": "full",
+        "area": "large",
+        "aspect": "landscape",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "保留照片叙事；新照片可替换全图，不导入原人物或医疗情境"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 3,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 73,
+      "image": "assets/posters/ref-073.jpg",
+      "image_sha256": "d5d69c11427315de83b3108dfd2a4e3e75af54dbfb133b0d8106372fe4351704",
+      "kind": "single_design",
+      "family": "illustration",
+      "native_image": "mixed",
+      "observed": {
+        "note": "黄色底线描谱架、乐器与椅子，写实瓶子置于椅面，谱架上挂白红文字牌",
+        "roles": [
+          "graphic_lines",
+          "caption",
+          "badge"
+        ],
+        "palette": [
+          "yellow",
+          "red",
+          "black",
+          "white"
+        ],
+        "energy": "playful",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "medium",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "可用单个瓶形主体承接写实对象，线描支撑物与文字牌另行映射；不能虚构产品"
+      },
+      "review": {
+        "basis": "full_image",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 3,
+        "column": 3,
+        "scope": "Independent audit inspected the full image for coarse layout/subject corrections; exact fine text and insertion geometry still require task-specific review."
+      }
+    },
+    {
+      "id": 74,
+      "image": "assets/posters/ref-074.jpg",
+      "image_sha256": "cebf429d2c0ae18a1fd8293dfabbcef32ba4f5aec2d2ab3e5dc8ef95b4fa3e64",
+      "kind": "single_design",
+      "family": "illustration",
+      "native_image": "graphic",
+      "observed": {
+        "note": "装饰性曲线与粗大手绘字形成主体",
+        "roles": [
+          "subtitle",
+          "graphic_lines"
+        ],
+        "palette": [
+          "orange",
+          "maroon",
+          "cream"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "medium",
+        "note": "以主体局部融入曲线，不能直接套矩形截图"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 3,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 75,
+      "image": "assets/posters/ref-075.jpg",
+      "image_sha256": "5b76b43a40cab2e65f83a994b6a3595c31ed868fc9b0d44be6ebaba9726cd85c",
+      "kind": "single_design",
+      "family": "array",
+      "native_image": "photo",
+      "observed": {
+        "note": "三辆车与放射针状圆形结构",
+        "roles": [
+          "caption",
+          "graphic_lines"
+        ],
+        "palette": [
+          "black",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 3
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "medium",
+        "aspect": "square",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "low",
+        "note": "需抠取并重复主体，细字界面不适合缩成环形"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 3,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 76,
+      "image": "assets/posters/ref-076.jpg",
+      "image_sha256": "60ca5c439205712e534756b4046bcfeca20ecda465ccc7529467f3d9d1ff07f1",
+      "kind": "specimen_page",
+      "family": "info",
+      "native_image": "type",
+      "observed": {
+        "note": "多行字体字母表与字号示例",
+        "roles": [
+          "grid",
+          "rules",
+          "number",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "small",
+        "aspect": "landscape",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "这是字体标本；须选具体排字关系，不能编造规格表"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 4,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 77,
+      "image": "assets/posters/ref-077.jpg",
+      "image_sha256": "87e49d8005cdf9f816f246afe57980a5cd29c30cd27b2ae2b8751373a8cea4a8",
+      "kind": "specimen_page",
+      "family": "info",
+      "native_image": "type",
+      "observed": {
+        "note": "Georgia字样、字母及正文的字体标本",
+        "roles": [
+          "subtitle",
+          "fine_print",
+          "number"
+        ],
+        "palette": [
+          "black",
+          "white"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "信息密集，需明确图像如何克制嵌入"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 4,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 78,
+      "image": "assets/posters/ref-078.jpg",
+      "image_sha256": "4f7ebb9de94f19595ddadd8a2edf5cad27570b90e9eb19ff908c26541298c65c",
+      "kind": "specimen_page",
+      "family": "info",
+      "native_image": "type",
+      "observed": {
+        "note": "报头及纹章下为七栏密集分类文字、分栏线与小标题，几乎无图像区",
+        "roles": [
+          "grid",
+          "rules",
+          "fine_print",
+          "number"
+        ],
+        "palette": [
+          "black",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "原图无现成照片槽，新增图需重排局部文字腾位；不能虚构新闻、日期和报道"
+      },
+      "review": {
+        "basis": "full_image",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 4,
+        "column": 3,
+        "scope": "Independent audit inspected the full image for coarse layout/subject corrections; exact fine text and insertion geometry still require task-specific review."
+      }
+    },
+    {
+      "id": 79,
+      "image": "assets/posters/ref-079.jpg",
+      "image_sha256": "d9a3c612d86cb565fb522cfb4864a5ce7f0da886a827b2db49d7c53778ad2cd3",
+      "kind": "collection_page",
+      "family": "illustration",
+      "native_image": "illustration",
+      "observed": {
+        "note": "四张装饰性彩色插画样张",
+        "roles": [
+          "caption",
+          "graphic_lines"
+        ],
+        "palette": [
+          "red",
+          "green",
+          "orange",
+          "cream"
+        ],
+        "energy": "playful",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "medium",
+        "aspect": "free",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "先选子图再确定图形化程度"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 4,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 80,
+      "image": "assets/posters/ref-080.jpg",
+      "image_sha256": "67dc74a252e73e6a4a592527a78ea319aa1c508bf042d0b1867ed4c9680b7f82",
+      "kind": "collection_page",
+      "family": "editorial",
+      "native_image": "photo",
+      "observed": {
+        "note": "两张家具人物广告与密集说明",
+        "roles": [
+          "caption",
+          "fine_print",
+          "text_band"
+        ],
+        "palette": [
+          "black",
+          "white"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 2
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "large",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "medium",
+        "detail_density": "high",
+        "note": "选择单张子广告；照片可进入矩形区"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 4,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 81,
+      "image": "assets/posters/ref-081.jpg",
+      "image_sha256": "22bb17d73552027acde79088e5818b70c8588e50f5266e80f6d5167d7f63daf1",
+      "kind": "single_design",
+      "family": "collage",
+      "native_image": "mixed",
+      "observed": {
+        "note": "报纸文字密铺与红黑圆形图像拼贴",
+        "roles": [
+          "fine_print",
+          "text_band",
+          "graphic_lines"
+        ],
+        "palette": [
+          "red",
+          "black",
+          "cream"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "medium",
+        "aspect": "square",
+        "crop": "tight",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "需足够文本和可辨局部，不能把原报文照搬为事实"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 5,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 82,
+      "image": "assets/posters/ref-082.jpg",
+      "image_sha256": "a04fbf92964c56cc93264198378e7381ff8e9f63e99e7a8e19c34734147573b6",
+      "kind": "collection_page",
+      "family": "type",
+      "native_image": "type",
+      "observed": {
+        "note": "多张大字母与几何排版样张",
+        "roles": [
+          "subtitle",
+          "fine_print",
+          "graphic_lines"
+        ],
+        "palette": [
+          "red",
+          "black",
+          "cream"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "negative",
+        "area": "small",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "选定子图后评估图像嵌入位置"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 5,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 83,
+      "image": "assets/posters/ref-083.jpg",
+      "image_sha256": "c70e127005536f7dc23d26349eb06bfb2e6de02faf39d49d4536060f4a95fa40",
+      "kind": "single_design",
+      "family": "symbol",
+      "native_image": "photo",
+      "observed": {
+        "note": "手与白色容器跨越红白几何分区",
+        "roles": [
+          "caption"
+        ],
+        "palette": [
+          "red",
+          "white",
+          "black"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 2
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "large",
+        "aspect": "landscape",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "须用用户主体承接接触关系，不能凭空添加原手部"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 5,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 84,
+      "image": "assets/posters/ref-084.jpg",
+      "image_sha256": "3ee8af8f06c891bd931e17ec9bf9e50d079b76a5a065624384c5debbfcf750de",
+      "kind": "collection_page",
+      "family": "editorial",
+      "native_image": "mixed",
+      "observed": {
+        "note": "红色书封与展开的戏剧排字页",
+        "roles": [
+          "grid",
+          "rules",
+          "fine_print"
+        ],
+        "palette": [
+          "red",
+          "black",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 3
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "medium",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "须选书封或某一页，不能混成单个模板"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 5,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 85,
+      "image": "assets/posters/ref-085.jpg",
+      "image_sha256": "0678cb2e85e5bdd73cce268fc97ae6ff768332d1b99b5e3ec59d8fa7fa9e9e84",
+      "kind": "single_design",
+      "family": "illustration",
+      "native_image": "illustration",
+      "observed": {
+        "note": "人物服饰插画与手绘刊头",
+        "roles": [
+          "subtitle",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "cream"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 2
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "主体需承担人物占位，图像可印刷化处理"
+      },
+      "review": {
+        "basis": "full_image",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 5,
+        "column": 5,
+        "scope": "Independent audit inspected the full image for coarse layout/subject corrections; exact fine text and insertion geometry still require task-specific review."
+      }
+    },
+    {
+      "id": 86,
+      "image": "assets/posters/ref-086.jpg",
+      "image_sha256": "c7f27e56755a850c4ffdcbabfa05b8e89c4bfddb8f25afc1a2743e256064c400",
+      "kind": "single_design",
+      "family": "type",
+      "native_image": "graphic",
+      "observed": {
+        "note": "方格背景与左下像素字构成",
+        "roles": [
+          "grid",
+          "graphic_lines"
+        ],
+        "palette": [
+          "black",
+          "white"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "negative",
+        "area": "small",
+        "aspect": "square",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "low",
+        "note": "内容图须用局部负空间或像素区域融合"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 6,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 87,
+      "image": "assets/posters/ref-087.jpg",
+      "image_sha256": "dae03144b5b46395f1d138685560c6dd04322abd9f1ab8e4832e158184d74e93",
+      "kind": "single_design",
+      "family": "symbol",
+      "native_image": "graphic",
+      "observed": {
+        "note": "中央抽象黑色符号与上下标题",
+        "roles": [
+          "subtitle"
+        ],
+        "palette": [
+          "black",
+          "white"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "large",
+        "aspect": "square",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "low",
+        "note": "核心是符号轮廓，需简单主体而非完整界面"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 6,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 88,
+      "image": "assets/posters/ref-088.jpg",
+      "image_sha256": "d63e55846535cd20720275632c379c204c312ea5548a41dff9d008f0b08eff56",
+      "kind": "single_design",
+      "family": "illustration",
+      "native_image": "illustration",
+      "observed": {
+        "note": "狭长人物与黑白条带组成的装饰画面",
+        "roles": [
+          "text_band",
+          "graphic_lines"
+        ],
+        "palette": [
+          "red",
+          "blue",
+          "black",
+          "cream"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "medium",
+        "detail_density": "medium",
+        "note": "迁到3:4需调整纵向节奏；保留主要人物轮廓"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 6,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 89,
+      "image": "assets/posters/ref-089.jpg",
+      "image_sha256": "51d815a926eff325b7c2296a6edd91cf72e30dec3b40d5980b1bb1e0f0d6f61f",
+      "kind": "collection_page",
+      "family": "info",
+      "native_image": "type",
+      "observed": {
+        "note": "展开书页上的装饰边框与标题页",
+        "roles": [
+          "rules",
+          "fine_print",
+          "caption"
+        ],
+        "palette": [
+          "black",
+          "cream"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 2
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "small",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "先选单页；正文密度需有内容支持"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 6,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 90,
+      "image": "assets/posters/ref-090.jpg",
+      "image_sha256": "c7aa9c756e874ab8ccb54f3e5c7360640566a74c0b23b506c2ac8bb29c305950",
+      "kind": "collection_page",
+      "family": "type",
+      "native_image": "mixed",
+      "observed": {
+        "note": "六张不同排字风格的书封",
+        "roles": [
+          "subtitle",
+          "fine_print"
+        ],
+        "palette": [
+          "red",
+          "blue",
+          "black",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 6
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "medium",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "medium",
+        "detail_density": "medium",
+        "note": "子图差异大，整页不可直接混合"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-03.jpg",
+        "row": 6,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 91,
+      "image": "assets/posters/ref-091.jpg",
+      "image_sha256": "b27a758a423e6cd2635966ab9ce4f1f9946eae1dc15dcff43aa546031e3f6310",
+      "kind": "collection_page",
+      "family": "grid",
+      "native_image": "mixed",
+      "observed": {
+        "note": "书封与展开的瑞士网格内页",
+        "roles": [
+          "grid",
+          "rules",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "cream",
+          "red"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 3
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "medium",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "须选一页和图像槽位"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 1,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 92,
+      "image": "assets/posters/ref-092.jpg",
+      "image_sha256": "fedeea291d706ea136652f59b44205d3d9d227847ab55fd50c924f6704bf46ff",
+      "kind": "collection_page",
+      "family": "editorial",
+      "native_image": "mixed",
+      "observed": {
+        "note": "黄色书封与展开插图页",
+        "roles": [
+          "caption",
+          "grid",
+          "fine_print"
+        ],
+        "palette": [
+          "yellow",
+          "black",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 3
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "medium",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "medium",
+        "detail_density": "high",
+        "note": "先选子设计；不能将书籍展示背景当版式"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 1,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 93,
+      "image": "assets/posters/ref-093.jpg",
+      "image_sha256": "2d1feafa2385c31f3bd8f76051f7ff36e338a404409d1f810be235f3006ed736",
+      "kind": "single_design",
+      "family": "illustration",
+      "native_image": "illustration",
+      "observed": {
+        "note": "单一主要人物、粗黑竖栏与背后红色心形，下方多行厚重哥特式文字",
+        "roles": [
+          "subtitle",
+          "text_band",
+          "graphic_lines"
+        ],
+        "palette": [
+          "red",
+          "black",
+          "cream"
+        ],
+        "energy": "solemn",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "medium",
+        "detail_density": "high",
+        "note": "仅借构图和冲突，不迁入原战争宣传内容"
+      },
+      "review": {
+        "basis": "full_image",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 1,
+        "column": 3,
+        "scope": "Independent audit inspected the full image for coarse layout/subject corrections; exact fine text and insertion geometry still require task-specific review."
+      }
+    },
+    {
+      "id": 94,
+      "image": "assets/posters/ref-094.jpg",
+      "image_sha256": "17b26d5487a681ca6b71a8ee102e147dd5d5739cb37e9cd5a5f5b0a968082b71",
+      "kind": "single_design",
+      "family": "editorial",
+      "native_image": "photo",
+      "observed": {
+        "note": "白底红色公交车，文字附着车身",
+        "roles": [
+          "text_band",
+          "caption"
+        ],
+        "palette": [
+          "red",
+          "white",
+          "black"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "full",
+        "area": "large",
+        "aspect": "landscape",
+        "crop": "flexible",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "适合单体对象；界面图应保留矩形而非硬变车身"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 1,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 95,
+      "image": "assets/posters/ref-095.jpg",
+      "image_sha256": "826f6334f8010ef028987a9ae4fdc2816771fa1a4337b324d42a071e6ba68ced",
+      "kind": "collection_page",
+      "family": "info",
+      "native_image": "type",
+      "observed": {
+        "note": "中文旧书封面与展开的竖排内页",
+        "roles": [
+          "grid",
+          "rules",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "cream",
+          "red"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 3
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "small",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "先选子页；新增英文按其节奏适配"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 1,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 96,
+      "image": "assets/posters/ref-096.jpg",
+      "image_sha256": "1860d8ac56230415660460656aa0473bf6a4985f90af3a77ae258d35d126de45",
+      "kind": "collection_page",
+      "family": "pattern",
+      "native_image": "mixed",
+      "observed": {
+        "note": "图案书封和字形构造内页",
+        "roles": [
+          "grid",
+          "fine_print",
+          "graphic_lines"
+        ],
+        "palette": [
+          "black",
+          "cream",
+          "red"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 3
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "medium",
+        "aspect": "free",
+        "crop": "tight",
+        "title_capacity": "medium",
+        "detail_density": "high",
+        "note": "选定子页再推断可替换的图形区域"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 2,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 97,
+      "image": "assets/posters/ref-097.jpg",
+      "image_sha256": "81f85aff8b571f755dc8a1bafd236ebb2204bdc5c4a1d142840b7353265f5a53",
+      "kind": "collection_page",
+      "family": "type",
+      "native_image": "type",
+      "observed": {
+        "note": "四张实验性大字与数字构图",
+        "roles": [
+          "number",
+          "text_band",
+          "fine_print"
+        ],
+        "palette": [
+          "red",
+          "black",
+          "cream"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "negative",
+        "area": "small",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "先选具体一张，数字要有语义依据"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 2,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 98,
+      "image": "assets/posters/ref-098.jpg",
+      "image_sha256": "c9d49afee2995c187bab1de7f02f772b2ac8b17b810bd93032d0e626ed68a2cd",
+      "kind": "single_design",
+      "family": "portrait",
+      "native_image": "mixed",
+      "observed": {
+        "note": "红色几何人物插画叠在蓝色建筑照片前，与刊物排字组合",
+        "roles": [
+          "subtitle",
+          "fine_print"
+        ],
+        "palette": [
+          "blue",
+          "red",
+          "black",
+          "white"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "full",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "需可辨主体，保持几何建筑和人物尺度关系"
+      },
+      "review": {
+        "basis": "full_image",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 2,
+        "column": 3,
+        "scope": "Independent audit inspected the full image for coarse layout/subject corrections; exact fine text and insertion geometry still require task-specific review."
+      }
+    },
+    {
+      "id": 99,
+      "image": "assets/posters/ref-099.jpg",
+      "image_sha256": "902a801e1f00e09e516db96a1bb21bb4c7ccefcb889423e7ea47b17028f03db6",
+      "kind": "single_design",
+      "family": "symbol",
+      "native_image": "illustration",
+      "observed": {
+        "note": "深棕底两根火柴、蓝色刊字与小落款",
+        "roles": [
+          "fine_print"
+        ],
+        "palette": [
+          "brown",
+          "blue",
+          "red",
+          "yellow"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 2
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "medium",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "用用户可抠主体承接成对图形；不可导入火柴产品"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 2,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 100,
+      "image": "assets/posters/ref-100.jpg",
+      "image_sha256": "49a3c569cfed085cc93e546332cd3ceb335920bb87ae3e94f0850703310f89cc",
+      "kind": "single_design",
+      "family": "collage",
+      "native_image": "mixed",
+      "observed": {
+        "note": "黑底巨大白色数字内外嵌小图像",
+        "roles": [
+          "fine_print",
+          "caption"
+        ],
+        "palette": [
+          "black",
+          "white",
+          "red"
+        ],
+        "energy": "playful",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "medium",
+        "note": "图像可进入字形，巨大数字须可解释或换为相关短词"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 2,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 101,
+      "image": "assets/posters/ref-101.jpg",
+      "image_sha256": "4ad8f2057cab9255862964063cea739ee4df4a4f4f3c5a0c5feba8728cad0c19",
+      "kind": "specimen_page",
+      "family": "info",
+      "native_image": "type",
+      "observed": {
+        "note": "细边框内居中衬线标题与说明的扉页",
+        "roles": [
+          "rules",
+          "subtitle",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "cream"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "适合多级文字，图像只能小幅插入"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 3,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 102,
+      "image": "assets/posters/ref-102.jpg",
+      "image_sha256": "112ba84248b11f931c13b5efd52cfc3f8d9c85d3069faebbd232149924079fe1",
+      "kind": "specimen_page",
+      "family": "info",
+      "native_image": "type",
+      "observed": {
+        "note": "Fraktur/哥特式黑字母的大、小写、数字与标点标本",
+        "roles": [
+          "number",
+          "fine_print",
+          "grid"
+        ],
+        "palette": [
+          "black",
+          "white"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "需从样张提炼具体排版，不能把字母表当新内容"
+      },
+      "review": {
+        "basis": "full_image",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 3,
+        "column": 2,
+        "scope": "Independent audit inspected the full image for coarse layout/subject corrections; exact fine text and insertion geometry still require task-specific review."
+      }
+    },
+    {
+      "id": 103,
+      "image": "assets/posters/ref-103.jpg",
+      "image_sha256": "411f7b7e9edae875b78f3ba0613c3f332982fa79fbe906c0a9debb14ee57af9d",
+      "kind": "single_design",
+      "family": "symbol",
+      "native_image": "illustration",
+      "observed": {
+        "note": "绿上黄下背景，蓝色烟灰缸上粉色曲线与蓝色锯齿烟气交缠，顶部黑色装饰刊头",
+        "roles": [
+          "subtitle",
+          "fine_print"
+        ],
+        "palette": [
+          "green",
+          "yellow",
+          "blue",
+          "pink",
+          "black"
+        ],
+        "energy": "playful",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "large",
+        "aspect": "square",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "适合简单物体图形化，不适合需读字的界面"
+      },
+      "review": {
+        "basis": "full_image",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 3,
+        "column": 3,
+        "scope": "Independent audit inspected the full image for coarse layout/subject corrections; exact fine text and insertion geometry still require task-specific review."
+      }
+    },
+    {
+      "id": 104,
+      "image": "assets/posters/ref-104.jpg",
+      "image_sha256": "dbbbba986d757cafce51cd1cde34b18080d0cb15c4cdd35a2eef6df2490e5ab2",
+      "kind": "single_design",
+      "family": "collage",
+      "native_image": "mixed",
+      "observed": {
+        "note": "单张Building+Home/Wohnen+Bauen封面：多种物件按模块排列，中央吊灯跨黑绿分区连续，沿边文字构成框架",
+        "roles": [
+          "grid",
+          "text_band",
+          "fine_print"
+        ],
+        "palette": [
+          "red",
+          "green",
+          "black",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "medium",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "medium",
+        "detail_density": "high",
+        "note": "先选子封面和其中的摄影区域"
+      },
+      "review": {
+        "basis": "full_image",
+        "scope": "Full-image creative reading confirmed one modular cover; constituent objects are not independent posters."
+      }
+    },
+    {
+      "id": 105,
+      "image": "assets/posters/ref-105.jpg",
+      "image_sha256": "6cf8a08f80f4658d35bd2e7691fa1acfdbe82843b70e43308e98612fe95f204a",
+      "kind": "specimen_page",
+      "family": "info",
+      "native_image": "type",
+      "observed": {
+        "note": "两栏Grotesk字体的大小字与段落标本",
+        "roles": [
+          "grid",
+          "fine_print",
+          "number",
+          "rules"
+        ],
+        "palette": [
+          "black",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "需充足相关说明，正文小图慎用"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 3,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 106,
+      "image": "assets/posters/ref-106.jpg",
+      "image_sha256": "89837463ab6ff10cc7f04665db7601a5469d028d780c64fb4ec737f10e79270a",
+      "kind": "single_design",
+      "family": "pattern",
+      "native_image": "graphic",
+      "observed": {
+        "note": "黑绿平面构造纹理铺满刊物封面",
+        "roles": [
+          "subtitle",
+          "text_band"
+        ],
+        "palette": [
+          "black",
+          "green",
+          "white"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "照片可转为局部平面构成，文字界面保真成本高"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 4,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 107,
+      "image": "assets/posters/ref-107.jpg",
+      "image_sha256": "d0bb337439c20385b949cd7fa96a9db58aeda7b14eae69aa19aa2bc203cd09ee",
+      "kind": "single_design",
+      "family": "type",
+      "native_image": "mixed",
+      "observed": {
+        "note": "黑底白色建筑竖条与窄长大字交织",
+        "roles": [
+          "subtitle",
+          "graphic_lines",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "white"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "band",
+        "area": "medium",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "原图可进入竖条，但需检查重要字段是否被切断"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 4,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      },
+      "label": "BIG／NYC铺块字形"
+    },
+    {
+      "id": 108,
+      "image": "assets/posters/ref-108.jpg",
+      "image_sha256": "ba375b73293715c06a152fc1b49a25a4f176fe656f50bd8b99a965f26d7c2767",
+      "kind": "single_design",
+      "family": "symbol",
+      "native_image": "graphic",
+      "observed": {
+        "note": "米白底张嘴几何头像、黑色圆角形与下部手写字",
+        "roles": [
+          "subtitle"
+        ],
+        "palette": [
+          "cream",
+          "black",
+          "teal"
+        ],
+        "energy": "playful",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "large",
+        "aspect": "square",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "适合单一图形化主体，保留标题对比"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 4,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 109,
+      "image": "assets/posters/ref-109.jpg",
+      "image_sha256": "c4ac9dc6c6ef950e985a9b9f28d85b513178bf571131b9d18522dc511f027e98",
+      "kind": "single_design",
+      "family": "editorial",
+      "native_image": "photo",
+      "observed": {
+        "note": "大片白底下部为黑色外壳、倾斜上缘与发光青色内面的箱体，右上竖向小字",
+        "roles": [
+          "fine_print",
+          "caption"
+        ],
+        "palette": [
+          "white",
+          "black",
+          "cyan"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "medium",
+        "aspect": "landscape",
+        "crop": "flexible",
+        "title_capacity": "short",
+        "detail_density": "low",
+        "note": "横向原图可融入箱体可见面，需保留黑色外壳、透视及发光边缘；上部大留白保持"
+      },
+      "review": {
+        "basis": "full_image",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 4,
+        "column": 4,
+        "scope": "Independent audit inspected the full image for coarse layout/subject corrections; exact fine text and insertion geometry still require task-specific review."
+      }
+    },
+    {
+      "id": 110,
+      "image": "assets/posters/ref-110.jpg",
+      "image_sha256": "4317fdfc6070e8d4281f786e2df259afc1b2bbdd3107e8706a68e927cedab9cd",
+      "kind": "single_design",
+      "family": "illustration",
+      "native_image": "illustration",
+      "observed": {
+        "note": "橙黑装饰人物舞姿与顶部刊头",
+        "roles": [
+          "subtitle",
+          "fine_print"
+        ],
+        "palette": [
+          "orange",
+          "black",
+          "cream"
+        ],
+        "energy": "playful",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "需有轮廓主体，可用印刷感取代绘制新人物"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 4,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 111,
+      "image": "assets/posters/ref-111.jpg",
+      "image_sha256": "780905e2c3c2eaa07897e398d3b9957e9e98da4459be5399684f73ccd0dd98f4",
+      "kind": "single_design",
+      "family": "editorial",
+      "native_image": "photo",
+      "observed": {
+        "note": "黑白斑块与细丝纹理近景，中下部深蓝紫色叠块，顶部橙褐手写标题、右侧竖排白字",
+        "roles": [
+          "subtitle"
+        ],
+        "palette": [
+          "black",
+          "white",
+          "blue",
+          "purple",
+          "brown"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "full",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "low",
+        "note": "适合有纹理层次的近景照片，避免挤满标题"
+      },
+      "review": {
+        "basis": "full_image",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 5,
+        "column": 1,
+        "scope": "Independent audit inspected the full image for coarse layout/subject corrections; exact fine text and insertion geometry still require task-specific review."
+      }
+    },
+    {
+      "id": 112,
+      "image": "assets/posters/ref-112.jpg",
+      "image_sha256": "cfe4341786fd76dc86acba780a84967d1de419c2419c509518dbb729233afe77",
+      "kind": "single_design",
+      "family": "editorial",
+      "native_image": "photo",
+      "observed": {
+        "note": "米白报刊封面，左上小报头与微字、上部红黑重窄大标题、黑框横向摄影及图内副题、下方两行细字；纸面虫形物不确定为设计元素",
+        "roles": [
+          "subtitle",
+          "text_band",
+          "rules",
+          "fine_print",
+          "caption"
+        ],
+        "palette": [
+          "red",
+          "black",
+          "cream"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "large",
+        "aspect": "landscape",
+        "crop": "flexible",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "完整矩形原图可替换中部黑框摄影，需保留报头、大小题及下部两行细字；不复制原乐队身份、日期或纸面实物"
+      },
+      "review": {
+        "basis": "full_image",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 5,
+        "column": 2,
+        "scope": "Independent audit inspected the full image for coarse layout/subject corrections; exact fine text and insertion geometry still require task-specific review."
+      }
+    },
+    {
+      "id": 113,
+      "image": "assets/posters/ref-113.jpg",
+      "image_sha256": "9b912775d264fddab32a446819a60d235323a2b7a0d7f3a732cd43ef9ae36337",
+      "kind": "collection_page",
+      "family": "info",
+      "native_image": "photo",
+      "observed": {
+        "note": "多张吸尘器与秤的规格广告",
+        "roles": [
+          "number",
+          "caption",
+          "rules",
+          "fine_print"
+        ],
+        "palette": [
+          "red",
+          "black",
+          "white"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "medium",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "先选子广告，不能虚构产品规格"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 5,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 114,
+      "image": "assets/posters/ref-114.jpg",
+      "image_sha256": "f849e73778be6b296fbc3d46d0b0228deb86c6634d0dbee581fa83e89f21d0d2",
+      "kind": "single_design",
+      "family": "type",
+      "native_image": "type",
+      "observed": {
+        "note": "巨大轮廓字母互锁与少量红色小字",
+        "roles": [
+          "rules",
+          "fine_print"
+        ],
+        "palette": [
+          "red",
+          "black",
+          "white"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "small",
+        "aspect": "square",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "内容图可进入字腔或负空间，标题须很短"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 5,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      },
+      "label": "NH空心字形"
+    },
+    {
+      "id": 115,
+      "image": "assets/posters/ref-115.jpg",
+      "image_sha256": "8ca7ffb5ca4bac4c965df6f065c5d64e6de165091627a57ed655d4d7827c95b9",
+      "kind": "single_design",
+      "family": "type",
+      "native_image": "graphic",
+      "observed": {
+        "note": "黑蓝斜向文字与小幅图形的速度感构图",
+        "roles": [
+          "graphic_lines",
+          "subtitle"
+        ],
+        "palette": [
+          "blue",
+          "black",
+          "cream"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "negative",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "medium",
+        "detail_density": "medium",
+        "note": "可用小幅原图承接图形，复杂界面文字需保护"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 5,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 116,
+      "image": "assets/posters/ref-116.jpg",
+      "image_sha256": "3704f0115bf9b2505559db5a7ac3221e3119e06208a5acdeeb18bb1808ec88fc",
+      "kind": "single_design",
+      "family": "portrait",
+      "native_image": "photo",
+      "observed": {
+        "note": "多层高饱和彩色方框围合中央头像",
+        "roles": [
+          "rules"
+        ],
+        "palette": [
+          "red",
+          "green",
+          "blue",
+          "yellow",
+          "black"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "large",
+        "aspect": "square",
+        "crop": "flexible",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "原图可进入中心方框；标题需克制地融入边框"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 6,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 117,
+      "image": "assets/posters/ref-117.jpg",
+      "image_sha256": "286c94559ea8b5f9e308acc053538aa4a613451f2ad05f2c1a00e0cf4af05ba8",
+      "kind": "single_design",
+      "family": "collage",
+      "native_image": "mixed",
+      "observed": {
+        "note": "骷髅头照片与圆弧、字母和机械细节叠构成，底部宽浅色横带及三格细字",
+        "roles": [
+          "text_band",
+          "fine_print",
+          "graphic_lines"
+        ],
+        "palette": [
+          "black",
+          "cream",
+          "gray"
+        ],
+        "energy": "solemn",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "full",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "low",
+        "note": "用用户主体承担中心图像，保留主体与技术叠图、横带的关系，不导入原骷髅或技术断言"
+      },
+      "review": {
+        "basis": "full_image",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 6,
+        "column": 2,
+        "scope": "Independent audit inspected the full image for coarse layout/subject corrections; exact fine text and insertion geometry still require task-specific review."
+      }
+    },
+    {
+      "id": 118,
+      "image": "assets/posters/ref-118.jpg",
+      "image_sha256": "7799d7515fd3c831ce36dcf2542c6da50aaf18125520cfe5a9c6c644d3e858c5",
+      "kind": "single_design",
+      "family": "collage",
+      "native_image": "mixed",
+      "observed": {
+        "note": "黄黑格架、摄像装置和奔跑人物的斜向拼贴",
+        "roles": [
+          "text_band",
+          "fine_print",
+          "graphic_lines"
+        ],
+        "palette": [
+          "yellow",
+          "red",
+          "black",
+          "cream"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 3
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "medium",
+        "detail_density": "high",
+        "note": "需要可拆解的主体局部；矩形界面难完整融入"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 6,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 119,
+      "image": "assets/posters/ref-119.jpg",
+      "image_sha256": "b671b18dcdbed715d29524ca8d32f100545312e676a13f9a9cf441eb25a3477d",
+      "kind": "collection_page",
+      "family": "editorial",
+      "native_image": "mixed",
+      "observed": {
+        "note": "展开刊物左正文、右红圈图形页",
+        "roles": [
+          "fine_print",
+          "caption",
+          "graphic_lines"
+        ],
+        "palette": [
+          "red",
+          "black",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 2
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "medium",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "须明确选左页或右页，不能直接用整本展开图"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 6,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 120,
+      "image": "assets/posters/ref-120.jpg",
+      "image_sha256": "b1294242a92e19724fbe2fb4df9802c1652762b9e9ac46fa0206b1ffe701233c",
+      "kind": "specimen_page",
+      "family": "info",
+      "native_image": "type",
+      "observed": {
+        "note": "EdelGrotesk完整字母数字与段落的字体标本",
+        "roles": [
+          "grid",
+          "number",
+          "fine_print",
+          "rules"
+        ],
+        "palette": [
+          "black",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "借信息层级前先确认辅助文本预算"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-04.jpg",
+        "row": 6,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 121,
+      "image": "assets/posters/ref-121.jpg",
+      "image_sha256": "8f2a216c3ec1e2b0b68e56d8e36da3f2e9722c9a2728c121fdab655ce16af56e",
+      "kind": "specimen_page",
+      "family": "info",
+      "native_image": "diagram",
+      "observed": {
+        "note": "建筑手稿、多格网线与彩色笔记",
+        "roles": [
+          "grid",
+          "number",
+          "caption",
+          "graphic_lines"
+        ],
+        "palette": [
+          "black",
+          "red",
+          "blue",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 6
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "medium",
+        "aspect": "landscape",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "需有真实对应关系；不是通用科技截图背景"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 1,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 122,
+      "image": "assets/posters/ref-122.jpg",
+      "image_sha256": "159177636ee3c02bafb050f860dc515ba6e7e95674cbb40d917aec3743da0e51",
+      "kind": "collection_page",
+      "family": "editorial",
+      "native_image": "mixed",
+      "observed": {
+        "note": "两张方格纸上的立体字与草图",
+        "roles": [
+          "grid",
+          "graphic_lines",
+          "fine_print"
+        ],
+        "palette": [
+          "red",
+          "blue",
+          "yellow",
+          "black",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 2
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "medium",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "medium",
+        "detail_density": "high",
+        "note": "先选一张子设计再配置原图"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 1,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 123,
+      "image": "assets/posters/ref-123.jpg",
+      "image_sha256": "4fe94e03335f22dbe7c732b7176d6fe7b1a365338399d70cf3f8f29ec215ce23",
+      "kind": "single_design",
+      "family": "info",
+      "native_image": "mixed",
+      "observed": {
+        "note": "USCO报纸式三栏正文与小插图",
+        "roles": [
+          "grid",
+          "rules",
+          "fine_print",
+          "caption"
+        ],
+        "palette": [
+          "black",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "需多段相关文案，不能虚构报道或案例"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 1,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 124,
+      "image": "assets/posters/ref-124.jpg",
+      "image_sha256": "5b2ad3791277e30b4ec9f103fb664ebf7e8f5311c52437ea608c549b5782dab1",
+      "kind": "single_design",
+      "family": "symbol",
+      "native_image": "graphic",
+      "observed": {
+        "note": "独立圆形手写字标与黑白反差",
+        "roles": [],
+        "palette": [
+          "black",
+          "white"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "large",
+        "aspect": "square",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "仅借圆形和字形关系；品牌标志不能直接套用"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 1,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 125,
+      "image": "assets/posters/ref-125.jpg",
+      "image_sha256": "2fea2ddd90f92c9c9c8dacf4d71aafb5859454e3a5d4816d5a9963a8cf3f7b23",
+      "kind": "collection_page",
+      "family": "editorial",
+      "native_image": "mixed",
+      "observed": {
+        "note": "多张荷兰旅行或电影封面",
+        "roles": [
+          "number",
+          "subtitle",
+          "fine_print"
+        ],
+        "palette": [
+          "blue",
+          "black",
+          "white",
+          "red"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "medium",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "须选子封面，大数字有依据才使用"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 1,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 126,
+      "image": "assets/posters/ref-126.jpg",
+      "image_sha256": "2a0d28873ff4f0cb92636a078884a4455058234a93960d10b5e92459b288cb65",
+      "kind": "specimen_page",
+      "family": "info",
+      "native_image": "diagram",
+      "observed": {
+        "note": "机械装置多角度专利线图与编号",
+        "roles": [
+          "number",
+          "caption",
+          "graphic_lines"
+        ],
+        "palette": [
+          "black",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 5
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "small",
+        "aspect": "landscape",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "不把输入界面改造成虚假技术专利"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 2,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 127,
+      "image": "assets/posters/ref-127.jpg",
+      "image_sha256": "f4f0b154b0e2d005c1eb2b82b802f8801dfe9ce2da3b9b912c0f39ae54218ac0",
+      "kind": "single_design",
+      "family": "symbol",
+      "native_image": "graphic",
+      "observed": {
+        "note": "米白底零散黑色笔画与下方暗红纪念字",
+        "roles": [
+          "number",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "cream",
+          "maroon"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "negative",
+        "area": "small",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "short",
+        "detail_density": "low",
+        "note": "原图可融入负空间；年份不可照搬"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 2,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 128,
+      "image": "assets/posters/ref-128.jpg",
+      "image_sha256": "5ba843cc526f7166cd1edb4a2a360cd4d1d615b504b3cdfa99a064ba4cd81350",
+      "kind": "collection_page",
+      "family": "portrait",
+      "native_image": "photo",
+      "observed": {
+        "note": "九张twen摄影杂志封面",
+        "roles": [
+          "subtitle",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "white",
+          "red"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 9
+      },
+      "adaptation": {
+        "insertion": "full",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "选单张，不能把九个人物视为输入需求"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 2,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 129,
+      "image": "assets/posters/ref-129.jpg",
+      "image_sha256": "d0911c2bc3f13d1999cee844498ad1f05f7aa1780605f582722b0ff9bb4e736f",
+      "kind": "single_design",
+      "family": "portrait",
+      "native_image": "photo",
+      "observed": {
+        "note": "人物与条纹伞镜像、绿色大刊头",
+        "roles": [
+          "subtitle"
+        ],
+        "palette": [
+          "green",
+          "cream",
+          "black"
+        ],
+        "energy": "playful",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "full",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "low",
+        "note": "需辨认主体及镜像关系，可重复同一主体"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 2,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 130,
+      "image": "assets/posters/ref-130.jpg",
+      "image_sha256": "9d9c5aedd12b002f1938296dbb6f678700557053e57ddba08e99924a7ea67682",
+      "kind": "single_design",
+      "family": "type",
+      "native_image": "type",
+      "observed": {
+        "note": "白底细灰排字与右上灰块、中央留白",
+        "roles": [
+          "fine_print",
+          "graphic_lines"
+        ],
+        "palette": [
+          "gray",
+          "white",
+          "black"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "negative",
+        "area": "small",
+        "aspect": "square",
+        "crop": "flexible",
+        "title_capacity": "medium",
+        "detail_density": "medium",
+        "note": "适合小图与克制标题；密集界面可读性需检查"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 2,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 131,
+      "image": "assets/posters/ref-131.jpg",
+      "image_sha256": "60975d66cfddb65e9293b111a6cecb9784754bc72fe07f3dac2903a636c6c481",
+      "kind": "collection_page",
+      "family": "illustration",
+      "native_image": "illustration",
+      "observed": {
+        "note": "两张几何化人物与产品插画广告",
+        "roles": [
+          "subtitle",
+          "fine_print"
+        ],
+        "palette": [
+          "blue",
+          "red",
+          "black",
+          "white"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 2
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "medium",
+        "aspect": "free",
+        "crop": "tight",
+        "title_capacity": "medium",
+        "detail_density": "medium",
+        "note": "先选子图；不导入原人物和品牌"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 3,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 132,
+      "image": "assets/posters/ref-132.jpg",
+      "image_sha256": "e23a095fbbde1b469b189fe75f7af83a6b655d8ad4733b30aacaa74a8c7f1ad9",
+      "kind": "single_design",
+      "family": "type",
+      "native_image": "type",
+      "observed": {
+        "note": "黑红竖向巨字与右侧小信息",
+        "roles": [
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "red",
+          "gray"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "negative",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "flexible",
+        "title_capacity": "short",
+        "detail_density": "low",
+        "note": "图像只能克制融入负空间，纵向节奏需适配3:4"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 3,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 133,
+      "image": "assets/posters/ref-133.jpg",
+      "image_sha256": "dfa55658eb99d05343fdeefc4cf93a7e59f3370325a8e09721167ad2dd429679",
+      "kind": "single_design",
+      "family": "illustration",
+      "native_image": "graphic",
+      "observed": {
+        "note": "狭长黑白曲线、红纹样与底部密集黑字",
+        "roles": [
+          "text_band",
+          "fine_print",
+          "graphic_lines"
+        ],
+        "palette": [
+          "black",
+          "white",
+          "red"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "high",
+        "note": "整体狭长，扩到3:4成本高；辅助字不能省略"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 3,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 134,
+      "image": "assets/posters/ref-134.jpg",
+      "image_sha256": "1b3bd3920099078f31e39ceaf4b66a097e00719150c26ee3a2883758ec0f4421",
+      "kind": "single_design",
+      "family": "editorial",
+      "native_image": "photo",
+      "observed": {
+        "note": "街景店面与墙面广告的黑白纪实摄影",
+        "roles": [
+          "caption"
+        ],
+        "palette": [
+          "black",
+          "white"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "full",
+        "area": "large",
+        "aspect": "landscape",
+        "crop": "flexible",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "适合全图替换，标题需借照片留白承接"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 3,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 135,
+      "image": "assets/posters/ref-135.jpg",
+      "image_sha256": "ea41adf0a404653c14680326c15fc1f591ed51b6387507c2a0c5677741e043a4",
+      "kind": "single_design",
+      "family": "illustration",
+      "native_image": "illustration",
+      "observed": {
+        "note": "蓝天与浅色远景前，刻线感狗、草木石地和左下红色打字机的插画广告",
+        "roles": [
+          "caption"
+        ],
+        "palette": [
+          "blue",
+          "red",
+          "brown",
+          "black"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 2
+      },
+      "adaptation": {
+        "insertion": "full",
+        "area": "large",
+        "aspect": "landscape",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "low",
+        "note": "需保留刻线印刷感与主辅对象比例；不生成无来源动物或产品"
+      },
+      "review": {
+        "basis": "full_image",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 3,
+        "column": 5,
+        "scope": "Independent audit inspected the full image for coarse layout/subject corrections; exact fine text and insertion geometry still require task-specific review."
+      }
+    },
+    {
+      "id": 136,
+      "image": "assets/posters/ref-136.jpg",
+      "image_sha256": "8b719862ea218d6de85996fca39e9f17da96ebf77b392afc126349672ac5ea6e",
+      "kind": "single_design",
+      "family": "pattern",
+      "native_image": "graphic",
+      "observed": {
+        "note": "多彩交通标牌密铺与黑色刊头",
+        "roles": [
+          "subtitle",
+          "text_band"
+        ],
+        "palette": [
+          "yellow",
+          "red",
+          "green",
+          "black"
+        ],
+        "energy": "playful",
+        "visible_motifs": 9
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "可重复主体局部，不能虚构多种标识为产品能力"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 4,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 137,
+      "image": "assets/posters/ref-137.jpg",
+      "image_sha256": "3f517610fd1aa767911aee1e30987069c2bbdf1198daec99e7c3f12bfceff28f",
+      "kind": "single_design",
+      "family": "symbol",
+      "native_image": "graphic",
+      "observed": {
+        "note": "古典格纸背景上的圆环与横向字带",
+        "roles": [
+          "text_band",
+          "graphic_lines",
+          "caption"
+        ],
+        "palette": [
+          "red",
+          "black",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "band",
+        "area": "medium",
+        "aspect": "landscape",
+        "crop": "flexible",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "原图可替代横带或圆环内部，保留环带接触关系"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 4,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 138,
+      "image": "assets/posters/ref-138.jpg",
+      "image_sha256": "13e304b0e0635b38cbb901808ffa94cad91be13f7a12fd036389cb4e42b0b46c",
+      "kind": "specimen_page",
+      "family": "info",
+      "native_image": "type",
+      "observed": {
+        "note": "展开书页上的密集正文两栏",
+        "roles": [
+          "grid",
+          "fine_print",
+          "rules"
+        ],
+        "palette": [
+          "black",
+          "cream"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 2
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "small",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "先选一页与局部图位，不应凭空添加长篇内容"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 4,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 139,
+      "image": "assets/posters/ref-139.jpg",
+      "image_sha256": "500dedaab5326e9d457ad0f12ac50fa6183933d8ad2746061dd8d86513bc53b7",
+      "kind": "single_design",
+      "family": "pattern",
+      "native_image": "type",
+      "observed": {
+        "note": "打字纹理铺底与中央四色扇形几何",
+        "roles": [
+          "fine_print",
+          "graphic_lines"
+        ],
+        "palette": [
+          "black",
+          "blue",
+          "orange",
+          "red",
+          "green",
+          "cream"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "medium",
+        "aspect": "square",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "high",
+        "note": "原图可进入中央扇形，重要界面字段不适合分割"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 4,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 140,
+      "image": "assets/posters/ref-140.jpg",
+      "image_sha256": "8b9e05cf4ede6c0d76545af1d0ffbaf6f69af7057e81c717cf5d412bf6f44802",
+      "kind": "single_design",
+      "family": "illustration",
+      "native_image": "illustration",
+      "observed": {
+        "note": "装饰植物人物边框内的居中书名页",
+        "roles": [
+          "rules",
+          "subtitle",
+          "fine_print"
+        ],
+        "palette": [
+          "brown",
+          "green",
+          "cream"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "medium",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "medium",
+        "detail_density": "high",
+        "note": "图像可嵌入中心，但外围原人物应转为用户相关图形"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 4,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 141,
+      "image": "assets/posters/ref-141.jpg",
+      "image_sha256": "f14fb9dfbf328e02bf2599c93a5bd76dc8657df6d28a9d0fa42aab3d99209faa",
+      "kind": "single_design",
+      "family": "collage",
+      "native_image": "photo",
+      "observed": {
+        "note": "密集群像与花坛、中央鼓形标识",
+        "roles": [
+          "badge",
+          "text_band"
+        ],
+        "palette": [
+          "red",
+          "blue",
+          "green",
+          "yellow",
+          "black"
+        ],
+        "energy": "playful",
+        "visible_motifs": 12
+      },
+      "adaptation": {
+        "insertion": "full",
+        "area": "large",
+        "aspect": "landscape",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "单图群像不等于可生成多个人物，适配成本高"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 5,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 142,
+      "image": "assets/posters/ref-142.jpg",
+      "image_sha256": "551d8900390753f6b7f6b5dbe1dd5b9e9e257fd3d397570fad4bfa7cca6d87d8",
+      "kind": "single_design",
+      "family": "symbol",
+      "native_image": "graphic",
+      "observed": {
+        "note": "米白底中央黑色大圆，内有红与米白双色侍者剪影，下部红色手写品牌带及细字",
+        "roles": [
+          "text_band",
+          "subtitle",
+          "fine_print"
+        ],
+        "palette": [
+          "red",
+          "black",
+          "cream"
+        ],
+        "energy": "playful",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "可将用户主体轮廓融入黑色圆区，保留正负形、红带与细字角色"
+      },
+      "review": {
+        "basis": "full_image",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 5,
+        "column": 2,
+        "scope": "Independent audit inspected the full image for coarse layout/subject corrections; exact fine text and insertion geometry still require task-specific review."
+      }
+    },
+    {
+      "id": 143,
+      "image": "assets/posters/ref-143.jpg",
+      "image_sha256": "8ee94e3056532160b9e0276acb90ccfe617e5dbb3ca3fdc6ce88f8234d94a4c5",
+      "kind": "collection_page",
+      "family": "pattern",
+      "native_image": "illustration",
+      "observed": {
+        "note": "六张装饰图案书封与浅色小书签",
+        "roles": [
+          "badge"
+        ],
+        "palette": [
+          "green",
+          "blue",
+          "brown",
+          "cream"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 6
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "medium",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "先选一种纹样，照片可做局部纹样融合"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 5,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 144,
+      "image": "assets/posters/ref-144.jpg",
+      "image_sha256": "0a8154a1c00ebbccf2659f5e672467c934826de7f0bd563d31f891ee26c73d3a",
+      "kind": "collection_page",
+      "family": "pattern",
+      "native_image": "illustration",
+      "observed": {
+        "note": "四张花草图案包裹书封",
+        "roles": [
+          "badge"
+        ],
+        "palette": [
+          "green",
+          "blue",
+          "cream",
+          "black"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "medium",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "先选子封面，不混合四种图案"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 5,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 145,
+      "image": "assets/posters/ref-145.jpg",
+      "image_sha256": "2923bbf5fb09ffca141fe6692ff294b6b369d31bc0ad915959139e872d39b012",
+      "kind": "single_design",
+      "family": "portrait",
+      "native_image": "illustration",
+      "observed": {
+        "note": "大幅人物画作裁切，右上简洁无衬线出版标识、底部不规则无衬线大书名",
+        "roles": [
+          "subtitle",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "cream",
+          "gray"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "full",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "原图承接画作主体位置，不能自动生成画中人物"
+      },
+      "review": {
+        "basis": "full_image",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 5,
+        "column": 5,
+        "scope": "Independent audit inspected the full image for coarse layout/subject corrections; exact fine text and insertion geometry still require task-specific review."
+      }
+    },
+    {
+      "id": 146,
+      "image": "assets/posters/ref-146.jpg",
+      "image_sha256": "a07fe1d264e6f4bf84498cce3e37fe0a6c71de3c3e8bb57ea4fb8b4a8785e11b",
+      "kind": "single_design",
+      "family": "portrait",
+      "native_image": "photo",
+      "observed": {
+        "note": "蓝天中护目镜人物近景与下部白橙大标题",
+        "roles": [
+          "subtitle",
+          "caption"
+        ],
+        "palette": [
+          "blue",
+          "orange",
+          "cream",
+          "black"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 3
+      },
+      "adaptation": {
+        "insertion": "full",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "需要可辨主体近景；小辅助人物不得凭空生成"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 6,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 147,
+      "image": "assets/posters/ref-147.jpg",
+      "image_sha256": "8cc25e306dac02c427f8f17f999557d8dd28792a1901b8c6152f1abd01b634a9",
+      "kind": "single_design",
+      "family": "portrait",
+      "native_image": "photo",
+      "observed": {
+        "note": "黑白呼喊人物与红色三角扩音形、斜字",
+        "roles": [
+          "text_band",
+          "graphic_lines"
+        ],
+        "palette": [
+          "red",
+          "black",
+          "cream"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "large",
+        "aspect": "square",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "medium",
+        "note": "主体轮廓和斜向接触很重要；密集UI不适合抠成人形"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 6,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 148,
+      "image": "assets/posters/ref-148.jpg",
+      "image_sha256": "a40566ee583b6eac1258d24a44fd10b6e6a9580f098ee9ac1a54a257d7535f0b",
+      "kind": "specimen_page",
+      "family": "info",
+      "native_image": "type",
+      "observed": {
+        "note": "数字0至9轮廓字形的专利式标注页",
+        "roles": [
+          "number",
+          "graphic_lines",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "small",
+        "aspect": "landscape",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "只借标注层级，不能伪造技术参数"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 6,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 149,
+      "image": "assets/posters/ref-149.jpg",
+      "image_sha256": "3308c5157a81a4586883c33abbd27161352025c435df9133cbaafcc95596730f",
+      "kind": "single_design",
+      "family": "info",
+      "native_image": "illustration",
+      "observed": {
+        "note": "雕版花边、红褐大刊头及下方色带，内部密集广告文字",
+        "roles": [
+          "rules",
+          "subtitle",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "cream",
+          "maroon"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "需要足够相关文本；插图转换成本较高"
+      },
+      "review": {
+        "basis": "full_image",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 6,
+        "column": 4,
+        "scope": "Independent audit inspected the full image for coarse layout/subject corrections; exact fine text and insertion geometry still require task-specific review."
+      }
+    },
+    {
+      "id": 150,
+      "image": "assets/posters/ref-150.jpg",
+      "image_sha256": "d15673163a9440895e5642903f121fcfa8d7d2645d09ef783302b25e1fb09f1d",
+      "kind": "single_design",
+      "family": "symbol",
+      "native_image": "photo",
+      "observed": {
+        "note": "米白底罐头与婴儿的超现实产品拼贴",
+        "roles": [
+          "subtitle",
+          "fine_print"
+        ],
+        "palette": [
+          "red",
+          "cream",
+          "black"
+        ],
+        "energy": "playful",
+        "visible_motifs": 2
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "medium",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "只借比例冲突，用用户主体替换，不能生成婴儿或品牌背书"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-05.jpg",
+        "row": 6,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 151,
+      "image": "assets/posters/ref-151.jpg",
+      "image_sha256": "a6fbd70f0be9b2037506b34fff8fd6876f222286bb52f16d6a4caf7d36ff931a",
+      "kind": "single_design",
+      "family": "type",
+      "native_image": "type",
+      "observed": {
+        "note": "红黑实验大字、四栏细字、下部白色像素文字",
+        "roles": [
+          "grid",
+          "rules",
+          "fine_print",
+          "text_band"
+        ],
+        "palette": [
+          "red",
+          "black",
+          "white"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "negative",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "flexible",
+        "title_capacity": "short",
+        "detail_density": "high",
+        "note": "原图可印刷化置右下负空间，不能省去四栏与横线"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-06.jpg",
+        "row": 1,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 152,
+      "image": "assets/posters/ref-152.jpg",
+      "image_sha256": "ff47e22b2ac06667d2a55a3348dc52d69e42fdb2dc82b9867f45740f7b76350c",
+      "kind": "collection_page",
+      "family": "type",
+      "native_image": "mixed",
+      "observed": {
+        "note": "三张歌剧书封，不同大字及照片组合",
+        "roles": [
+          "subtitle",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "white",
+          "red"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 3
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "medium",
+        "aspect": "portrait",
+        "crop": "flexible",
+        "title_capacity": "medium",
+        "detail_density": "medium",
+        "note": "须选择一张并检查图位"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-06.jpg",
+        "row": 1,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 153,
+      "image": "assets/posters/ref-153.jpg",
+      "image_sha256": "eabd580f8216b339adb400db9343a6f193626be68e5d41decabe210dd9834cec",
+      "kind": "single_design",
+      "family": "illustration",
+      "native_image": "graphic",
+      "observed": {
+        "note": "棕纸底机械化人物与右上黑圆放射线",
+        "roles": [
+          "subtitle",
+          "graphic_lines"
+        ],
+        "palette": [
+          "black",
+          "brown",
+          "cream"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "简单主体可图形化，不能默认沿用原中文标题"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-06.jpg",
+        "row": 1,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 154,
+      "image": "assets/posters/ref-154.jpg",
+      "image_sha256": "834ef9e1457cc800d0ca08536d150e8d2e51d0825628acfbb0895b4654eed312",
+      "kind": "single_design",
+      "family": "type",
+      "native_image": "type",
+      "observed": {
+        "note": "极窄衬线BALLET大字占满横向画幅",
+        "roles": [],
+        "palette": [
+          "cream",
+          "gray",
+          "blue"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "small",
+        "aspect": "landscape",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "标题须短，原图进入字腔；3:4改幅成本高"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-06.jpg",
+        "row": 1,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 155,
+      "image": "assets/posters/ref-155.jpg",
+      "image_sha256": "f2f530d93c7649e69a92f555a38f0a15012bc69d531b911a79288cb5c384d156",
+      "kind": "collection_page",
+      "family": "info",
+      "native_image": "mixed",
+      "observed": {
+        "note": "四张实验刊物、文字表格与摄影版面",
+        "roles": [
+          "grid",
+          "rules",
+          "fine_print",
+          "caption"
+        ],
+        "palette": [
+          "black",
+          "cream",
+          "red"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 4
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "small",
+        "aspect": "free",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "先选子图；不能把资料页误当拼贴"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-06.jpg",
+        "row": 1,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 156,
+      "image": "assets/posters/ref-156.jpg",
+      "image_sha256": "7901ca3d862ea9653b10c80570fa975d0b2b5816df044af380c16b68533589fa",
+      "kind": "single_design",
+      "family": "editorial",
+      "native_image": "photo",
+      "observed": {
+        "note": "蓝色风暴照片在上，下方白带和密集说明",
+        "roles": [
+          "caption",
+          "text_band",
+          "fine_print"
+        ],
+        "palette": [
+          "blue",
+          "black",
+          "white"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "large",
+        "aspect": "landscape",
+        "crop": "flexible",
+        "title_capacity": "medium",
+        "detail_density": "high",
+        "note": "矩形原图易承接上区，保留说明文字层级"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-06.jpg",
+        "row": 2,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 157,
+      "image": "assets/posters/ref-157.jpg",
+      "image_sha256": "03f6b5b5c50fc7fd3ce161a85ea9d84ed6bb4afac914267cbe8d5dea08ed1786",
+      "kind": "single_design",
+      "family": "symbol",
+      "native_image": "illustration",
+      "observed": {
+        "note": "蓝底中央舞者剪影与盘绕浅蓝烟带，下部倾斜大品牌字及白色副行，右侧细红竖线",
+        "roles": [
+          "subtitle"
+        ],
+        "palette": [
+          "blue",
+          "black",
+          "cream",
+          "red"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "low",
+        "note": "以用户主体轮廓承接舞者位置及烟带连接，不导入烟草品牌与原人物"
+      },
+      "review": {
+        "basis": "full_image",
+        "sheet": "assets/contact-sheets/sheet-06.jpg",
+        "row": 2,
+        "column": 2,
+        "scope": "Independent audit inspected the full image for coarse layout/subject corrections; exact fine text and insertion geometry still require task-specific review."
+      }
+    },
+    {
+      "id": 158,
+      "image": "assets/posters/ref-158.jpg",
+      "image_sha256": "943c622119b3fccfc295e71bb51f132dbbb2dc5d9c506249aed291996ab4934e",
+      "kind": "single_design",
+      "family": "symbol",
+      "native_image": "graphic",
+      "observed": {
+        "note": "蓝上红下围合白灯泡，左下小房屋、底部细字",
+        "roles": [
+          "subtitle",
+          "fine_print",
+          "graphic_lines"
+        ],
+        "palette": [
+          "blue",
+          "red",
+          "white",
+          "black"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "medium",
+        "note": "图像可融入灯泡形；小字和色块边界需保留"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-06.jpg",
+        "row": 2,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 159,
+      "image": "assets/posters/ref-159.jpg",
+      "image_sha256": "8e7448152a4e8038b2a0db1caab3ace6f5a43fe40be8c560318989e71a7813bf",
+      "kind": "collection_page",
+      "family": "type",
+      "native_image": "type",
+      "observed": {
+        "note": "六张绿黑新闻简报斜向排字封面",
+        "roles": [
+          "rules",
+          "text_band",
+          "fine_print"
+        ],
+        "palette": [
+          "green",
+          "black",
+          "cream"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 6
+      },
+      "adaptation": {
+        "insertion": "negative",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "flexible",
+        "title_capacity": "medium",
+        "detail_density": "medium",
+        "note": "选择单张，避免整页做成六联"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-06.jpg",
+        "row": 2,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 160,
+      "image": "assets/posters/ref-160.jpg",
+      "image_sha256": "d816b1f77b99216cd5c25ba6ebb9e272e7c49bf310a463d768be59f9bf1a79fa",
+      "kind": "single_design",
+      "family": "illustration",
+      "native_image": "graphic",
+      "observed": {
+        "note": "极狭长对称装饰形体与底部刊字",
+        "roles": [
+          "subtitle",
+          "fine_print",
+          "graphic_lines"
+        ],
+        "palette": [
+          "brown",
+          "black",
+          "cream"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "改为3:4时需保留对称轴和狭长主体关系"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-06.jpg",
+        "row": 2,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 161,
+      "image": "assets/posters/ref-161.jpg",
+      "image_sha256": "b1a27db16957c1204273151342814477ef8834fe61ba2867d67bc0971e088154",
+      "kind": "single_design",
+      "family": "type",
+      "native_image": "type",
+      "observed": {
+        "note": "红底巨大黑色斜字与白交叉线、上部小字",
+        "roles": [
+          "subtitle",
+          "graphic_lines"
+        ],
+        "palette": [
+          "red",
+          "black",
+          "white"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "negative",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "可用局部图像嵌入负空间，不能稀释巨字主导性"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-06.jpg",
+        "row": 3,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 162,
+      "image": "assets/posters/ref-162.jpg",
+      "image_sha256": "deb9776b4e8bf079cae1bf082e6997caa003bb6d58cbe4b57ff281a98641a4b1",
+      "kind": "single_design",
+      "family": "portrait",
+      "native_image": "mixed",
+      "observed": {
+        "note": "黄底左上人物框、斜向黑标题、红带黑字、大数字及右下黑表格",
+        "roles": [
+          "number",
+          "text_band",
+          "table",
+          "rules",
+          "fine_print",
+          "subtitle"
+        ],
+        "palette": [
+          "yellow",
+          "black",
+          "red"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "medium",
+        "aspect": "portrait",
+        "crop": "flexible",
+        "title_capacity": "short",
+        "detail_density": "high",
+        "note": "原图入左上框，所有辅助层需用有依据的内容适配；数字不能任意沿用60"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-06.jpg",
+        "row": 3,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 163,
+      "image": "assets/posters/ref-163.jpg",
+      "image_sha256": "93a466bc9dcb54961a454e8efd132819f457098618b5c28cd3dac19dd99705ea",
+      "kind": "single_design",
+      "family": "type",
+      "native_image": "photo",
+      "observed": {
+        "note": "左侧巨大黑Z、右侧窄照片条及底部信息",
+        "roles": [
+          "subtitle",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "cream"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "band",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "medium",
+        "note": "照片条很窄，密集界面会丢失真实字段"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-06.jpg",
+        "row": 3,
+        "column": 3,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 164,
+      "image": "assets/posters/ref-164.jpg",
+      "image_sha256": "7052ce04cc63f1efc7a25e66bfa8224591b140f054300c72a27eca81e17d1f52",
+      "kind": "single_design",
+      "family": "symbol",
+      "native_image": "graphic",
+      "observed": {
+        "note": "黑色手握细柄与上宽下窄的大黑工具形，构成左上至右下斜轴，袖口叠小字",
+        "roles": [
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "cream"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "large",
+        "aspect": "landscape",
+        "crop": "tight",
+        "title_capacity": "brief",
+        "detail_density": "low",
+        "note": "用户主体承担斜轴与接触关系，不凭空生成手部或把上方形体当尖头箭头"
+      },
+      "review": {
+        "basis": "full_image",
+        "sheet": "assets/contact-sheets/sheet-06.jpg",
+        "row": 3,
+        "column": 4,
+        "scope": "Independent audit inspected the full image for coarse layout/subject corrections; exact fine text and insertion geometry still require task-specific review."
+      }
+    },
+    {
+      "id": 165,
+      "image": "assets/posters/ref-165.jpg",
+      "image_sha256": "640f2408808973a7528a2b14ba8354545761f52e16e28d4b407f27380b0e9728",
+      "kind": "single_design",
+      "family": "type",
+      "native_image": "graphic",
+      "observed": {
+        "note": "大黑箭头、阶梯白字与右侧红黑信息及大年份",
+        "roles": [
+          "number",
+          "text_band",
+          "fine_print",
+          "graphic_lines"
+        ],
+        "palette": [
+          "red",
+          "black",
+          "cream"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "negative",
+        "area": "small",
+        "aspect": "portrait",
+        "crop": "tight",
+        "title_capacity": "medium",
+        "detail_density": "high",
+        "note": "原图可进入箭头区域，年份须替换为相关语义标记"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-06.jpg",
+        "row": 3,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 166,
+      "image": "assets/posters/ref-166.jpg",
+      "image_sha256": "8ac8b0c3d16667f8a9fb93ddf20b8e7e788137eeea66b210acb94908c3606228",
+      "kind": "single_design",
+      "family": "symbol",
+      "native_image": "photo",
+      "observed": {
+        "note": "绿色包装边界内红黑同心圆标识和细字",
+        "roles": [
+          "rules",
+          "badge",
+          "fine_print"
+        ],
+        "palette": [
+          "green",
+          "red",
+          "black",
+          "cream"
+        ],
+        "energy": "restrained",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "full",
+        "area": "large",
+        "aspect": "portrait",
+        "crop": "flexible",
+        "title_capacity": "brief",
+        "detail_density": "medium",
+        "note": "只借包装平面关系，不套用烟草品牌、产品或背书"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-06.jpg",
+        "row": 4,
+        "column": 1,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 167,
+      "image": "assets/posters/ref-167.jpg",
+      "image_sha256": "615e73fc8296e0e936c6c0d83d975b9fa54922c954d082242251ef6c2fbf5566",
+      "kind": "single_design",
+      "family": "array",
+      "native_image": "photo",
+      "observed": {
+        "note": "红椅阵列、斜线、小黑框及下部产品说明",
+        "roles": [
+          "number",
+          "caption",
+          "fine_print",
+          "badge"
+        ],
+        "palette": [
+          "red",
+          "black",
+          "cream"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 6
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "medium",
+        "aspect": "landscape",
+        "crop": "tight",
+        "title_capacity": "medium",
+        "detail_density": "high",
+        "note": "可重复同一对象；不能虚构型号和规格"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-06.jpg",
+        "row": 4,
+        "column": 2,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 168,
+      "image": "assets/posters/ref-168.jpg",
+      "image_sha256": "3d0be354a7289ab4594fa664145587714bcd8ff3a2ce33f70c5e5251166c59aa",
+      "kind": "specimen_page",
+      "family": "info",
+      "native_image": "mixed",
+      "observed": {
+        "note": "上部约四成汽车照片，下部为多行完整大小写字母表，具有字体标本页属性",
+        "roles": [
+          "grid",
+          "number",
+          "fine_print"
+        ],
+        "palette": [
+          "black",
+          "cream"
+        ],
+        "energy": "neutral",
+        "visible_motifs": 1
+      },
+      "adaptation": {
+        "insertion": "rect",
+        "area": "medium",
+        "aspect": "landscape",
+        "crop": "flexible",
+        "title_capacity": "long",
+        "detail_density": "high",
+        "note": "照片区域明确，但字母表应转成有意义的文字层级"
+      },
+      "review": {
+        "basis": "full_image",
+        "sheet": "assets/contact-sheets/sheet-06.jpg",
+        "row": 4,
+        "column": 3,
+        "scope": "Independent audit inspected the full image for coarse layout/subject corrections; exact fine text and insertion geometry still require task-specific review."
+      }
+    },
+    {
+      "id": 169,
+      "image": "assets/posters/ref-169.jpg",
+      "image_sha256": "1391ec7faa1b019ecd26d720a55936a6cbb262fd4e63a185b033f1e84d80300b",
+      "kind": "single_design",
+      "family": "editorial",
+      "native_image": "mixed",
+      "observed": {
+        "note": "横向速度化车形、小跑者与底部大刊字数字",
+        "roles": [
+          "number",
+          "subtitle",
+          "fine_print"
+        ],
+        "palette": [
+          "maroon",
+          "black",
+          "cream"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 3
+      },
+      "adaptation": {
+        "insertion": "cutout",
+        "area": "medium",
+        "aspect": "landscape",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "改幅和抠图成本较高，不能任意复制原型号65"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-06.jpg",
+        "row": 4,
+        "column": 4,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    },
+    {
+      "id": 170,
+      "image": "assets/posters/ref-170.jpg",
+      "image_sha256": "5e66dfbf90d48736f121d84816a0ccfcba8fbaed2805ec1f118f4ba18b3c5a3d",
+      "kind": "collection_page",
+      "family": "pattern",
+      "native_image": "graphic",
+      "observed": {
+        "note": "三张黑红重复图形与下方说明的资料页",
+        "roles": [
+          "caption",
+          "fine_print",
+          "graphic_lines"
+        ],
+        "palette": [
+          "black",
+          "red",
+          "cream"
+        ],
+        "energy": "dynamic",
+        "visible_motifs": 3
+      },
+      "adaptation": {
+        "insertion": "mask",
+        "area": "medium",
+        "aspect": "free",
+        "crop": "tight",
+        "title_capacity": "short",
+        "detail_density": "medium",
+        "note": "先选择某张子海报再确定主体图形化方式"
+      },
+      "review": {
+        "basis": "contact_sheet",
+        "sheet": "assets/contact-sheets/sheet-06.jpg",
+        "row": 4,
+        "column": 5,
+        "scope": "Coarse layout read from bundled contact sheet; fine text and exact regions require full-image review."
+      }
+    }
+  ]
+}

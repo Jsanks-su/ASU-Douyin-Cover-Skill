@@ -1,5 +1,5 @@
 {
-  "version": "0.3.1",
+  "version": "0.5.1",
   "count": 170,
   "source": "Bundled corrected derivatives of user-supplied book poster photographs; all runtime references use package-relative paths.",
   "reference_max_side": 1600,
@@ -2466,7 +2466,7 @@
     },
     {
       "id": 107,
-      "label": "VENEZIA竖向构成",
+      "label": "BIG／NYC铺块字形",
       "image": "assets/posters/ref-107.jpg",
       "tags": [
         "geometric",
@@ -2629,7 +2629,7 @@
     },
     {
       "id": 114,
-      "label": "NY线框字形",
+      "label": "NH空心字形",
       "image": "assets/posters/ref-114.jpg",
       "tags": [
         "typography",
