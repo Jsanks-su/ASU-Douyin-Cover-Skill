@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "0.5.1",
+  "skill_version": "0.6.0",
   "count": 170,
   "provenance": "Human-readable visual curation by Codex from all six bundled contact sheets. Observations are separate from inferred adaptation options. Scores are not learned image similarity.",
   "title_bands": {
